@@ -14,6 +14,7 @@
 @use 'formations' as *;
 @use 'timeline' as *;
 @use 'competences' as *;
+@use 'realisation-display' as *;
 
 
 @import 'bootstrap/scss/bootstrap'; 
@@ -49,7 +50,6 @@ body {
     }
 }
 
-
 section {
     margin: $spacing-section auto;
 
@@ -57,8 +57,12 @@ section {
         margin-top: 0 !important;
     }
 
-    &.experiences {
+    &#experiences {
         margin: calc($spacing-section / 2) auto !important;
+    }
+
+    &#competences {
+        margin: calc($spacing-section * 2) auto !important;
     }
 }
 

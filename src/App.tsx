@@ -1,4 +1,5 @@
 import "./scss/style.scss";
+import "bootstrap/js/index.umd.js"
 import CursorEffect from "./components/cursoreffect.tsx";
 import HeroEffect from "./components/heroeffect.tsx";
 import Header from "./components/header.tsx";

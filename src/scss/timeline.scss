@@ -22,12 +22,40 @@
     position: relative;
     margin-bottom: 30px;
     padding-left: 3%;
+
+
+
+    .instruction-container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+      .instruction {
+        text-align: center;
+        margin: 0 1rem;
+        font-weight: 200;
+        font-size: 0.8rem;
+        margin-bottom: 0.5rem
+      }
+      
+      .instruction-arrow {
+        font-size: 1rem;
+        color: $white-text; /* Choisissez la couleur que vous préférez */
+        margin: 5px 0;
+        font-weight: 200;
+
+        &.bottom-arrow {
+          margin-top: 0px; /* Ajuste l'espacement entre la flèche et le texte */
+        }
+      }
+    }
   }
   
   .timeline-point {
     position: absolute;
     left: -36px;
-    top: 25%;
+    top: 50%;
     width: 15px;
     height: 15px;
     background-color: $accent-color;

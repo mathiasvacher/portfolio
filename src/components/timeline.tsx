@@ -27,45 +27,48 @@ const Timeline = ({ formations }: TimelineProps) => {
 };
 
 const TimelineItem = ({ formation }: { formation: Formation }) => {
-    const [isOpen, setIsOpen] = useState(false);
-  
-    const toggleDetails = () => {
-      setIsOpen(!isOpen);
-    };
-  
-    return (
-      <div className="timeline-item">
-        <div className="timeline-point"></div>
-        <div className="timeline-content" onClick={toggleDetails}>
+  const [isOpen, setIsOpen] = useState(false);
 
-            <h4> {formation.nomEcole}</h4>
-            <h3 className='diplome'><span>{formation.niveauDiplome} </span> - {formation.nomDiplome}</h3>
-            <p className='date'>{formation.dates}</p>
+  const toggleDetails = () => {
+    setIsOpen(!isOpen);
+  };
 
+  return (
+    <div className="timeline-item">
+      <div className="instruction-container">
+        <span className="instruction-arrow bottom-arrow">↓</span>
+        <p className='instruction'>appuie pour plus d'infos</p>
+        <span className="instruction-arrow bottom-arrow">↓</span>
+      </div>
 
-            <div className={`timeline-details ${isOpen ? 'open' : ''}`} >
+      <div className="timeline-point"></div>
+      <div className="timeline-content" onClick={toggleDetails}>
+        <h4>{formation.nomEcole}</h4>
+        <h3 className='diplome'>
+          <span>{formation.niveauDiplome} </span> - {formation.nomDiplome}
+        </h3>
+        <p className='date'>{formation.dates}</p>
 
-                <p>{formation.description}</p>
+        <div className={`timeline-details ${isOpen ? 'open' : ''}`}>
+          <p>{formation.description}</p>
 
-                <p className='titre-liste'>{formation.titreListe}</p>
+          <p className='titre-liste'>{formation.titreListe}</p>
 
-                <ul>
-                {formation.elementsListe.map((element, idx) => (
-                    <li key={idx}>{element}</li>
-                ))}
-                </ul>
+          <ul>
+            {formation.elementsListe.map((element, idx) => (
+              <li key={idx}>{element}</li>
+            ))}
+          </ul>
 
-                <a className="bouton btn-formation" href={formation.lien} target="_blank" rel="noopener noreferrer">
-                {formation.texteBouton}
-                </a>
-
-
-
-            </div>
+          <a className="bouton btn-formation" href={formation.lien} target="_blank" rel="noopener noreferrer">
+            {formation.texteBouton}
+          </a>
         </div>
       </div>
-    );
-  };
+    </div>
+  );
+};
+
   
 
 export default Timeline;

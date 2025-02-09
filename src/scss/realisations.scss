@@ -1,89 +1,12 @@
+// realisations.scss
 @use 'variables' as *;
 
-
 #realisations {
-    .realisations-container {
-        display:flex;
-        flex-direction: column;
-        gap: 2rem;
-        padding: 2rem;
 
-        .realisation-single {
-            display: flex;
-            flex-direction: row;
-            gap: 2rem;
-            border: solid 1px rgb(39,39,42);
-            border-radius: 1rem;
-            padding: 1rem;
-
-            .realisation-img {
-                justify-content: center;
-                display: flex;
-                align-items: center;
-                border-radius: 0.75rem;
-                border: solid 1px rgb(39,39,42);
-                aspect-ratio: 1/1;
-                max-width:25%;
-
-                img {
-                    height: 100%;
-                    width:100%;
-                    object-fit: cover; 
-                }
-            }
-
-            .realisation-text {
-                background: linear-gradient(135deg, rgba(255, 255, 255, 0.04) 5%, $background-color, rgba(255, 255, 255, 0.04));
-                border: solid 1px rgb(39,39,42);
-                border-radius: .75rem;
-                padding: 2rem;
-                width: 100%;
-
-                flex-direction: column;
-                display: flex;
-                justify-content: center;
-                gap: 1rem;
-
-                .realisation-outils {
-                    span {
-                        margin-right: 10px;
-                    }
-                }
-
-                .realisation-buttons {
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: space-between;
-                }
-
-                .btn-live {
-                    position: relative;
-                    display: inline-flex;
-                    align-items: center; // Assure que tout est bien aligné
-                
-                    &::after {
-                        content: '';
-                        position: absolute;
-                        bottom: 2px;
-                        left: 0;
-                        width: 90%;  // Ajuste selon ta préférence pour la largeur du trait
-                        height: 1px;
-                        background-color: $accent-color;  // Assure-toi que cette variable est bien définie
-                        transform-origin: bottom right;
-                        transform: scaleX(0);
-                        transition: transform 0.3s ease-in-out;
-                    }
-                
-                    &:hover {
-                        color: $white;
-                    }
-                
-                    &:hover::after {
-                        transform-origin: bottom left;
-                        transform: scaleX(1);
-                    }
-                }
-            }
-        }
+    .open-realisations{
+        margin: auto;
+        display: flex;
+        width: fit-content;
     }
+    
 }
