@@ -14,7 +14,7 @@ function Realisations() {
           titre="Projets de développement"
           projets={projetsDev.slice(0, 2)} // Afficher les 2 premiers projets
         />
-        <Link className="bouton boutons-realisations" to="/portfolio/realisations">
+        <Link className="bouton boutons-realisations" to="/portfolio/realisations#introduction">
           Voir les {projetsDev.length} projets de développement
         </Link>
 
@@ -23,7 +23,7 @@ function Realisations() {
           titre="Projets de création numérique"
           projets={projetsCreation.slice(0, 2)} // Afficher les 2 premiers projets
         />
-        <Link className="bouton boutons-realisations" to="/portfolio/realisations">
+        <Link className="bouton boutons-realisations" to="/portfolio/realisations#introduction">
           Voir les {projetsCreation.length} projets de création numérique
         </Link>
       </div>
