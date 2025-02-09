@@ -20,7 +20,7 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path="/" element={
+        <Route path="/portfolio/" element={
         <>
           <Hero />
           <Realisations />
@@ -29,7 +29,7 @@ function App() {
           <Competences />
         </>} />
 
-        <Route path="/page-realisations" element={
+        <Route path="/portfolio/page-realisations" element={
         <>
           <PageRealisations />
         </>} />
