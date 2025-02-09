@@ -3,15 +3,15 @@ import Swal from 'sweetalert2'
 
 function Contact() {
 
-    const onSubmit = async (event) => {
-        event.preventDefault();
-        const formData = new FormData(event.target);
-    
+    const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+        event.preventDefault();  
+
+        const formData = new FormData(event.target as HTMLFormElement); // On cast event.target pour être sûr que c'est un HTMLFormElement
         formData.append("access_key", "977ae743-1050-4e2b-a028-1e5565429da1");
-    
+
         const object = Object.fromEntries(formData);
         const json = JSON.stringify(object);
-    
+
         const res = await fetch("https://api.web3forms.com/submit", {
           method: "POST",
           headers: {
@@ -20,7 +20,7 @@ function Contact() {
           },
           body: json
         }).then((res) => res.json());
-    
+
         if (res.success) {
             Swal.fire({
                 title: "C'est envoyé !",
@@ -31,10 +31,10 @@ function Contact() {
             Swal.fire({
                 icon: "error",
                 title: "Oups...",
-                text: "Quelque chose a du mal se passer... il vaudrait mieux ressayer !",
+                text: "Quelque chose a dû mal se passer... il vaudrait mieux réessayer !",
             });
         }        
-      };
+    };
 
   return (
     <section id="contact">
