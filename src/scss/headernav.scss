@@ -1,0 +1,20 @@
+@use 'variables' as *;
+
+.header-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+
+    a {
+        color: $white-text;
+        text-decoration: none;
+        font-size: 1rem;
+        transition: all 0.5s ease-in-out;
+        font-weight: 200;
+
+        &:hover {
+            color: lighten($white-text, 20%);
+        }
+    }
+}

@@ -1,0 +1,60 @@
+@use 'variables' as *;
+
+
+#realisations {
+    .realisations-container {
+        display:flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem;
+
+        .realisation-single {
+            display: flex;
+            flex-direction: row;
+            gap: 2rem;
+
+            border: solid 1px rgb(39,39,42);
+            border-radius: 1rem;
+            padding: 2rem;
+
+            .realisation-img {
+                justify-content: center;
+                display: flex;
+                align-items: center;
+                border-radius: 0.75rem;
+                img {
+                    max-height: 40px;
+                }
+            }
+
+            .realisation-text {
+                background: linear-gradient(135deg, rgba(255, 255, 255, 0.04) 5%, $background-color, rgba(255, 255, 255, 0.04));
+                border: solid 1px rgb(39,39,42);
+                border-radius: .75rem;
+                padding: 2rem;
+                width: 100%;
+
+                flex-direction: column;
+                display: flex;
+                gap: 1rem;
+
+                .realisation-outils {
+                    span {
+                        margin-right: 10px;
+                    }
+                }
+
+                .realisation-buttons {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                }
+
+                .btn-live:hover {
+                    color: $accent-color;
+                }
+            }
+
+        }
+    }
+}

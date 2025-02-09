@@ -1,0 +1,14 @@
+@use 'variables' as *;
+
+.logos-socials {
+    img {
+        width: 25px;
+        height: auto;
+        transition: all 0.5s ease;
+        border-radius: 3px;
+
+        &:hover {
+            box-shadow: 0 0 15px 1px $accent-color;
+        }
+    }
+}

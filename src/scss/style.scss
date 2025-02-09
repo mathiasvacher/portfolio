@@ -1,0 +1,64 @@
+@use 'variables' as *;
+@use 'basics' as *;
+@use 'fonts' as *;
+@use 'custom' as *;
+@use 'header' as *;
+@use 'footer' as *;
+@use 'hero' as *;
+@use 'experiences' as *;
+@use 'realisations' as *;
+@use 'logos-socials' as *;
+@use 'scrollbar' as *;
+@use 'headernav' as *;
+@use 'titre-section' as *;
+@use 'formations' as *;
+@use 'timeline' as *;
+@use 'competences' as *;
+
+
+@import 'bootstrap/scss/bootstrap'; 
+
+html, body {
+    overflow-x: hidden;
+}
+
+html, #root {
+    background-color: $background-color;
+}
+
+body {
+    h1, h2, h3, h4 {
+        margin: 0;
+        font-family: $font-clash;
+        color: $white-text;
+    }
+
+    p, a, li {
+        font-family: $font-outfit;
+        font-weight: 300;
+        margin: 0;
+        color: $white-text;
+    }
+
+    a {
+        text-decoration: none;
+
+        &:visited {
+            color: $white-text;
+        }
+    }
+}
+
+
+section {
+    margin: $spacing-section auto;
+
+    &#hero {
+        margin-top: 0 !important;
+    }
+
+    &.experiences {
+        margin: calc($spacing-section / 2) auto !important;
+    }
+}
+

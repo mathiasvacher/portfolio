@@ -1,0 +1,33 @@
+@use 'variables' as *;
+
+#competences {
+    .competences-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); // 4 colonnes max
+        gap: 2rem;
+        justify-items: stretch; // Étend les éléments sur toute la largeur dispo
+    }
+
+    .competence-item {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: transform 0.5s ease-in-out;
+        border-bottom: 2px solid transparent; // Défaut transparent pour éviter les sauts
+
+        &:hover {
+            transform: scale(1.1);
+        }
+
+        p {
+            font-family: $font-clash;
+            font-size: 1.2rem;
+            padding: .75rem 0;
+            text-align: start;
+            font-weight: 400;
+            text-transform: uppercase;
+            width: 100%; // Pour s'assurer que le texte ne limite pas la bordure
+        }
+    }
+}

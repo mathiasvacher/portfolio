@@ -1,0 +1,93 @@
+@use 'variables' as *;
+
+
+.timeline {
+    position: relative;
+    padding-left: 30px;
+    margin-left: 30px;
+
+    &:before { 
+        position: absolute;
+        content: '';
+        width: 3px;
+        height: 100%;
+        background-color: $accent-color;
+        top:0;
+        left: 0;
+        border-radius: 5px;
+    }
+  }
+  
+  .timeline-item {
+    position: relative;
+    margin-bottom: 30px;
+    padding-left: 3%;
+  }
+  
+  .timeline-point {
+    position: absolute;
+    left: -36px;
+    top: 25%;
+    width: 15px;
+    height: 15px;
+    background-color: $accent-color;
+    border-radius: 50%;
+  }
+  
+  .timeline-content {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.04) 5%, $background-color, rgba(255, 255, 255, 0.04));
+    border: solid 1px rgb(39,39,42);
+    border-radius: 1rem;
+    padding: 2rem;
+    // width: 80%;
+    margin-left: 30px;
+    cursor: pointer;  // Ajoute un curseur de type "main" pour toute la section
+    transition: all 0.3s ease-in-out;
+
+    h4 {
+      font-weight: 400;
+      font-size: 1.2rem;
+    }
+
+    .diplome {
+      span {
+        color: $accent-color;
+      }
+    }
+
+    .date {
+      color: $accent-color;
+      font-size: 1rem;
+      font-weight: 400;
+    }
+
+  }
+  
+  
+  .timeline-details {
+    margin-top: 15px;
+    max-height: 0; // Initialement, l'élément est caché
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    
+    &.open {
+      max-height: 1000px;  // Une valeur suffisante pour afficher le contenu (ajuste si nécessaire)
+      opacity: 1;
+      padding-bottom: 1rem;
+    }
+
+    .titre-liste {
+      margin-top: 1rem;
+      font-weight: 500;
+    }
+
+    ul {
+      margin-bottom: 2rem;
+    }
+  }
+  
+
+  
+
+  

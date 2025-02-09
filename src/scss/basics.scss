@@ -1,0 +1,22 @@
+@use 'variables' as *;
+
+.bouton {
+    padding: 8px 15px;
+    border-radius: 8px;
+    background: $accent-color;
+    transition: all 0.3s ease-in-out;
+    font-weight: 400;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    &:hover {
+        background-color: darken($accent-color, 10%);
+        transform: translateY(-2px);
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    &:active {
+        transform: translateY(1px);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+}

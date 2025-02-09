@@ -1,0 +1,26 @@
+@use 'variables' as *;
+
+#titre-section {
+    position:relative;
+    z-index: 3;
+    margin-bottom: $spacing-title-content;
+    h2 {
+        font-size: 1.75rem;
+        display: flex;
+        justify-content: start;
+        flex-direction: row;
+        align-items: start;
+        gap: 1rem;
+
+        span {
+            color: $accent-color;
+            font-size : 1.3rem;
+            line-height: 1.5rem;
+        }
+
+    }
+
+    h3 {
+        letter-spacing: 1.5px;
+    }
+}

@@ -1,0 +1,26 @@
+@use 'variables' as *;
+
+/* Styles pour WebKit (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 15px; // Largeur de la barre verticale
+  height: 8px; // Hauteur de la barre horizontale
+}
+
+::-webkit-scrollbar-track {
+  background-color: $background-color; // Rendre la piste invisible
+}
+
+::-webkit-scrollbar-thumb {
+  background: $accent-color;
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: darken($accent-color, 10%);
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: $accent-color $background-color;
+}
