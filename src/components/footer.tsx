@@ -1,10 +1,14 @@
 import LogoSocials from "./logos-socials";
+import Contact from "./contact.tsx";
+
 
 function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
     <footer>
+      <Contact/>
+
       <div className="footer-container">
         <h1>Mathias Vacher</h1>
 

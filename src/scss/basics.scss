@@ -1,9 +1,11 @@
 @use 'variables' as *;
 
-.bouton {
+.bouton, button {
     padding: 8px 15px;
     border-radius: 8px;
     background: $accent-color;
+    color: $white-text;
+    border: none;
     transition: all 0.3s ease-in-out;
     font-weight: 400;
     cursor: pointer;
@@ -20,3 +22,5 @@
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
 }
+
+

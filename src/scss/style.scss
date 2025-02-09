@@ -4,17 +4,23 @@
 @use 'custom' as *;
 @use 'header' as *;
 @use 'footer' as *;
-@use './homepage/hero' as *;
-@use './homepage/experiences' as *;
-@use './homepage/realisations' as *;
 @use 'logos-socials' as *;
 @use 'scrollbar' as *;
 @use 'headernav' as *;
 @use 'titre-section' as *;
+@use 'contact' as *;
+
+@use './homepage/hero' as *;
+@use './homepage/experiences' as *;
+@use './homepage/realisations' as *;
 @use './homepage/formations' as *;
 @use './homepage/timeline' as *;
 @use './homepage/competences' as *;
 @use './homepage/realisation-display' as *;
+
+@use './page-realisation/introduction-realisations.scss';
+@use './page-realisation/liste-realisations.scss';
+
 
 
 @import 'bootstrap/scss/bootstrap'; 
@@ -64,5 +70,11 @@ section {
     &#competences {
         margin: calc($spacing-section * 2) auto !important;
     }
+}
+
+.swal2-popup {
+    div {
+        font-family: $font-outfit;
+    }    
 }
 

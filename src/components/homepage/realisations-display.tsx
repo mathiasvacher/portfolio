@@ -12,14 +12,14 @@ interface Realisation {
 }
 
 interface RealisationsDisplayProps {
-  titre: string;
+  titre?: string;
   projets: Realisation[];
 }
 
 const RealisationsDisplay: React.FC<RealisationsDisplayProps> = ({ titre, projets }) => {
   return (
     <div className="realisations-container">
-      <p>{titre}</p>
+      {titre && <p className='title-realisation'>{titre}</p>} {/* Titre s'affiche seulement s'il est fourni */}
       {projets.map((realisation, index) => (
         <div className='realisation-single' key={index}>
           <div className='realisation-img'>

@@ -1,0 +1,36 @@
+@use '../variables' as *;
+
+#introduction {
+
+    margin: 0 !important;
+
+    background-image: radial-gradient(circle, $accent-color 0%, transparent 8%);
+    background-size: 25px 25px; /* Espacement des points */
+    background-repeat: repeat;
+    background-position: center center;
+
+    animation: pulse 30s infinite ease-in-out; /* Animation respiration */
+
+    .gradient {
+        background: $background-color;
+        background: radial-gradient(circle, rgba(10,10,10,0) 0%, $background-color 90%);
+
+        .content-text {
+            min-height: 60vh;
+            padding: 10%;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+            h1{
+                margin-bottom: 3rem;
+            } 
+
+            p {
+                font-size: calc($paragraph-size + 2px);
+                margin-bottom: 0.8rem;
+            }
+        }
+    }
+}

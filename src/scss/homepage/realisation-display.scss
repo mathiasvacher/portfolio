@@ -8,6 +8,10 @@
     gap: 2rem;
     padding: 2rem;
 
+    .title-realisation {
+        font-size: 1.5rem;
+    }
+
     .realisation-single {
         display: flex;
         flex-direction: row;
@@ -24,11 +28,15 @@
             border: solid 1px rgb(39,39,42);
             aspect-ratio: 1/1;
             max-width: 25%;
+            min-width: 200px;
+            min-height: 200px;
 
             img {
                 height: 100%;
                 width: 100%;
                 object-fit: cover; 
+                border-radius: 0.75rem;
+
             }
         }
 
@@ -45,7 +53,7 @@
 
             .realisation-outils {
                 span {
-                    margin-right: 10px;
+                    margin-left: 10px;
                 }
             }
         }
