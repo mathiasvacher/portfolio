@@ -8,7 +8,7 @@ function Header() {
 
             <div className="header-container desktop">
                 <div className="nom">
-                    <a href="/">
+                    <a href="/portfolio/">
                         <h1>Mathias Vacher</h1>
                     </a>
                 </div>
@@ -18,7 +18,7 @@ function Header() {
 
             <div className="header-container mobile">
                 <div className="nom">
-                    <a href="/">
+                    <a href="/portfolio/">
                         <h1>Mathias Vacher</h1>
                     </a>
                 </div>

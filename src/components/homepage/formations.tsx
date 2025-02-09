@@ -1,4 +1,4 @@
-import TitreSection from './titresection.tsx';
+import TitreSection from '../titresection.tsx';
 import Timeline from './timeline.tsx';
 
 const formations = [

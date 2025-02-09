@@ -1,4 +1,4 @@
-import LogoSocials from "./logos-socials";
+import LogoSocials from "../logos-socials";
 function Hero() {
 
     return (

@@ -4,17 +4,17 @@
 @use 'custom' as *;
 @use 'header' as *;
 @use 'footer' as *;
-@use 'hero' as *;
-@use 'experiences' as *;
-@use 'realisations' as *;
+@use './homepage/hero' as *;
+@use './homepage/experiences' as *;
+@use './homepage/realisations' as *;
 @use 'logos-socials' as *;
 @use 'scrollbar' as *;
 @use 'headernav' as *;
 @use 'titre-section' as *;
-@use 'formations' as *;
-@use 'timeline' as *;
-@use 'competences' as *;
-@use 'realisation-display' as *;
+@use './homepage/formations' as *;
+@use './homepage/timeline' as *;
+@use './homepage/competences' as *;
+@use './homepage/realisation-display' as *;
 
 
 @import 'bootstrap/scss/bootstrap'; 
@@ -23,7 +23,7 @@ html, body {
     overflow-x: hidden;
 }
 
-html, #root {
+html, #root, body {
     background-color: $background-color;
 }
 

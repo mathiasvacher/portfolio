@@ -1,8 +1,8 @@
-import TitreSection from './titresection.tsx';
+import TitreSection from '../titresection.tsx';
 
-import adjectifLogo from '../assets/img/experiences/adjectif.png';
-import filtrebgeLogo from '../assets/img/experiences/filtre-bge.png';
-import cmqiedLogo from '../assets/img/experiences/cmqied.png';
+import adjectifLogo from '../../assets/img/experiences/adjectif.png';
+import filtrebgeLogo from '../../assets/img/experiences/filtre-bge.png';
+import cmqiedLogo from '../../assets/img/experiences/cmqied.png';
 
 
 const experiences = [

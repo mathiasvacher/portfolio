@@ -1,6 +1,6 @@
-import TitreSection from './titresection.tsx';
+import TitreSection from '../titresection.tsx';
 import RealisationsDisplay from './realisations-display.tsx';
-import googleLogo from '../assets/img/experiences/google.png';
+import googleLogo from '../../assets/img/experiences/google.png';
 import { Link } from 'react-router-dom';
 
 const projetsDev = [
@@ -101,7 +101,7 @@ function Realisations() {
           titre="Projets de développement"
           projets={projetsDev.slice(0, 2)} // Afficher les 2 premiers projets
         />
-        <Link className="bouton boutons-realisations" to="/portfolio/page-realisations">
+        <Link className="bouton boutons-realisations" to="/portfolio/realisations">
           Voir les {projetsDev.length} projets de développement
         </Link>
 
@@ -110,7 +110,7 @@ function Realisations() {
           titre="Projets de création numérique"
           projets={projetsCreation.slice(0, 2)} // Afficher les 2 premiers projets
         />
-        <Link className="bouton boutons-realisations" to="/portfolio/page-realisations">
+        <Link className="bouton boutons-realisations" to="/portfolio/realisations">
           Voir les {projetsCreation.length} projets de création numérique
         </Link>
       </div>
