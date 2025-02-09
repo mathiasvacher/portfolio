@@ -10,9 +10,9 @@ export const projetsDev = [
     description: 'Développement de projet avec des technologies web...',
     outils: ['PHP', 'TypeScript', 'CSS', 'HTML'],
     texteBoutonProjet: 'Voir le projet',
-    lienBoutonProjet: '/',
+    lienBoutonProjet: '/portfolio',
     texteBoutonLive: 'Voir en direct',
-    lienBoutonLive: '/',
+    lienBoutonLive: '/portfolio',
   },
   {
     img: exemple2,
@@ -20,9 +20,9 @@ export const projetsDev = [
     description: 'Développement d\'une application web dynamique...',
     outils: ['React', 'Node.js', 'MongoDB'],
     texteBoutonProjet: 'Voir le projet',
-    lienBoutonProjet: '/',
+    lienBoutonProjet: '/portfolio',
     texteBoutonLive: 'Voir en direct',
-    lienBoutonLive: '/',
+    lienBoutonLive: '/portfolio',
   },
 ];
 
@@ -33,9 +33,9 @@ export const projetsCreation = [
     description: 'Création d\'un design graphique moderne...',
     outils: ['Photoshop', 'Illustrator', 'Figma'],
     texteBoutonProjet: 'Voir le projet',
-    lienBoutonProjet: '/',
+    lienBoutonProjet: '/portfolio',
     texteBoutonLive: 'Voir en direct',
-    lienBoutonLive: '/',
+    lienBoutonLive: '/portfolio',
   },
   {
     img: exemple4,
@@ -43,8 +43,8 @@ export const projetsCreation = [
     description: 'Réalisation d\'une identité visuelle complète...',
     outils: ['Illustrator', 'After Effects', 'Cinema 4D'],
     texteBoutonProjet: 'Voir le projet',
-    lienBoutonProjet: '/',
+    lienBoutonProjet: '/portfolio',
     texteBoutonLive: 'Voir en direct',
-    lienBoutonLive: '/',
+    lienBoutonLive: '/portfolio',
   },
 ];

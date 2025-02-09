@@ -1,0 +1,12 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+	<title>Nouveau projet</title>
+	<defs>
+		<image  width="80" height="80" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQAQMAAAC032DuAAAAAXNSR0IB2cksfwAAAANQTFRF////p8QbyAAAABRJREFUeJxjZIADxlHmKHOUSVsmAI6oAFEnCie3AAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		.s0 { fill: #ffffff } 
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+	<rect width="80" height="80" id="Remplissage couleur unie 1" style="fill: #0a0a0a"/>
+	<path id="MV" class="s0" aria-label="MV"  d="m14 56h-8v-31.9h5.8l12.2 18.5h-2.7l12.2-18.5h5.8v31.9h-8v-18.6l1.3 0.4-7.4 11h-5.2l-7.3-11 1.3-0.4zm47.9 0h-7.3l-12-31.9h8.6l9 25.8h-3.7l9.2-25.8h8.4z"/>
+</svg>
