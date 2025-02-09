@@ -1,7 +1,7 @@
 import TitreSection from './titresection.tsx';
 import RealisationsDisplay from './realisations-display.tsx';
 import googleLogo from '../assets/img/experiences/google.png';
-import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const projetsDev = [
   {
@@ -89,47 +89,33 @@ const projetsCreation = [
   },
 ];
 
+
 function Realisations() {
-  const [showAllDev, setShowAllDev] = useState(false);
-  const [showAllCreation, setShowAllCreation] = useState(false);
-
-  const handleToggleDev = () => setShowAllDev(!showAllDev);
-  const handleToggleCreation = () => setShowAllCreation(!showAllCreation);
-
   return (
     <section id="realisations">
       <div className="container-fluid">
         <TitreSection titre="Réalisations" explication="Mes réalisations importantes et formatrices" />
-        
-        {/* Affichage des projets de développement */}
-        <RealisationsDisplay 
-          titre="Projets de développement" 
-          projets={showAllDev ? projetsDev : projetsDev.slice(0, 2)} 
-        />
-        <a 
-          className='bouton open-realisations' 
-          onClick={handleToggleDev} 
-          // href={showAllCreation ? undefined : "#realisations"} 
-        >
-          {showAllDev ? 'Voir moins' : 'Voir tous les projets de développement'}
-        </a>
 
-        {/* Affichage des projets de création numérique */}
-        <RealisationsDisplay 
-          titre="Projets de création numérique" 
-          projets={showAllCreation ? projetsCreation : projetsCreation.slice(0, 2)} 
+        {/* Projets de développement */}
+        <RealisationsDisplay
+          titre="Projets de développement"
+          projets={projetsDev.slice(0, 2)} // Afficher les 2 premiers projets
         />
-        <a 
-          className='bouton open-realisations' 
-          onClick={handleToggleCreation} 
-          // href={showAllCreation ? undefined : "#realisations"} 
-        >
-          {showAllCreation ? 'Voir moins' : 'Voir tous les projets de création numérique'}
-        </a>
+        <Link className="bouton boutons-realisations" to="/portfolio/page-realisations">
+          Voir les {projetsDev.length} projets de développement
+        </Link>
+
+        {/* Projets de création numérique */}
+        <RealisationsDisplay
+          titre="Projets de création numérique"
+          projets={projetsCreation.slice(0, 2)} // Afficher les 2 premiers projets
+        />
+        <Link className="bouton boutons-realisations" to="/portfolio/page-realisations">
+          Voir les {projetsCreation.length} projets de création numérique
+        </Link>
       </div>
     </section>
   );
 }
-
 
 export default Realisations;

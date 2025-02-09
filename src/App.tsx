@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./scss/style.scss";
 import "bootstrap/js/index.umd.js"
 import CursorEffect from "./components/cursoreffect.tsx";
@@ -9,21 +10,38 @@ import Experiences from "./components/experiences.tsx";
 import Formations from "./components/formations.tsx";
 import Footer from "./components/footer.tsx";
 import Competences from "./components/competences.tsx";
+import PageRealisations from "../src/pages/page-realisations.tsx";
+
+
 
 function App() {
   return (
-    <main>
+    <>
       <CursorEffect />
       <HeroEffect />
       <Header />
-      <Hero />
-      <Realisations />
-      <Experiences />
-      <Formations />
-      <Competences />
-      <Footer />
-    </main>
+
+      <Routes>
+        <Route path="/" element={
+        <>
+          <Hero />
+          <Realisations />
+          <Experiences />
+          <Formations />
+          <Competences />
+        </>} />
+
+        <Route path="/page-realisations" element={
+        <>
+          <PageRealisations />
+        </>} />
+
+        <Route path="*" element={<h1>Page non trouvée</h1>} />
+      </Routes>
+    <Footer />
+    </>
   );
 }
+
 
 export default App;
