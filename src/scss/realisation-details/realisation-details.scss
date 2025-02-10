@@ -19,8 +19,28 @@
             }
         }
 
-        .back-to-home {
+        .navigation-buttons {
+            font-family: $font-outfit;
             margin-top: 1.5rem;
+
+            display:flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .btn-back-to-rea {
+                text-transform: uppercase;
+                color: $accent-color !important;
+                border: 1px solid $accent-color;
+                padding: 8px 15px;
+                border-radius: 8px;
+                cursor: pointer;
+                
+                &:hover {
+                    background-color: $accent-color;
+                    transition: all 0.5s ease-in-out;
+                    color: $white !important;
+                }
+            }
         }
 
         .row-content {

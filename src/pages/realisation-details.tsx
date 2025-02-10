@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate, Link } from "react-router-dom";
 import {
   projetsDev,
   projetsCreation,
@@ -6,13 +6,31 @@ import {
 
 const RealisationsDetails = () => {
   const { projetId } = useParams();
-  const projet = [...projetsDev, ...projetsCreation].find(
-    (p) => p.idRea === projetId
-  );
+  const navigate = useNavigate();
+
+  // Fusionner les projets de développement et de création
+  const allProjets = [...projetsDev, ...projetsCreation];
+
+  // Trouver la réalisation actuelle
+  const projet = allProjets.find((p) => p.idRea === projetId);
 
   if (!projet) {
     return <h2>Réalisation non trouvée</h2>;
   }
+
+  // Trouver l'indice de la réalisation actuelle
+  const currentIndex = allProjets.findIndex((p) => p.idRea === projetId);
+
+  // Trouver la réalisation suivante et précédente
+  const previousProjet = allProjets[currentIndex - 1];
+  const nextProjet = allProjets[currentIndex + 1];
+
+  // Fonction pour naviguer vers la réalisation suivante ou précédente
+  const goToProjet = (id: string | undefined) => {
+    if (id) {
+      navigate(`/portfolio/realisations/${id}`);
+    }
+  };
 
   return (
     <section id="realisation-details">
@@ -21,10 +39,28 @@ const RealisationsDetails = () => {
           <h1>{projet.titre}</h1>
         </div>
 
-        <div className="back-to-home">
-          <a href="/" className="bouton">
-            Retour à l'accueil
-          </a>
+        <div className="navigation-buttons">
+          {previousProjet && (
+            <button
+              className="bouton"
+              onClick={() => goToProjet(previousProjet.idRea)}
+            >
+              Réalisation précédente
+            </button>
+          )}
+
+          <Link to="/portfolio/realisations" className="btn-back-to-rea">
+            Retour aux réalisations
+          </Link>
+
+          {nextProjet && (
+            <button
+              className="bouton"
+              onClick={() => goToProjet(nextProjet.idRea)}
+            >
+              Réalisation suivante
+            </button>
+          )}
         </div>
 
         <div className="row row-content">
@@ -90,7 +126,7 @@ const RealisationsDetails = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div>        
       </div>
     </section>
   );
