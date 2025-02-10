@@ -15,7 +15,7 @@ interface ImagePage {
 interface ContentPage {
   leftSection: Section[];
   rightSection: Section[];
-  imagesPage: ImagePage[];
+  imagesPage: { title: string; images: string[] };
 }
 
 interface Realisation {
