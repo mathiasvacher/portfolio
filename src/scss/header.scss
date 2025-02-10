@@ -20,11 +20,13 @@ header {
             flex-direction: row;
             padding: 15px 30px;
             background: rgba(39, 39, 42, 0.5); 
-            backdrop-filter: blur(3px); 
+            backdrop-filter: blur(6px); 
             -webkit-backdrop-filter: blur(10px); 
             border-radius: 12px;
             gap: 50px;
             min-height: 70px;
+            position: relative;
+
 
     
             @media (max-width: 750px) { 
@@ -63,17 +65,17 @@ header {
                     height: 35px;
                     cursor: pointer;
                 
-                    .menu-icon__cheeckbox {
+                    .menu-icon__checkbox {
                         display: block;
                         width: 100%;
                         height: 100%;
-                        position: relative;
+                        position: absolute;
+                        opacity: 0;
                         cursor: pointer;
                         z-index: 2;
                         -webkit-touch-callout: none;
-                        position: absolute;
-                        opacity: 0;
                     }
+                
                     div {
                         margin: auto;
                         position: absolute;
@@ -84,6 +86,7 @@ header {
                         width: 22px;
                         height: 12px;
                     }
+                
                     span {
                         position: absolute;
                         display: block;
@@ -100,8 +103,9 @@ header {
                             bottom: 0;
                         }
                     }
-                    &.active,
-                    .menu-icon__cheeckbox:checked + div {
+                
+                    /* Version active du menu */
+                    &.active {
                         span {
                             &:first-of-type {
                                 transform: rotate(45deg);
@@ -115,30 +119,22 @@ header {
                     }
                 
                     &.active:hover span:first-of-type,
-                    &.active:hover span:last-of-type,
-                    &:hover .menu-icon__cheeckbox:checked + div span:first-of-type,
-                    &:hover .menu-icon__cheeckbox:checked + div span:last-of-type {
+                    &.active:hover span:last-of-type {
                         width: 22px;
                     }
                 
                     &:hover {
-                        // no need hover effect on mobile.
                         @media (min-width: 1024px) {
                             span:first-of-type {
                                 width: 26px;
                             }
-                
                             span:last-of-type {
                                 width: 12px;
                             }
                         }
                     }
                 }
-                
             }
-        
         }
-
     }
-    
 }

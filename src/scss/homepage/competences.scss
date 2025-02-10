@@ -6,6 +6,14 @@
         grid-template-columns: repeat(4, 1fr); // 4 colonnes max
         gap: 2rem;
         justify-items: stretch; // Étend les éléments sur toute la largeur dispo
+
+        @media (max-width: 700px) {
+            grid-template-columns: repeat(3, 1fr); // 4 colonnes max
+        }
+
+        @media (max-width: 550px) {
+            grid-template-columns: repeat(2, 1fr); // 4 colonnes max
+        }
     }
 
     .competence-item {

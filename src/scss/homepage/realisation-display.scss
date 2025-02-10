@@ -8,6 +8,10 @@
     gap: 2rem;
     padding: 2rem;
 
+    @media (max-width: 700px) {
+        padding: 0;
+    }
+
     .title-realisation {
         font-size: 1.5rem;
     }
@@ -19,6 +23,23 @@
         border: solid 1px rgb(39,39,42);
         border-radius: 1rem;
         padding: 1rem;
+
+        @media (max-width: 1000px) {
+            flex-direction: column;
+
+            .realisation-img {
+                min-width: 100% !important;
+                max-height: 300px;
+            }
+        }
+
+        @media (max-width: 600px) {
+
+            .realisation-img {
+                min-width: 100% !important;
+                max-height: 250px;
+            }
+        }
 
         .realisation-img {
             justify-content: center;
@@ -51,7 +72,33 @@
             justify-content: center;
             gap: 1rem;
 
+
+            @media (max-width: 550px) {
+                h3 {
+                    font-size: calc($title-size - 15%);
+                }
+
+                    
+            }
+
+            @media (max-width: 550px) {
+                padding: 1.5rem;
+
+
+            }
+
             .realisation-outils {
+
+                @media (max-width: 700px) {
+                    p {
+                        font-size: calc($paragraph-size - 3px);
+                    }
+
+                    span {
+                        margin-left: 5px !important
+                    }
+                }
+
                 span {
                     color: darken($white, 50%);
                     margin-left: 10px;
@@ -68,6 +115,14 @@
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+
+            @media (max-width: 550px) {
+
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 1rem;
+            }
 
             .btn-projet {
                 // Ajouter ici des styles spécifiques si nécessaire pour les boutons projet

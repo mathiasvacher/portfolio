@@ -1,21 +1,20 @@
 import { useNavigate } from "react-router-dom";
 
-function HeaderNav() {
+function HeaderNav({ type = "desktop", className = "" }) {
   const navigate = useNavigate();
 
-  // Fonction pour naviguer à la Home et scroller à l’ancre
   const handleNavigation = (id: string) => {
-    navigate("/portfolio/"); // Redirection vers la Home
+    navigate("/portfolio/");
     setTimeout(() => {
       const element = document.getElementById(id);
       if (element) {
         element.scrollIntoView({ behavior: "smooth" });
       }
-    }, 100); // Petit délai pour laisser le temps à la Home de charger
+    }, 100);
   };
 
   return (
-    <nav className="header-nav">
+    <nav className={`header-nav ${type} ${className}`}>
       <button onClick={() => handleNavigation("realisations")}>Réalisations</button>
       <button onClick={() => handleNavigation("experiences")}>Expériences</button>
       <button onClick={() => handleNavigation("formations")}>Formations</button>

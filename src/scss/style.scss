@@ -86,6 +86,20 @@ section {
         margin: calc($spacing-section * 2) auto !important;
     }
 
+    @media (max-width: 700px) {
+        &#competences {
+            margin: $spacing-section auto !important;
+        }
+    
+        &#realisation-details {
+            margin: $spacing-section auto !important;
+        }
+    
+        &#error {
+            margin: $spacing-section auto !important;
+        }
+    }
+
 }
 
 .swal2-popup {

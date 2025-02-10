@@ -5,6 +5,7 @@
     flex-direction: row;
     align-items: center;
     gap: 20px;
+    
 
     button {
         color: $white-text;
@@ -38,4 +39,50 @@
             }
         }
     }
+
+
+    &.mobile {
+        position: absolute;
+        top: 70px;
+        left: 50%;
+        flex-direction: column;
+        justify-content: center;
+        transform: translateX(-50%);
+        width: 100%;
+    
+        background: rgba(39, 39, 42, 0.5); 
+        backdrop-filter: blur(6px) !important; 
+        -webkit-backdrop-filter: blur(10px); 
+        border-radius: 12px;
+        gap: 25px;
+        padding: 0; // Évite un affichage instantané du padding
+        z-index: 999;
+    
+        max-width: 800px;
+        width: 90%;
+    
+        max-height: 0;
+        opacity: 0;
+        overflow: hidden; // Ajout pour éviter le contenu visible avant animation
+        transition: max-height 0.5s ease-out, opacity 0.3s ease-out, padding 0.3s ease-out;
+    
+        button {
+            font-weight: 300;
+            opacity: 0;
+            transition: opacity 0.3s ease-out;
+        }
+    
+        &.active {
+            max-height: 350px;
+            opacity: 1;
+            padding: 25px; // Réintroduit le padding après animation
+            transition: max-height 0.5s ease-out, opacity 0.3s ease-out, padding 0.3s ease-out;
+    
+            button {
+                opacity: 1;
+                transition: opacity 0.3s ease-out 0.1s; // Petit délai pour un effet fluide
+            }
+        }
+    }
+    
 }

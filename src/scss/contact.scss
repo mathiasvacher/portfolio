@@ -12,12 +12,18 @@
         display: flex;
         justify-content: center;
         align-items: center;
-
         min-height: 50vh;
         padding: 5rem;
-
         background: $background-color;
         background: radial-gradient(circle, rgba(10,10,10,0) 0%, $background-color 70%);
+
+        @media (max-width: 700px) {
+            padding: 2.5rem;
+        }
+
+        @media (max-width: 500px) {
+            padding: 1rem;
+        }
 
 
         form {
@@ -25,7 +31,7 @@
             width: 100%;
     
             background: rgba(39, 39, 42, 0.5); 
-            backdrop-filter: blur(3px); 
+            backdrop-filter: blur(6px); 
             -webkit-backdrop-filter: blur(10px); 
             border-radius: 12px;
     
@@ -42,7 +48,7 @@
     
                 .field {
                     background: rgba(10, 10, 10, 0.5); 
-                    backdrop-filter: blur(3px); 
+                    backdrop-filter: blur(6px); 
                     -webkit-backdrop-filter: blur(10px); 
                     border-radius: 8px;
 

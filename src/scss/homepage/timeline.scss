@@ -72,6 +72,10 @@
     cursor: pointer;  // Ajoute un curseur de type "main" pour toute la section
     transition: all 0.3s ease-in-out;
 
+    @media (max-width: 550px) {
+      margin-left: 0;
+    }
+
     h4 {
       font-weight: 400;
       font-size: 1.2rem;

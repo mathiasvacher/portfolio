@@ -4,8 +4,9 @@
     position:relative;
     z-index: 3;
     margin-bottom: $spacing-title-content;
+
     h2 {
-        font-size: 1.75rem;
+        font-size: calc($title-size - 0.2rem);
         display: flex;
         justify-content: start;
         flex-direction: row;
@@ -22,5 +23,7 @@
 
     h3 {
         letter-spacing: 1.5px;
+        font-size: $title-size;
+
     }
 }
