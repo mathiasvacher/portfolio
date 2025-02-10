@@ -6,6 +6,8 @@ import HeroEffect from "./components/heroeffect.tsx";
 import Header from "./components/header.tsx";
 import Footer from "./components/footer.tsx";
 import ScrollToTop from "./components/scrolltotop.tsx";
+import Error from "./components/404.tsx";
+
 
 import PageRealisations from "./pages/realisations.tsx";
 import Homepage from "./pages/homepage.tsx";
@@ -24,7 +26,9 @@ function App() {
           <Route path="/portfolio/" element={<Homepage />} />
           <Route path="/portfolio/realisations" element={<PageRealisations />} />
           <Route path="/portfolio/realisations/:projetId" element={<RealisationsDetails />} />
-          <Route path="*" element={<h1>Page non trouvée</h1>} />
+
+          <Route path="*" element={<Error />} />
+          
         </Routes>
 
         <Footer />

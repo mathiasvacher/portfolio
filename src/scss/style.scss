@@ -10,6 +10,8 @@
 @use 'titre-section' as *;
 @use 'contact' as *;
 
+@use '404' as *;
+
 @use './homepage/hero' as *;
 @use './homepage/experiences' as *;
 @use './homepage/realisations' as *;
@@ -77,6 +79,10 @@ section {
     }
 
     &#realisation-details {
+        margin: calc($spacing-section * 2) auto !important;
+    }
+
+    &#error {
         margin: calc($spacing-section * 2) auto !important;
     }
 

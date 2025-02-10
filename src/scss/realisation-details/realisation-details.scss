@@ -27,6 +27,20 @@
             flex-direction: row;
             justify-content: space-between;
 
+            .btn-navigation {
+                span {
+                    margin: 0 0.2rem;
+
+                    &.prec {
+                        margin-left: 0;
+                    }
+
+                    &.suiv {
+                        margin-right: 0;
+                    }
+                }
+            }
+
             .btn-back-to-rea {
                 text-transform: uppercase;
                 color: $accent-color !important;
@@ -142,3 +156,4 @@
         }
     }
 }
+

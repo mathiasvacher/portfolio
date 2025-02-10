@@ -4,6 +4,8 @@ import {
   projetsCreation,
 } from "../components/data/realisations-data.tsx";
 
+import Error from '../components/404.tsx';
+
 const RealisationsDetails = () => {
   const { projetId } = useParams();
   const navigate = useNavigate();
@@ -15,7 +17,7 @@ const RealisationsDetails = () => {
   const projet = allProjets.find((p) => p.idRea === projetId);
 
   if (!projet) {
-    return <h2>Réalisation non trouvée</h2>;
+    return <Error />;
   }
 
   // Trouver l'indice de la réalisation actuelle
@@ -42,10 +44,10 @@ const RealisationsDetails = () => {
         <div className="navigation-buttons">
           {previousProjet && (
             <button
-              className="bouton"
+              className="bouton btn-navigation prec"
               onClick={() => goToProjet(previousProjet.idRea)}
             >
-              Réalisation précédente
+             <span>←</span> Réalisation précédente 
             </button>
           )}
 
@@ -55,10 +57,10 @@ const RealisationsDetails = () => {
 
           {nextProjet && (
             <button
-              className="bouton"
+              className="bouton btn-navigation suiv"
               onClick={() => goToProjet(nextProjet.idRea)}
             >
-              Réalisation suivante
+              Réalisation suivante <span>→</span>
             </button>
           )}
         </div>
