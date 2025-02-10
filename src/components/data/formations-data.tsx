@@ -12,7 +12,7 @@ export const formations = [
         'Accessibilité (a11y)',
         'Tests unitaires avec Jest'
       ],
-      lien: 'https://entreprise-a.com',
+      lien: 'https://www.univ-lyon2.fr/master-2-informatique-conception-et-integration-multimedia-cim',
       texteBouton: 'En apprendre plus'
     },
     {
@@ -28,7 +28,7 @@ export const formations = [
         'Accessibilité (a11y)',
         'Tests unitaires avec Jest'
       ],
-      lien: 'https://entreprise-a.com',
+      lien: 'https://www.univ-lyon2.fr/licence-3-informatique-creation-numerique',
       texteBouton: 'En apprendre plus'
     },
     {
@@ -44,7 +44,7 @@ export const formations = [
         'Javascript',
         'Git'
       ],
-      lien: 'https://entreprise-b.com',
+      lien: 'https://www.iut-valence.fr/nos-formations/b-u-t-/b-u-t-info/b-u-t-informatique-776395.kjsp',
       texteBouton: 'En apprendre plus'
     },
   ];

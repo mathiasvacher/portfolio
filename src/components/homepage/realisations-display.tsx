@@ -6,12 +6,6 @@ interface Section {
   content: string;
 }
 
-interface ImagePage {
-  titleImage: string;
-  image1: string;
-  image2: string;
-}
-
 interface ContentPage {
   leftSection: Section[];
   rightSection: Section[];

@@ -14,7 +14,6 @@ const RealisationsDetails = () => {
       <div className="container-fluid realisation-detail">
         <div className="row-top-title">
           <h1>{projet.titre}</h1>
-          <a href={projet.lienBoutonLive} className="btn btn-live">{projet.texteBoutonLive}</a>
         </div>
 
         <div className="row row-content">
@@ -42,6 +41,10 @@ const RealisationsDetails = () => {
                 ))}
               </div>
             ))}
+
+            <div className="bouton-live-right">
+              <a href={projet.lienBoutonLive} className="bouton btn-live">{projet.texteBoutonLive}</a>
+            </div>
           </div>
 
           <div className="outils">
