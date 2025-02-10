@@ -23,7 +23,12 @@
 
 @use './realisation-details/realisation-details.scss';
 
-@import 'bootstrap/scss/bootstrap'; 
+@import 'bootstrap/scss/bootstrap';
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px; /* Ajuste cette valeur selon le padding que tu veux */
+  }
 
 html, body {
     overflow-x: hidden;

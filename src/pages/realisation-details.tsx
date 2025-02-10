@@ -1,9 +1,14 @@
 import { useParams } from "react-router-dom";
-import { projetsDev, projetsCreation } from "../components/data/realisations-data.tsx";
+import {
+  projetsDev,
+  projetsCreation,
+} from "../components/data/realisations-data.tsx";
 
 const RealisationsDetails = () => {
   const { projetId } = useParams();
-  const projet = [...projetsDev, ...projetsCreation].find((p) => p.idRea === projetId);
+  const projet = [...projetsDev, ...projetsCreation].find(
+    (p) => p.idRea === projetId
+  );
 
   if (!projet) {
     return <h2>Réalisation non trouvée</h2>;
@@ -16,12 +21,18 @@ const RealisationsDetails = () => {
           <h1>{projet.titre}</h1>
         </div>
 
+        <div className="back-to-home">
+          <a href="/" className="bouton">
+            Retour à l'accueil
+          </a>
+        </div>
+
         <div className="row row-content">
           <div className="col-18 col-left">
             {projet.contentPage.map((content, index) => (
               <div key={index}>
                 {content.leftSection.map((section, idx) => (
-                  <div className='container-title-text' key={idx}>
+                  <div className="container-title-text" key={idx}>
                     <h3>{section.title}</h3>
                     <p>{section.content}</p>
                   </div>
@@ -32,9 +43,9 @@ const RealisationsDetails = () => {
 
           <div className="col-5 col-right">
             {projet.contentPage.map((content, index) => (
-              <div className='container-right' key={index}>
+              <div className="container-right" key={index}>
                 {content.rightSection.map((section, idx) => (
-                  <div className='container-title-text' key={idx}>
+                  <div className="container-title-text" key={idx}>
                     <h3>{section.title}</h3>
                     <p>{section.content}</p>
                   </div>
@@ -43,7 +54,9 @@ const RealisationsDetails = () => {
             ))}
 
             <div className="bouton-live-right">
-              <a href={projet.lienBoutonLive} className="bouton btn-live">{projet.texteBoutonLive}</a>
+              <a href={projet.lienBoutonLive} className="bouton">
+                {projet.texteBoutonLive}
+              </a>
             </div>
           </div>
 
@@ -51,7 +64,10 @@ const RealisationsDetails = () => {
             <h3>Outils</h3>
             <p>
               {projet.outils.map((outil, index) => (
-                <span key={index} className="outil-span">{outil}{index < projet.outils.length - 1 ? ', ' : ''}</span>
+                <span key={index} className="outil-span">
+                  {outil}
+                  {index < projet.outils.length - 1 ? ", " : ""}
+                </span>
               ))}
             </p>
           </div>
@@ -63,7 +79,11 @@ const RealisationsDetails = () => {
                 <div className="image-gallery">
                   {content.imagesPage.images.map((image, imgIdx) => (
                     <div className="image-container" key={imgIdx}>
-                      <img src={image} alt={`Illustration ${imgIdx + 1}`} className="gallery-image" />
+                      <img
+                        src={image}
+                        alt={`Illustration ${imgIdx + 1}`}
+                        className="gallery-image"
+                      />
                     </div>
                   ))}
                 </div>
