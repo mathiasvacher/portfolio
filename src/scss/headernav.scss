@@ -6,15 +6,36 @@
     align-items: center;
     gap: 20px;
 
-    a {
+    button {
         color: $white-text;
         text-decoration: none;
         font-size: 1rem;
         transition: all 0.5s ease-in-out;
         font-weight: 200;
+        background: none;
+        font-family: $font-outfit;
+
+        padding: 0;
 
         &:hover {
             color: lighten($white-text, 20%);
+        }
+
+        &.contact-btn {
+            background: $accent-color;
+            padding: 8px 15px;
+
+
+            &:hover {
+                background-color: darken($accent-color, 10%);
+                transform: translateY(-2px);
+                box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+            }
+        
+            &:active {
+                transform: translateY(1px);
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            }
         }
     }
 }

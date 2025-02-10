@@ -21,7 +21,7 @@
 @use './page-realisation/introduction-realisations.scss';
 @use './page-realisation/liste-realisations.scss';
 
-
+@use './realisation-details/realisation-details.scss';
 
 @import 'bootstrap/scss/bootstrap'; 
 
@@ -70,6 +70,11 @@ section {
     &#competences {
         margin: calc($spacing-section * 2) auto !important;
     }
+
+    &#realisation-details {
+        margin: calc($spacing-section * 2) auto !important;
+    }
+
 }
 
 .swal2-popup {

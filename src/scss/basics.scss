@@ -23,4 +23,35 @@
     }
 }
 
+.btn-live {
+    position: relative;
+    display: inline-flex;
+    align-items: center; // Assure que tout est bien aligné
+    color: $white-text !important;
+    
+    font-weight: 200 !important;
+
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 2px;
+        left: 0;
+        width: 100%;  // Ajuste selon ta préférence pour la largeur du trait
+        height: 1px;
+        background-color: $accent-color;  // Assure-toi que cette variable est bien définie
+        transform-origin: bottom right;
+        transform: scaleX(0);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    &:hover {
+        color: $white;
+    }
+
+    &:hover::after {
+        transform-origin: bottom left;
+        transform: scaleX(1);
+    }
+}
+
 
