@@ -3,6 +3,7 @@ export const formations = [
       nomEcole: 'Université Lumière - Lyon 2',
       dates: '2023 - 2025',
       niveauDiplome: 'Master',
+      niveauPostBac: 'Bac +5',
       nomDiplome: 'Informatique - Conception et Intégration Multimédia',
       description: 'Développement d\'interfaces utilisateur modernes et responsives.',
       titreListe: 'Compétences développées',
@@ -19,6 +20,7 @@ export const formations = [
       nomEcole: 'Université Lumière - Lyon 2',
       dates: '2022 - 2023',
       niveauDiplome: 'Licence 3',
+      niveauPostBac: 'Bac +3',
       nomDiplome: 'Informatique - Création Numérique',
       description: 'Développement d\'interfaces utilisateur modernes et responsives.',
       titreListe: 'Compétences développées',
@@ -36,6 +38,7 @@ export const formations = [
       dates: '2020 - 2022',
       niveauDiplome: 'Diplôme Universitaire de Technologie',
       nomDiplome: 'Informatique',
+      niveauPostBac: 'Bac +2',
       description: 'Développement d\'interfaces utilisateur modernes et responsives.',
       titreListe: 'Compétences développées',
       elementsListe: [

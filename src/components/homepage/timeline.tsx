@@ -4,6 +4,7 @@ type Formation = {
     nomEcole: string;
     niveauDiplome: string;
     nomDiplome: string;
+    niveauPostBac: string;
     dates: string;
     description: string;
     titreListe: string;
@@ -42,6 +43,8 @@ const TimelineItem = ({ formation }: { formation: Formation }) => {
       </div>
 
       <div className="timeline-point"></div>
+      <div className="timeline-info"><p>{formation.niveauPostBac}</p></div>
+
       <div className="timeline-content">
         <h4>{formation.nomEcole}</h4>
         <h3 className='diplome'>
