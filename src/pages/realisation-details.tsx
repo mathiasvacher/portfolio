@@ -125,7 +125,7 @@ const RealisationsDetails = () => {
                     <div className="image-container" key={imgIdx}>
                       <img
                         src={image}
-                        alt={`Illustration ${imgIdx + 1}`}
+                        alt={`Illustration de réalisation ${imgIdx + 1}`}
                         className="gallery-image"
                       />
                     </div>
