@@ -34,7 +34,7 @@ const TimelineItem = ({ formation }: { formation: Formation }) => {
   };
 
   return (
-    <div className="timeline-item">
+    <div className="timeline-item" onClick={toggleDetails}>
       <div className="instruction-container">
         <span className="instruction-arrow bottom-arrow">↓</span>
         <p className='instruction'>appuie pour plus d'infos</p>
@@ -42,7 +42,7 @@ const TimelineItem = ({ formation }: { formation: Formation }) => {
       </div>
 
       <div className="timeline-point"></div>
-      <div className="timeline-content" onClick={toggleDetails}>
+      <div className="timeline-content">
         <h4>{formation.nomEcole}</h4>
         <h3 className='diplome'>
           <span>{formation.niveauDiplome} </span> - {formation.nomDiplome}
