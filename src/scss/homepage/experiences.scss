@@ -61,10 +61,28 @@
                     display: flex;
                     flex-direction: column;
                     gap: 0.5rem;
+
+                    @media (max-width: 550px) {
+                        h3 {
+                            font-size: calc($title-size - 15%) !important;
+                        }
+
+                        h4 {
+                            font-size: calc($title-size - 30%) !important;
+                        }
+
+                        p {
+                            font-size: calc($paragraph-size - 1px);
+                        }
+
+                        .date {
+                            font-size: calc($paragraph-size - 2px) !important;
+                        }
+                    }
     
                     .date {
                         color: $accent-color;
-                        font-size: 1rem;
+                        font-size: $paragraph-size;
                         font-weight: 400;
                         margin-top: -10px;
                     }
@@ -76,6 +94,17 @@
     
                     .liste {
                         margin-top: 2rem;
+
+                        @media (max-width: 550px) {
+                            margin-top: 1rem;
+                            
+                            ul {
+                                li {
+                                    font-size: calc($paragraph-size - 2px) !important;
+                                }
+                            }
+                        }
+
                         .titre-liste {
                             font-weight: 500;
                         }
@@ -85,6 +114,7 @@
                             li {
                                 color: $white;
                                 padding-top: .5rem;
+                                
                             }
                         }
                     }

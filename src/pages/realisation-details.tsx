@@ -66,7 +66,7 @@ const RealisationsDetails = () => {
         </div>
 
         <div className="row row-content">
-          <div className="col-18 col-left">
+          <div className="col-lg-18 col-24 col-left">
             {projet.contentPage.map((content, index) => (
               <div key={index}>
                 {content.leftSection.map((section, idx) => (
@@ -79,7 +79,7 @@ const RealisationsDetails = () => {
             ))}
           </div>
 
-          <div className="col-5 col-right">
+          <div className="col-lg-5 col-24 col-right">
             {projet.contentPage.map((content, index) => (
               <div className="container-right" key={index}>
                 {content.rightSection.map((section, idx) => (
@@ -91,7 +91,7 @@ const RealisationsDetails = () => {
               </div>
             ))}
 
-            <div className="bouton-live-right">
+            <div className="bouton-live-right mobile">
               <a href={projet.lienBoutonLive} className="bouton">
                 {projet.texteBoutonLive}
               </a>
@@ -109,6 +109,12 @@ const RealisationsDetails = () => {
               ))}
             </p>
           </div>
+
+          <div className="bouton-live-right desktop">
+              <a href={projet.lienBoutonLive} className="bouton">
+                {projet.texteBoutonLive}
+              </a>
+            </div>
 
           <div className="gallery">
             {projet.contentPage.map((content, index) => (

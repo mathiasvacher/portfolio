@@ -29,7 +29,7 @@
 
         p {
             font-family: $font-clash;
-            font-size: 1.2rem;
+            font-size: clamp($paragraph-size, calc($paragraph-size + 20%), calc($paragraph-size + 0.2rem));
             padding: .75rem 0;
             text-align: start;
             font-weight: 400;

@@ -79,11 +79,19 @@
     h4 {
       font-weight: 400;
       font-size: 1.2rem;
+
+      @media (max-width: 550px) {
+        font-size: calc($title-size - 30%) !important;
+      }
     }
 
     .diplome {
       span {
         color: $accent-color;
+      }
+
+      @media (max-width: 550px) {
+        font-size: calc($title-size - 15%) !important;
       }
     }
 
@@ -91,8 +99,11 @@
       color: $accent-color;
       font-size: 1rem;
       font-weight: 400;
-    }
 
+      @media (max-width: 550px) {
+        font-size: calc($paragraph-size - 2px) !important;
+      }
+    }
   }
   
   
@@ -112,10 +123,21 @@
     .titre-liste {
       margin-top: 1rem;
       font-weight: 500;
+
+      @media (max-width: 550px) {
+        font-size: calc($paragraph-size - 1px);
+      }
     }
 
     ul {
       margin-bottom: 2rem;
+
+      @media (max-width: 550px) {
+        li {
+          font-size: calc($paragraph-size - 2px) !important;
+
+        }
+      }
     }
   }
   
