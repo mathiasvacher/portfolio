@@ -1,50 +1,42 @@
-# React + TypeScript + Vite
+# MATHIAS VACHER - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## React + TypeScript + Vite
 
-Currently, two official plugins are available:
+Ce site a été développé avec une combinaison d'outils : React / TypeScript / Vite.
+Le style est réalisé en Sass & bootstrap.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Faire fonctionner le projet
 
-## Expanding the ESLint configuration
+La première étape est d'installer et de setup le projet.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Pour setup le projet :
 
-- Configure the top-level `parserOptions` property like this:
+1. Le cloner depuis ce repo
+2. Lancer un terminal et installer les packages node avec : `npm install`
+3. Lancer un éditeur de code et travailler sur les fichiers dans le dossier : `src/`
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### Pour travailler sur le projet :
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+1. Le cloner depuis ce repo
+2. Lancer un terminal et installer les packages node avec : `npm install`
+3. Lancer un éditeur de code et travailler sur les fichiers dans le dossier `src/`
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### Pour publier les changements :
+
+1. Add les changements : `git add .`
+2. Commit les changements : `git commit -m "Informations concernants les changements"
+3. Push les changements : `git push`
+4. Construire le projet pour préparer le déploiement : `npm run build`
+5. Déployer le projet sur GitHub Pages : `npm run deploy`
+
+
+## Informations concernant le projet
+
+- Les informations affichées dans chacune des catégories du site sont toutes référencées dans des fichiers dédiés dans le dossier `src/assets/components/data`, elles sont donc à modifier à l'intérieur.
+
+- Il y a un script dans chacun des fichiers `404.html`et `index.html` pour permettre les redirections en cas de rafraichissement / accès au site depuis un lien direct. Ces scripts sont spécifiques pour s'adapter au fonctionnement de GitHub Pages qui gère pour le moment très mal les applications en une page.
+
+- Ce site a été développé en février 2025 par moi-même, en utiisants diverses ressources accessibles publiquement (script de redirection etc...), et est surtout pour moi une introduction à React, tout en créant un projet ayant du sens et une réelle utilité.
+
+
