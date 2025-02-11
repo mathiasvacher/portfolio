@@ -19,7 +19,6 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: 'index.html',
-        error: 'public/404.html'
       }
     }
   }
