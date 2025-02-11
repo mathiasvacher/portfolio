@@ -30,6 +30,10 @@
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 100px; /* Ajuste cette valeur selon le padding que tu veux */
+
+    @media (max-width: 550px) {
+        scroll-padding-top: 80px; /* Ajuste cette valeur selon le padding que tu veux */
+    }
   }
 
 html, body {
