@@ -23,9 +23,9 @@ function App() {
         <Header />
 
         <Routes>
-          <Route path="/portfolio/" element={<Homepage />} />
-          <Route path="/portfolio/realisations" element={<PageRealisations />} />
-          <Route path="/portfolio/realisations/:projetId" element={<RealisationsDetails />} />
+          <Route path="/" element={<Homepage />} />
+          <Route path="/realisations" element={<PageRealisations />} />
+          <Route path="/realisations/:projetId" element={<RealisationsDetails />} />
 
           <Route path="*" element={<Error />} />
           

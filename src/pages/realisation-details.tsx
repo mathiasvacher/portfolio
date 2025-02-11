@@ -30,7 +30,7 @@ const RealisationsDetails = () => {
   // Fonction pour naviguer vers la réalisation suivante ou précédente
   const goToProjet = (id: string | undefined) => {
     if (id) {
-      navigate(`/portfolio/realisations/${id}`);
+      navigate(`/realisations/${id}`);
     }
   };
 
@@ -51,7 +51,7 @@ const RealisationsDetails = () => {
             </button>
           )}
 
-          <Link to="/portfolio/realisations" className="btn-back-to-rea">
+          <Link to="/realisations" className="btn-back-to-rea">
             Retour aux réalisations
           </Link>
 

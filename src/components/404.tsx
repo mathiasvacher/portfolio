@@ -4,7 +4,7 @@ function Error() {
     const navigate = useNavigate();
 
     const handleHomeRedirect = () => {
-        navigate('/portfolio/');
+        navigate('/');
     };
 
     return (

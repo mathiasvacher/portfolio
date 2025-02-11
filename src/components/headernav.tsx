@@ -4,7 +4,7 @@ function HeaderNav({ type = "desktop", className = "" }) {
   const navigate = useNavigate();
 
   const handleNavigation = (id: string) => {
-    navigate("/portfolio/");
+    navigate("/");
     setTimeout(() => {
       const element = document.getElementById(id);
       if (element) {

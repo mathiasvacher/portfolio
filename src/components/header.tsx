@@ -31,7 +31,7 @@ function Header() {
       <div className="header-wrapper">
         <div className="header-container desktop">
           <div className="nom">
-            <a href="/portfolio/">
+            <a href="/">
               <h1>Mathias Vacher</h1>
             </a>
           </div>
@@ -40,7 +40,7 @@ function Header() {
 
         <div className="header-container mobile" ref={menuRef}>
           <div className="nom">
-            <a href="/portfolio/">
+            <a href="/">
               <h1>Mathias Vacher</h1>
             </a>
           </div>

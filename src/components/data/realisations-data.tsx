@@ -12,7 +12,7 @@ export const projetsDev = [
     shortDescription: 'Développement de projet avec des technologies web...',
     outils: ['PHP', 'TypeScript', 'CSS', 'HTML'],
     texteBoutonProjet: 'Voir le projet',
-    lienBoutonProjet: '/portfolio/realisations/filtre-bge',
+    lienBoutonProjet: '/realisations/filtre-bge',
     texteBoutonLive: 'Voir en direct',
     lienBoutonLive: 'https://www.filtre-bge.fr/',
   
@@ -41,7 +41,7 @@ export const projetsDev = [
     shortDescription: 'Développement de projet avec des technologies web...',
     outils: ['PHP', 'TypeScript', 'CSS', 'HTML'],
     texteBoutonProjet: 'Voir le projet',
-    lienBoutonProjet: '/portfolio/realisations/franck-archimbaud',
+    lienBoutonProjet: '/realisations/franck-archimbaud',
     texteBoutonLive: 'Voir en direct',
     lienBoutonLive: 'https://franckarchimbaud.fr/',
   
@@ -73,9 +73,9 @@ export const projetsCreation = [
     shortDescription: 'Développement de projet avec des technologies web...',
     outils: ['PHP', 'TypeScript', 'CSS', 'HTML'],
     texteBoutonProjet: 'Voir le projet',
-    lienBoutonProjet: '/portfolio/realisations/invite-etoile',
+    lienBoutonProjet: '/realisations/invite-etoile',
     texteBoutonLive: 'Voir en direct',
-    lienBoutonLive: '/portfolio',
+    lienBoutonLive: '/',
   
     contentPage: [
       {
@@ -102,9 +102,9 @@ export const projetsCreation = [
     shortDescription: 'Développement de projet avec des technologies web...',
     outils: ['PHP', 'TypeScript', 'CSS', 'HTML'],
     texteBoutonProjet: 'Voir le projet',
-    lienBoutonProjet: '/portfolio/realisations/come-on',
+    lienBoutonProjet: '/realisations/come-on',
     texteBoutonLive: 'Voir en direct',
-    lienBoutonLive: '/portfolio',
+    lienBoutonLive: '/',
   
     contentPage: [
       {
