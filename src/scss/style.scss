@@ -27,6 +27,16 @@
 
 @import 'bootstrap/scss/bootstrap';
 
+::-moz-selection { /* Code for Firefox */
+    color: $white;
+    background: $accent-color;
+  }
+  
+::selection {
+    color: $white;
+    background: $accent-color;
+}
+
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 100px; /* Ajuste cette valeur selon le padding que tu veux */
