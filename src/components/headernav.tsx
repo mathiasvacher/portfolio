@@ -1,16 +1,36 @@
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
+import { useEffect, useState } from "react";
 
 function HeaderNav({ type = "desktop", className = "" }) {
   const navigate = useNavigate();
+  const location = useLocation();
+  const [targetId, setTargetId] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (targetId) {
+      const checkElement = setInterval(() => {
+        const element = document.getElementById(targetId);
+        if (element) {
+          clearInterval(checkElement);
+          element.scrollIntoView({ behavior: "smooth" });
+          setTargetId(null);
+        }
+      }, 100);
+
+      return () => clearInterval(checkElement);
+    }
+  }, [location.pathname]); // Exécuté après le changement de page
 
   const handleNavigation = (id: string) => {
-    navigate("/");
-    setTimeout(() => {
+    setTargetId(id);
+    if (location.pathname !== "/") {
+      navigate("/");
+    } else {
       const element = document.getElementById(id);
       if (element) {
         element.scrollIntoView({ behavior: "smooth" });
       }
-    }, 100);
+    }
   };
 
   return (
