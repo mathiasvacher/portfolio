@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 import HeaderNav from "./headernav.tsx";
 
 function Header() {
@@ -31,18 +32,18 @@ function Header() {
       <div className="header-wrapper">
         <div className="header-container desktop">
           <div className="nom">
-            <a href="/">
+            <Link to="/">
               <h1>Mathias Vacher</h1>
-            </a>
+            </Link>
           </div>
           <HeaderNav type="desktop" />
         </div>
 
         <div className="header-container mobile" ref={menuRef}>
           <div className="nom">
-            <a href="/">
+            <Link to="/">
               <h1>Mathias Vacher</h1>
-            </a>
+            </Link>
           </div>
 
           <div className={`menu-icon ${menuActive ? "active" : ""}`} onClick={toggleMenu}>
