@@ -10,7 +10,7 @@ export const experiences = [
     dates: "04/2024 - Présent",
     titrePoste: "Développeur web Fullstack - Alternance",
     description:
-      "En stage puis en alternance, j'ai l'occasion de développer de simples landing pages ou de sites WordPress très complexes personnalisables avec des champs ACF, de la gestion d'API...",
+      "En stage puis en alternance, j'ai eu l'occasion de développer de simples landing pages ou de sites WordPress très complexes personnalisables avec des champs ACF, de la gestion d'API...",
     titreListe: "Tâches et missions importantes :",
     elementsListe: [
       "Conception & création de landing pages pour nos clients : HTML, CSS, jQuery, Bootstrap, NodeJS...",
@@ -61,6 +61,6 @@ export const experiences = [
       "Développement d'un plugin complexe sur-mesure de création de formulaire pour de la recherche dans une BDD externe",
     ],
     lien: "https://cmqied.fr/",
-    texteBouton: "Aller sur le site",
+    texteBouton: "Découvrir sur le site",
   },
 ];

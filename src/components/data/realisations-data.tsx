@@ -5,6 +5,7 @@ import exemple4 from '../../assets/img/realisations/exemple4.webp';
 
 
 export const projetsDev = [
+  // Filtre BGE
   {
     imgMiniature: exemple,
     idRea: 'filtre-bge', // ID unique pour chaque projet
@@ -34,6 +35,8 @@ export const projetsDev = [
       }
     ]
   },
+
+  // Franck Archimbaud
   {
     imgMiniature: exemple2,
     idRea: 'franck-archimbaud', // ID unique pour chaque projet
@@ -63,9 +66,27 @@ export const projetsDev = [
       }
     ]
   },
+
+  // Financ'ile
+
+
+  // Agence du Leasing
+
+
+  // Plurimmo
+
+
+  // Vivre Villars
+
+
+  // Vivre Annecy
+
+
+  // Odyssée bourg
 ];
 
 export const projetsCreation = [
+  // INVITE ETOILE
   {
     imgMiniature: exemple3,
     idRea: 'invite-etoile', // ID unique pour chaque projet
@@ -95,6 +116,8 @@ export const projetsCreation = [
       }
     ]
   },
+
+  // Come-on
   {
     imgMiniature: exemple4,
     idRea: 'come-on', // ID unique pour chaque projet
@@ -124,4 +147,9 @@ export const projetsCreation = [
       }
     ]
   },
+
+  // Appli Cusset
+
+
+  // Motion design logo
 ];
