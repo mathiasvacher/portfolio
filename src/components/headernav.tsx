@@ -54,9 +54,9 @@ function HeaderNav({ type = "desktop", className = "" }) {
       <button onClick={() => handleNavigation("realisations")}>Réalisations</button>
       <button onClick={() => handleNavigation("experiences")}>Expériences</button>
       <button onClick={() => handleNavigation("formations")}>Formations</button>
-      <button onClick={() => handleNavigation("contact")} className="contact-btn bouton">
+      <a href="#contact"className="contact-btn bouton">
         Contact
-      </button>
+      </a>
     </nav>
   );
 }
