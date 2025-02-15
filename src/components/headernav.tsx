@@ -6,6 +6,34 @@ function HeaderNav({ type = "desktop", className = "" }) {
   const location = useLocation();
   const [targetId, setTargetId] = useState<string | null>(null);
 
+  const handleNavigation = (id: string) => {
+    if (location.pathname !== "/") {
+      navigate("/#" + id); // Change l’URL avec le hash
+      setTargetId(id);
+    } else {
+      navigate("#" + id, { replace: true }); // Met à jour l’URL sans ajouter une nouvelle entrée dans l’historique
+      scrollToSection(id);
+    }
+  };
+
+  const scrollToSection = (id: string) => {
+    setTimeout(() => {
+      const element = document.getElementById(id);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }, 100);
+  };
+
+  // Écoute le changement du hash dans l'URL
+  useEffect(() => {
+    if (location.hash) {
+      const id = location.hash.replace("#", "");
+      scrollToSection(id);
+    }
+  }, [location.hash]);
+
+  // Gère le retour à la page d'accueil et l'ancre après navigation
   useEffect(() => {
     if (targetId) {
       const checkElement = setInterval(() => {
@@ -19,19 +47,7 @@ function HeaderNav({ type = "desktop", className = "" }) {
 
       return () => clearInterval(checkElement);
     }
-  }, [location.pathname]); // Exécuté après le changement de page
-
-  const handleNavigation = (id: string) => {
-    setTargetId(id);
-    if (location.pathname !== "/") {
-      navigate("/");
-    } else {
-      const element = document.getElementById(id);
-      if (element) {
-        element.scrollIntoView({ behavior: "smooth" });
-      }
-    }
-  };
+  }, [location.pathname, targetId]);
 
   return (
     <nav className={`header-nav ${type} ${className}`}>
