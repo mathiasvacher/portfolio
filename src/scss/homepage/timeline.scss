@@ -166,6 +166,7 @@
       li {
         width: 45%; // Chaque élément prend 50% de la largeur, donc 2 colonnes
         padding: 5px 10px;
+        font-weight: 200;
       }
 
       @media (max-width: 650px) {
