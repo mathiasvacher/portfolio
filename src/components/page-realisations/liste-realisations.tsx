@@ -8,17 +8,20 @@ function ListeRealisations() {
     return (
         <section id="liste-realisations">
             <div className='container-fluid'>
-            <TitreSection titre="Projets de développement" explication="Sites web WordPress, React, landing pages..." />
-            
+                <div id="realisation-dev">
+                    <TitreSection titre="Projets de développement" explication="Sites web WordPress, React, landing pages..." />
+                    
 
-                <RealisationsDisplay  projets={projetsDev}  />
+                    <RealisationsDisplay  projets={projetsDev}  />
+                </div>
+                
+
+                <div id="realisation-crea">
+                    <TitreSection titre="Projets de création numérique" explication="Maquettage d'application/de site web, création de logo, motion design, modélisation 3D..." />
 
 
-
-            <TitreSection titre="Projets de création numérique" explication="Maquettage d'application/de site web, création de logo, motion design, modélisation 3D..." />
-
-
-                <RealisationsDisplay projets={projetsCreation}  />
+                        <RealisationsDisplay projets={projetsCreation}  />
+                </div>
             </div>
         </section>
     )
