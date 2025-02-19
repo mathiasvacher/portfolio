@@ -47,7 +47,7 @@ export const formations = [
       niveauDiplome: 'Licence 3',
       niveauPostBac: 'Bac +3',
       nomDiplome: 'Informatique - Création Numérique',
-      description: 'Une licence orientée web tout en ajoutant des éléments d\UX, de gestion de projet, de design très importantes et intéressants.',
+      description: 'Une licence orientée web tout en ajoutant des éléments d\'UX, de gestion de projet, de design très importantes et intéressants.',
       titreListe: 'Compétences développées',
       elementsListe: [
         // Développement web
