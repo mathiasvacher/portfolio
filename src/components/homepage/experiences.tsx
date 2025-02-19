@@ -13,7 +13,9 @@ function Experiences() {
             {experiences.map((exp, index) => (
               <div className="col-22 col-md-11 experience-single" key={index}>
 
+              <div className='img-exp-container'>
                 <img src={exp.logo} alt={exp.nomEntreprise} />
+              </div>
 
                 <div className="infos-experience">
                   <h3 style={{ color: exp.couleur }}>{exp.nomEntreprise}</h3>

@@ -144,6 +144,10 @@
       padding-bottom: 1rem;
     }
 
+    p {
+      text-align: justify;
+    }
+
     .titre-liste {
       margin-top: 1rem;
       font-weight: 500;
@@ -155,11 +159,24 @@
 
     ul {
       margin-bottom: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      li {
+        width: 45%; // Chaque élément prend 50% de la largeur, donc 2 colonnes
+        padding: 5px 10px;
+      }
+
+      @media (max-width: 650px) {
+        li {
+          width: 100%;
+        }
+      }
 
       @media (max-width: 550px) {
         li {
           font-size: calc($paragraph-size - 2px) !important;
-
         }
       }
     }
