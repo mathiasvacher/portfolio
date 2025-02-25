@@ -23,7 +23,7 @@ function Contact() {
 
         if (res.success) {
             Swal.fire({
-                title: "C'est envoyé !",
+                title: "Bien reçu !",
                 text: "Merci pour votre message, je vous recontacte au plus vite !",
                 icon: "success"
             });
@@ -31,7 +31,7 @@ function Contact() {
             Swal.fire({
                 icon: "error",
                 title: "Oups...",
-                text: "Quelque chose a dû mal se passer... il vaudrait mieux réessayer !",
+                text: "Quelque chose a dû mal se passer... N'hésitez pas à ressayer dans un moment!",
             });
         }        
     };
@@ -55,7 +55,7 @@ function Contact() {
 
                 <div className="input-box" >
                     <label>Votre message</label>
-                    <textarea name='message' className="field mess" placeholder='Bonjour Mathias, je te souhaite un joyeux anniversaire !' required />
+                    <textarea name='message' className="field mess" placeholder='Bonjour Mathias, je souhaite te parler de ...!' required />
                 </div>
 
                 <button className="bouton" type="submit">Envoyer</button>

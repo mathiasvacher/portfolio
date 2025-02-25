@@ -1,6 +1,10 @@
 @use 'variables' as *;
 
 .logos-socials {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
     img {
         width: 25px;
         height: auto;
@@ -10,5 +14,15 @@
         &:hover {
             box-shadow: 0 0 15px 1px $accent-color;
         }
+
+        &.linkedin {
+            border-radius: 5px;
+        }
+    
+        &.github {
+            border-radius: 50%;
+        }
     }
+
+
 }

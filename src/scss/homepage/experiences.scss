@@ -45,72 +45,111 @@
             gap: 2rem;
             position: relative;
             z-index: 3;
-    
-            .experience-single {
-                background: linear-gradient(135deg, rgba(255, 255, 255, 0.04) 5%, $background-color, rgba(255, 255, 255, 0.04));
-                border: solid 1px rgb(39,39,42);
-                border-radius: 1rem;
-                padding: 2rem;
-                display: flex; 
-                flex-direction: column; 
 
-                
-                .img-exp-container {
-                    max-height: 40px;
-                    max-width: 150px;
-
-                    img {
-                        width: 100%;
-                    }
+            .instruction-container {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+          
+                .instruction {
+                  text-align: center;
+                  margin: 0 1rem;
+                  font-weight: 200;
+                  font-size: 0.8rem;
+                  margin-bottom: 0.5rem
                 }
-
-            
-                .infos-experience {
-                    margin-top: 1rem;
-                    display: flex;
-                    flex-direction: column;
-                    gap: 0.5rem;
-                    flex-grow: 1;
-            
-                    p {
-                        text-align: justify;
-                        margin-top: .5rem;
-                    }
-            
-                    .date {
-                        color: $accent-color;
-                        font-size: $paragraph-size;
-                        font-weight: 400;
-                        margin-top: -10px;
-                    }
-            
-                    .liste {
-                        margin-top: 2rem;
-            
-                        .titre-liste {
-                            font-weight: 500;
-                        }
-            
-                        ul {
-                            margin-top: 0.5rem;
-                            li {
-                                color: $white;
-                                padding-top: .5rem;
-                                font-weight: 200;
-                            }
-                        }
-                    }
-            
-                    a {
-                        width: fit-content;
-                        margin-top: auto; 
-                        margin-left: auto;
-                    }
+                
+                .instruction-arrow {
+                  font-size: 1rem;
+                  color: $white-text; /* Choisissez la couleur que vous préférez */
+                  margin: 5px 0;
+                  font-weight: 200;
+          
+                  &.bottom-arrow {
+                    margin-top: 0px; /* Ajuste l'espacement entre la flèche et le texte */
+                  }
                 }
             }
-            
+
+            .experience-wrapper {
+                display: flex; 
+                flex-direction: column; 
+              
+                .experience-single {
+                  background: linear-gradient(135deg, rgba(255, 255, 255, 0.04) 5%, $background-color, rgba(255, 255, 255, 0.04));
+                  border: solid 1px rgb(39,39,42);
+                  border-radius: 1rem;
+                  padding: 2rem;
+                //   flex-grow: 1;
+                  display: flex;
+                  flex-direction: column;  /* Ajoute flex-direction: column pour organiser en colonne */
+                  cursor: pointer;
+                  
+                  .img-exp-container {
+                    max-height: 40px;
+                    max-width: 150px;
+              
+                    img {
+                      width: 100%;
+                    }
+                  }
+              
+                  .infos-experience {
+                    margin-top: 1rem;
+                    display: flex;
+                    flex-direction: column;  /* Ajoute flex-direction: column pour organiser en colonne */
+                    gap: 0.5rem;
+                    // flex-grow: 1;  /* Permet à l'espace restant de pousser le bouton vers le bas */
+              
+                    p {
+                      text-align: justify;
+                      margin-top: .5rem;
+                    }
+              
+                    .date {
+                      color: $accent-color;
+                      font-size: $paragraph-size;
+                      font-weight: 400;
+                      margin-top: -10px;
+                    }
+              
+                    .liste {
+                      margin-top: 2rem;
+                      max-height: 0; // Initialement, l'élément est caché
+                      overflow: hidden;
+                      opacity: 0;
+                      transition: all 0.5s ease-in-out;
+              
+                      &.open {
+                        max-height: 500px;  // Une valeur suffisante pour afficher le contenu (ajuste si nécessaire)
+                        opacity: 1;
+                        padding-bottom: 1rem;
+                      }
+              
+                      .titre-liste {
+                        font-weight: 500;
+                      }
+              
+                      ul {
+                        margin-top: 0.5rem;
+                        li {
+                          color: $white;
+                          padding-top: .5rem;
+                          font-weight: 200;
+                        }
+                      }
+                    }
+              
+                    a {
+                      width: fit-content;
+                      margin-top: auto; /* Assure que le bouton reste en bas */
+                      margin-left: auto;
+                    }
+                  }
+                }
+            }
         }
     }
-
-    
 }

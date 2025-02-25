@@ -6,14 +6,14 @@ function Hero() {
             <div className="gradient">
                 <div className="content">
 
-                    <p className="job-title">Développeur web & UX Designer</p>
+                    <p className="job-title">Développeur web</p>
 
-                    <h2>Créer des expériences uniques par le code et le design</h2>
+                    <h2>Créer des expériences uniques par le code</h2>
                     
                     <p className="description">
-                        Salut, je suis Mathias ! Je crée et développe des idées pour les transformer en solutions élégantes, <br/>
-                        alliant un code soigné à un design intuitif afin de proposer des expériences web et <br/>
-                        mobiles de haute qualité.
+                        Hello, moi c'est Mathias ! Passionné par le code et le design, je transforme des idées en solutions élégantes, <br/>
+                        en combinant une approche technique réfléchie à un design intuitif. Mon objectif : créer des expériences web et <br/>
+                        mobiles qui allient esthétisme et performance, tout en mettant l'utilisateur au cœur de la démarche.
                     </p>
 
                     <LogoSocials />

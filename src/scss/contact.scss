@@ -95,3 +95,28 @@
 }
 
 
+.swal2-popup {
+    width: 35rem !important;
+
+    .swal2-confirm  {
+        padding: 8px 15px;
+        border-radius: 8px;
+        background: $accent-color;
+        color: $white;
+        border: none;
+        transition: all 0.3s ease-in-out;
+        font-weight: 400;
+        cursor: pointer;
+    
+        &:hover {
+            background-color: darken($accent-color, 10%);
+            transform: translateY(-2px);
+        }
+    
+        &:active {
+            transform: translateY(1px);
+        }
+    }
+}
+
+
