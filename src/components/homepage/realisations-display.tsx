@@ -43,7 +43,7 @@ const RealisationsDisplay: React.FC<RealisationsDisplayProps> = ({ titre, projet
             <h3>{realisation.titre}</h3>
             <p>{realisation.shortDescription}</p>
             <div className='realisation-outils'>
-              <p>Outils :
+              <p>Outils & compétences :
                 {realisation.outils.map((outil, i) => (
                   <span key={i}> {outil}</span>
                 ))}
