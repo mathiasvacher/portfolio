@@ -31,7 +31,7 @@ export const projetsDev = [
           {
             title: "Contexte",
             content:
-              "\"L'entreprise Filtre BGE est spécialisée dans les équipements aéraulique. Ils font lintermédiaire entre les fournisseurs et les clients de ce type de produits. En 2023, ils décident de m'engager en temps que stagiaire pour concevoir et réaliser leur site.   ",
+              "L'entreprise Filtre BGE est spécialisée dans les équipements aéraulique. Ils font lintermédiaire entre les fournisseurs et les clients de ce type de produits. En 2023, ils décident de m'engager en temps que stagiaire pour concevoir et réaliser leur site.   ",
           },
           {
             title: "Objectifs",
