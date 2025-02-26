@@ -183,12 +183,12 @@ export const projetsDev = [
           {
             title: "Contexte",
             content:
-              'J'ai eu l'opportunité de travailler sur le site d'un client développé par un précédent développeur de l'agence Adjectif durant mon alternance : le site de l'Agence du Leasing. Ce site WordPress est très complexe, il fait appel à une API pour créer et remplir des Custom Post Type de voitures, et les afficher sur le site pour les proposer à la location. En passant outre les détails techniques, ce site était très dense et délicat à appréhender.',
+              "J'ai eu l'opportunité de travailler sur le site d'un client développé par un précédent développeur de l'agence Adjectif durant mon alternance : le site de l'Agence du Leasing. Ce site WordPress est très complexe, il fait appel à une API pour créer et remplir des Custom Post Type de voitures, et les afficher sur le site pour les proposer à la location. En passant outre les détails techniques, ce site était très dense et délicat à appréhender.",
           },
           {
             title: "Objectifs",
             content:
-              'J'ai été chargé de modifications plus ou moins importantes en fonction des attentes et besoins du client. De la simple création de nouvelle page avec de légères sections administrables via champs ACF à la gestion des importations des voitures via API + utilisation pour la création de template-parts pour des carousels complexes, j'ai pu m'améliorer et prendre en compétences sur WordPress de manière très rapide et sur des points que je n'avais pas encore eu l'occasion d'aborder. ',
+              "J'ai été chargé de modifications plus ou moins importantes en fonction des attentes et besoins du client. De la simple création de nouvelle page avec de légères sections administrables via champs ACF à la gestion des importations des voitures via API + utilisation pour la création de template-parts pour des carousels complexes, j'ai pu m'améliorer et prendre en compétences sur WordPress de manière très rapide et sur des points que je n'avais pas encore eu l'occasion d'aborder. ",
           },
         ],
         rightSection: [
@@ -226,12 +226,12 @@ export const projetsDev = [
           {
             title: "Contexte",
             content:
-              'Dans une quête de remise à neuf de son site web WordPress, le client Plurimmo de l'agence Adjectif à souhaité que nous retravaillons les pages 'Programmes' en ligne. J'ai donc pu, après avoir étudié la maquette créé par le studio de l'agence, m'attaquer au développement de ce modèle de page. Il y avait énormément d'informations à récupérer soit de champs ACF, soit de serveurs externes via une API, soit dans des custom post type.',
+              "Dans une quête de remise à neuf de son site web WordPress, le client Plurimmo de l'agence Adjectif à souhaité que nous retravaillons les pages 'Programmes' en ligne. J'ai donc pu, après avoir étudié la maquette créé par le studio de l'agence, m'attaquer au développement de ce modèle de page. Il y avait énormément d'informations à récupérer soit de champs ACF, soit de serveurs externes via une API, soit dans des custom post type.",
           },
           {
             title: "Objectifs",
             content:
-              'L'objectif principal était de donner un aspect plus moderne au site du client, tout en permettant de retrouver les mêmes informations qu'avant. Nous avons donc un hero de page relativement simple, avec les infos clés sur la gauche et des boutons importants en dessous, puis dans la suite de la page certaines sections clés. Des tableaux de prix administrables complètement, ou autonome en fonction des données récupérées dans l'API (par exemple : si tous les prix sont cachés, on décide de ne pas afficher la colonne de prix..., ou encore de la gestion de variable/du nom des données). J'ai donc pu toucher à une API très complexe, à la gestion de custom post type, de l'intégration de maquette, de la gestion de librairies pour les carousel, de la création de blocks pour gérer les sections "voir plus"... Un projet très dense et qui m'a prit du temps, mais que j'ai pris plaisir à voir évoluer.',
+              "L'objectif principal était de donner un aspect plus moderne au site du client, tout en permettant de retrouver les mêmes informations qu'avant. Nous avons donc un hero de page relativement simple, avec les infos clés sur la gauche et des boutons importants en dessous, puis dans la suite de la page certaines sections clés. Des tableaux de prix administrables complètement, ou autonome en fonction des données récupérées dans l'API (par exemple : si tous les prix sont cachés, on décide de ne pas afficher la colonne de prix..., ou encore de la gestion de variable/du nom des données). J'ai donc pu toucher à une API très complexe, à la gestion de custom post type, de l'intégration de maquette, de la gestion de librairies pour les carousel, de la création de blocks pour gérer les sections \"voir plus\"... Un projet très dense et qui m'a prit du temps, mais que j'ai pris plaisir à voir évoluer.",
           },
         ],
         rightSection: [
@@ -265,12 +265,12 @@ export const projetsDev = [
           {
             title: "Contexte",
             content:
-              'Adjectif, agence de publicité spécialisée dans l'immobilier propose de créer des landing page pour des programmes immobiliers. C'est donc dans ce cadre que j'ai eu l'opportunité de travailler sur cette landing page que j'ai pris énormément de plaisir à voir évoluer. ',
+              "Adjectif, agence de publicité spécialisée dans l'immobilier propose de créer des landing page pour des programmes immobiliers. C'est donc dans ce cadre que j'ai eu l'opportunité de travailler sur cette landing page que j'ai pris énormément de plaisir à voir évoluer.",
           },
           {
             title: "Objectifs",
             content:
-              'L'objectif principal était de faciliter la prise de contact et d'avoir un site de redirection pour les campagnes de marketing digital. J'ai donc développé ce site en m'appuyant sur une maquette créée par le studio de l'agence, et permis la vente de nombreux appartement via la redirection des contacts vers les commerciaux du promoteur client de l'agence.',
+              "L'objectif principal était de faciliter la prise de contact et d'avoir un site de redirection pour les campagnes de marketing digital. J'ai donc développé ce site en m'appuyant sur une maquette créée par le studio de l'agence, et permis la vente de nombreux appartement via la redirection des contacts vers les commerciaux du promoteur client de l'agence.",
           },
         ],
         rightSection: [
@@ -304,12 +304,12 @@ export const projetsDev = [
           {
             title: "Contexte",
             content:
-              'Dans le cadre de mon travail à l'agence Adjectif, spécialisée dans la publicité pour l'immobilier, j'ai participé à la création d'une landing page pour un programme immobilier.',
+              "Dans le cadre de mon travail à l'agence Adjectif, spécialisée dans la publicité pour l'immobilier, j'ai participé à la création d'une landing page pour un programme immobilier.",
           },
           {
             title: "Objectifs",
             content:
-              'L'objectif était d'optimiser le processus de contact et de créer une passerelle efficace pour les campagnes marketing. En m'appuyant sur la maquette réalisée par le studio de l'agence, j'ai développé un site intuitif qui a permis une redirection fluide des prospects vers les commerciaux du promoteur, contribuant ainsi à la vente de nombreux appartements.',
+              "L'objectif était d'optimiser le processus de contact et de créer une passerelle efficace pour les campagnes marketing. En m'appuyant sur la maquette réalisée par le studio de l'agence, j'ai développé un site intuitif qui a permis une redirection fluide des prospects vers les commerciaux du promoteur, contribuant ainsi à la vente de nombreux appartements.",
           },
         ],
         rightSection: [
@@ -343,12 +343,12 @@ export const projetsDev = [
           {
             title: "Contexte",
             content:
-              'En tant que membre de l'agence Adjectif, spécialisée dans l'immobilier, j'ai eu l'opportunité de travailler sur la création d'une landing page dédiée à un programme immobilier. Le but principal était de simplifier le processus de contact et d'assurer une redirection optimale pour les campagnes de marketing digital.',
+              'En tant que membre de l\'agence Adjectif, spécialisée dans l\'immobilier, j\'ai eu l\'opportunité de travailler sur la création d\'une landing page dédiée à un programme immobilier. Le but principal était de simplifier le processus de contact et d\'assurer une redirection optimale pour les campagnes de marketing digital.',
           },
           {
             title: "",
             content:
-              'En suivant la maquette fournie par le studio de l'agence, j'ai développé un site qui a non seulement facilité la prise de contact, mais a également généré un grand nombre de ventes d'appartements en dirigeant les prospects vers les commerciaux du promoteur immobilier.',
+              'En suivant la maquette fournie par le studio de l\'agence, j\'ai développé un site qui a non seulement facilité la prise de contact, mais a également généré un grand nombre de ventes d\'appartements en dirigeant les prospects vers les commerciaux du promoteur immobilier.',
           },
         ],
         rightSection: [
@@ -387,12 +387,12 @@ export const projetsCreation = [
           {
             title: "Contexte",
             content:
-              'Dans mon master 2, j'ai la chance d'avoir une composante web majeure, mais aussi de matières qui me permettent d'exprimer ma créativité grâce à des projets de grande envergure. Dans ce cas, c'était la création d'une identité pour une marque de livraison de repas gastronomique à domicile. Logo, identité propre, mockup, concept... Il a fallu tout imaginer et concevoir',
+              'Dans mon master 2, j\'ai la chance d\'avoir une composante web majeure, mais aussi de matières qui me permettent d\'exprimer ma créativité grâce à des projets de grande envergure. Dans ce cas, c\'était la création d\'une identité pour une marque de livraison de repas gastronomique à domicile. Logo, identité propre, mockup, concept... Il a fallu tout imaginer et concevoir',
           },
           {
             title: "Objectifs",
             content:
-              'Je suis resté très classique dans mes décisions, des couleurs très simples et classiques de l'univers de la gastronomie, mais la ou mon idée se distingue : le concept. Grâce au concept que vous pourrez retrouver sur mon document Figma Slides, j'ai pu concevoir des idées d'éléments marketing très pertinent et quio nt du sens. Une expérience très enrichissante, et qui m'a permis de mieux découvrir des logiciels comme InDesign ou Illustrator.',
+              "Je suis resté très classique dans mes décisions, des couleurs très simples et classiques de l\'univers de la gastronomie, mais la ou mon idée se distingue : le concept. Grâce au concept que vous pourrez retrouver sur mon document Figma Slides, j'ai pu concevoir des idées d\'éléments marketing très pertinent et quio nt du sens. Une expérience très enrichissante, et qui m\'a permis de mieux découvrir des logiciels comme InDesign ou Illustrator.",
           },
         ],
         rightSection: [
@@ -426,12 +426,12 @@ export const projetsCreation = [
           {
             title: "Contexte",
             content:
-              'Dans le cadre de mon Master 2, j'ai eu l'occasion de beaucoup m'intéresser à l'UX des sites Internet, mais aussi des applications mobiles. Ce projet, Come On, a été imaginé et créé de A à Z sur Figma, en incorporant des designs et images avec Illustrator/Photoshop. Il a aussi été maquetté et est disponible en ligne.',
+              'Dans le cadre de mon Master 2, j\'ai eu l\'occasion de beaucoup m\'intéresser à l\'UX des sites Internet, mais aussi des applications mobiles. Ce projet, Come On, a été imaginé et créé de A à Z sur Figma, en incorporant des designs et images avec Illustrator/Photoshop. Il a aussi été maquetté et est disponible en ligne.',
           },
           {
             title: "Objectifs",
             content:
-              'L'objectif était de proposer un design d'application mobile pour mettre en relation des salles de concert & des artistes. Les seules consignes étaient d'avoir un minimum de pages, que j'ai largement dépassé. Les couleurs, le logo, les différentes pages, la création de composants atomiques sur Figma, le respect de règles élémentaires de l'UX... ce projet m'a permis d'aborder tout cela d'un oeil professionnel, et m'a permis de grandemenet m'améliorer en design, mais aussi pour mes choix quand je développe des sites Internet par exemple.',
+              "L'objectif était de proposer un design d'application mobile pour mettre en relation des salles de concert & des artistes. Les seules consignes étaient d'avoir un minimum de pages, que j'ai largement dépassé. Les couleurs, le logo, les différentes pages, la création de composants atomiques sur Figma, le respect de règles élémentaires de l\'UX... ce projet m\'a permis d'aborder tout cela d'un oeil professionnel, et m'a permis de grandemenet m'améliorer en design, mais aussi pour mes choix quand je développe des sites Internet par exemple.",
           },
         ],
         rightSection: [
@@ -465,12 +465,12 @@ export const projetsCreation = [
           {
             title: "Contexte",
             content:
-               'Dans le cadre de mon Master 2, j'ai eu l'opportunité de travailler sur des projets innovants alliant technologie et expérience utilisateur. Ce projet, qui porte sur une application de visite de lieux historiques en réalité augmentée (AR), a été conçu de A à Z. Tout a été imaginé sur Figma, avec une attention particulière aux détails visuels, tout en intégrant des éléments interactifs créés avec des outils comme Illustrator et Photoshop. Le prototype est fonctionnel et disponible en ligne pour une exploration immersive des lieux historiques.',
+               "Dans le cadre de mon Master 2, j'ai eu l'opportunité de travailler sur des projets innovants alliant technologie et expérience utilisateur. Ce projet, qui porte sur une application de visite de lieux historiques en réalité augmentée (AR), a été conçu de A à Z. Tout a été imaginé sur Figma, avec une attention particulière aux détails visuels, tout en intégrant des éléments interactifs créés avec des outils comme Illustrator et Photoshop. Le prototype est fonctionnel et disponible en ligne pour une exploration immersive des lieux historiques.",
           },
           {
             title: "Objectifs",
             content:
-              'L'objectif était de créer une application mobile permettant aux utilisateurs de découvrir des lieux historiques à travers la réalité augmentée, enrichissant leur expérience avec des informations contextuelles en temps réel. Les contraintes étaient de proposer une interface simple et intuitive, tout en garantissant un contenu riche et interactif. J'ai pris soin d'incorporer des éléments graphiques modernes, des animations fluides et une navigation sans friction pour une expérience immersive. Ce projet m'a permis d'affiner mes compétences en UX/UI design, tout en me confrontant aux défis techniques et ergonomiques spécifiques aux applications de réalité augmentée.',
+              "L'objectif était de créer une application mobile permettant aux utilisateurs de découvrir des lieux historiques à travers la réalité augmentée, enrichissant leur expérience avec des informations contextuelles en temps réel. Les contraintes étaient de proposer une interface simple et intuitive, tout en garantissant un contenu riche et interactif. J'ai pris soin d'incorporer des éléments graphiques modernes, des animations fluides et une navigation sans friction pour une expérience immersive. Ce projet m'a permis d'affiner mes compétences en UX/UI design, tout en me confrontant aux défis techniques et ergonomiques spécifiques aux applications de réalité augmentée.",
           },
         ],
         rightSection: [
@@ -504,12 +504,12 @@ export const projetsCreation = [
           {
             title: "Contexte",
             content:
-              'Un projet très bref d'introduction au motion design, et à quelques principes clés du montage vidéo / du sound design.',
+              "Un projet très bref d'introduction au motion design, et à quelques principes clés du montage vidéo / du sound design.",
           },
           {
             title: "Objectifs",
             content:
-              'L'objectif clé de ce projet était d'animer un logo très rapidement (quelques secondes maximum) pour comprendre le fonctionnement d'After Effect, et de nous donner des pistes pour du montage vidéo. Le sound design n'était pas imposé et totalement volontaire.',
+              "L'objectif clé de ce projet était d'animer un logo très rapidement (quelques secondes maximum) pour comprendre le fonctionnement d'After Effect, et de nous donner des pistes pour du montage vidéo. Le sound design n'était pas imposé et totalement volontaire.",
           },
         ],
         rightSection: [
