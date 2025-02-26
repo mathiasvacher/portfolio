@@ -161,13 +161,13 @@ export const projetsDev = [
   {
     imgMiniature: exemple,
     idRea: "agence-du-leasing", // ID unique pour chaque projet
-    titre: "Création de site WordPress - Agence du leasing",
-    shortDescription: "Développement de projet avec des technologies web...",
+    titre: "Développement de fonctionnalités - WordPress - ACF - Agence du Leasing",
+    shortDescription: "J'ai pu travailler sur un site WordPress complexe pour une agence de location de voiture, utilisant des champs ACF, des données d'API...",
     outils: [
       "PHP",
       "WordPress",
       "Gestion d'API",
-      "Champs ACF",
+      "Gestion complexe de champs ACF",
       "JS",
       "Création de d'espace d'administration",
       "Dev. de fonctions sur-mesures",
@@ -183,12 +183,12 @@ export const projetsDev = [
           {
             title: "Contexte",
             content:
-              '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
+              'J'ai eu l'opportunité de travailler sur le site d'un client développé par un précédent développeur de l'agence Adjectif durant mon alternance : le site de l'Agence du Leasing. Ce site WordPress est très complexe, il fait appel à une API pour créer et remplir des Custom Post Type de voitures, et les afficher sur le site pour les proposer à la location. En passant outre les détails techniques, ce site était très dense et délicat à appréhender.',
           },
           {
             title: "Objectifs",
             content:
-              '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+              'J'ai été chargé de modifications plus ou moins importantes en fonction des attentes et besoins du client. De la simple création de nouvelle page avec de légères sections administrables via champs ACF à la gestion des importations des voitures via API + utilisation pour la création de template-parts pour des carousels complexes, j'ai pu m'améliorer et prendre en compétences sur WordPress de manière très rapide et sur des points que je n'avais pas encore eu l'occasion d'aborder. ',
           },
         ],
         rightSection: [
@@ -207,13 +207,14 @@ export const projetsDev = [
     ],
   },
 
+  
   // Plurimmo
   {
     imgMiniature: exemple2,
     idRea: "plurimmo", // ID unique pour chaque projet
-    titre: "Création de site WordPress - Plurimmo",
-    shortDescription: "Développement de projet avec des technologies web...",
-    outils: ["PHP", "TypeScript", "CSS", "HTML"],
+    titre: "Refonte des pages 'Programmes' - WordPress - API - Plurimmo",
+    shortDescription: "J'ai participé au dev. de la refonte des pages programmes du site Plurimmo.",
+    outils: ["PHP", "API", "WordPress", "HTML", "Sass", "ACF"],
     texteBoutonProjet: "Voir le projet",
     lienBoutonProjet: "/realisations/plurimmo",
     texteBoutonLive: "Voir en direct",
@@ -225,18 +226,18 @@ export const projetsDev = [
           {
             title: "Contexte",
             content:
-              '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
+              'Dans une quête de remise à neuf de son site web WordPress, le client Plurimmo de l'agence Adjectif à souhaité que nous retravaillons les pages 'Programmes' en ligne. J'ai donc pu, après avoir étudié la maquette créé par le studio de l'agence, m'attaquer au développement de ce modèle de page. Il y avait énormément d'informations à récupérer soit de champs ACF, soit de serveurs externes via une API, soit dans des custom post type.',
           },
           {
             title: "Objectifs",
             content:
-              '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+              'L'objectif principal était de donner un aspect plus moderne au site du client, tout en permettant de retrouver les mêmes informations qu'avant. Nous avons donc un hero de page relativement simple, avec les infos clés sur la gauche et des boutons importants en dessous, puis dans la suite de la page certaines sections clés. Des tableaux de prix administrables complètement, ou autonome en fonction des données récupérées dans l'API (par exemple : si tous les prix sont cachés, on décide de ne pas afficher la colonne de prix..., ou encore de la gestion de variable/du nom des données). J'ai donc pu toucher à une API très complexe, à la gestion de custom post type, de l'intégration de maquette, de la gestion de librairies pour les carousel, de la création de blocks pour gérer les sections "voir plus"... Un projet très dense et qui m'a prit du temps, mais que j'ai pris plaisir à voir évoluer.',
           },
         ],
         rightSection: [
           { title: "Cadre", content: "Avec l'Agence Adjectif" },
-          { title: "Type de projet", content: "Projet de développement web" },
-          { title: "Date du projet", content: "2025" },
+          { title: "Type de projet", content: "Projet de développement web / wordpress complexe" },
+          { title: "Date du projet", content: "2024" },
         ],
         imagesPage: {
           title: "Aperçu",
@@ -250,9 +251,9 @@ export const projetsDev = [
   {
     imgMiniature: exemple3,
     idRea: "vivre-villars", // ID unique pour chaque projet
-    titre: "Création de site WordPress - Vivre Villars",
-    shortDescription: "Développement de projet avec des technologies web...",
-    outils: ["PHP", "TypeScript", "CSS", "HTML"],
+    titre: "Création de landing page - Vivre Villars",
+    shortDescription: "Développement d'une landing page pour UTEI visant à faciliter la prise de contact d'un programme immo.",
+    outils: ["PHP", "JS", "Sass", "HTML", "NodeJS", "Suivi de maquette"],
     texteBoutonProjet: "Voir le projet",
     lienBoutonProjet: "/realisations/vivre-villars",
     texteBoutonLive: "Voir en direct",
@@ -264,18 +265,18 @@ export const projetsDev = [
           {
             title: "Contexte",
             content:
-              '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
+              'Adjectif, agence de publicité spécialisée dans l'immobilier propose de créer des landing page pour des programmes immobiliers. C'est donc dans ce cadre que j'ai eu l'opportunité de travailler sur cette landing page que j'ai pris énormément de plaisir à voir évoluer. ',
           },
           {
             title: "Objectifs",
             content:
-              '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+              'L'objectif principal était de faciliter la prise de contact et d'avoir un site de redirection pour les campagnes de marketing digital. J'ai donc développé ce site en m'appuyant sur une maquette créée par le studio de l'agence, et permis la vente de nombreux appartement via la redirection des contacts vers les commerciaux du promoteur client de l'agence.',
           },
         ],
         rightSection: [
           { title: "Cadre", content: "Avec l'Agence Adjectif" },
           { title: "Type de projet", content: "Projet de développement web" },
-          { title: "Date du projet", content: "2025" },
+          { title: "Date du projet", content: "2045" },
         ],
         imagesPage: {
           title: "Aperçu",
@@ -289,9 +290,9 @@ export const projetsDev = [
   {
     imgMiniature: exemple4,
     idRea: "vivre-annecy", // ID unique pour chaque projet
-    titre: "Création de site WordPress - Vivre Annecy",
-    shortDescription: "Développement de projet avec des technologies web...",
-    outils: ["PHP", "TypeScript", "CSS", "HTML"],
+    titre: "Création de landing page - Vivre Annecy",
+    shortDescription: "Développement d'une landing page pour Eiffage visant à faciliter la prise de contact d'un programme immo.",
+    outils: ["PHP", "JS", "Sass", "HTML", "NodeJS", "Suivi de maquette"],
     texteBoutonProjet: "Voir le projet",
     lienBoutonProjet: "/realisations/vivre-annecy",
     texteBoutonLive: "Voir en direct",
@@ -303,18 +304,18 @@ export const projetsDev = [
           {
             title: "Contexte",
             content:
-              '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
+              'Dans le cadre de mon travail à l'agence Adjectif, spécialisée dans la publicité pour l'immobilier, j'ai participé à la création d'une landing page pour un programme immobilier.',
           },
           {
             title: "Objectifs",
             content:
-              '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+              'L'objectif était d'optimiser le processus de contact et de créer une passerelle efficace pour les campagnes marketing. En m'appuyant sur la maquette réalisée par le studio de l'agence, j'ai développé un site intuitif qui a permis une redirection fluide des prospects vers les commerciaux du promoteur, contribuant ainsi à la vente de nombreux appartements.',
           },
         ],
         rightSection: [
           { title: "Cadre", content: "Avec l'Agence Adjectif" },
           { title: "Type de projet", content: "Projet de développement web" },
-          { title: "Date du projet", content: "2025" },
+          { title: "Date du projet", content: "2024" },
         ],
         imagesPage: {
           title: "Aperçu",
@@ -328,9 +329,9 @@ export const projetsDev = [
   {
     imgMiniature: exemple3,
     idRea: "odyssee-bourg", // ID unique pour chaque projet
-    titre: "Création de site WordPress - Odyssée Bourg",
-    shortDescription: "Développement de projet avec des technologies web...",
-    outils: ["PHP", "TypeScript", "CSS", "HTML"],
+    titre: "Création de landing page - Odysée Bourg",
+    shortDescription: "Développement d'une landing page pour Care Immobilier visant à faciliter la prise de contact d'un programme immo.",
+    outils: ["PHP", "JS", "Sass", "HTML", "NodeJS", "Suivi de maquette"],
     texteBoutonProjet: "Voir le projet",
     lienBoutonProjet: "/realisations/odyssee-bourg",
     texteBoutonLive: "Voir en direct",
@@ -342,18 +343,18 @@ export const projetsDev = [
           {
             title: "Contexte",
             content:
-              '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
+              'En tant que membre de l'agence Adjectif, spécialisée dans l'immobilier, j'ai eu l'opportunité de travailler sur la création d'une landing page dédiée à un programme immobilier. Le but principal était de simplifier le processus de contact et d'assurer une redirection optimale pour les campagnes de marketing digital.',
           },
           {
-            title: "Objectifs",
+            title: "",
             content:
-              '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+              'En suivant la maquette fournie par le studio de l'agence, j'ai développé un site qui a non seulement facilité la prise de contact, mais a également généré un grand nombre de ventes d'appartements en dirigeant les prospects vers les commerciaux du promoteur immobilier.',
           },
         ],
         rightSection: [
           { title: "Cadre", content: "Avec l'Agence Adjectif" },
           { title: "Type de projet", content: "Projet de développement web" },
-          { title: "Date du projet", content: "2025" },
+          { title: "Date du projet", content: "2024" },
         ],
         imagesPage: {
           title: "Aperçu",
@@ -364,14 +365,17 @@ export const projetsDev = [
   },
 ];
 
+
+
+
 export const projetsCreation = [
   // INVITE ETOILE
   {
     imgMiniature: exemple3,
     idRea: "invite-etoile", // ID unique pour chaque projet
     titre: "Création de DA - Invité Étolé",
-    shortDescription: "Développement de projet avec des technologies web...",
-    outils: ["PHP", "TypeScript", "CSS", "HTML"],
+    shortDescription: "J'ai pu créer, imaginer et donner une identité à une marque fictive de livraison de repas gastronomique.",
+    outils: ["Figma", "Illustrator", "Figma Slides", "Photoshop", "InDesign"],
     texteBoutonProjet: "Voir le projet",
     lienBoutonProjet: "/realisations/invite-etoile",
     texteBoutonLive: "Voir en direct",
@@ -383,17 +387,17 @@ export const projetsCreation = [
           {
             title: "Contexte",
             content:
-              '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
+              'Dans mon master 2, j'ai la chance d'avoir une composante web majeure, mais aussi de matières qui me permettent d'exprimer ma créativité grâce à des projets de grande envergure. Dans ce cas, c'était la création d'une identité pour une marque de livraison de repas gastronomique à domicile. Logo, identité propre, mockup, concept... Il a fallu tout imaginer et concevoir',
           },
           {
             title: "Objectifs",
             content:
-              '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+              'Je suis resté très classique dans mes décisions, des couleurs très simples et classiques de l'univers de la gastronomie, mais la ou mon idée se distingue : le concept. Grâce au concept que vous pourrez retrouver sur mon document Figma Slides, j'ai pu concevoir des idées d'éléments marketing très pertinent et quio nt du sens. Une expérience très enrichissante, et qui m'a permis de mieux découvrir des logiciels comme InDesign ou Illustrator.',
           },
         ],
         rightSection: [
-          { title: "Cadre", content: "Avec l'Agence Adjectif" },
-          { title: "Type de projet", content: "Projet de développement web" },
+          { title: "Cadre", content: "Dans le cadre de mon Master 2 - CIM" },
+          { title: "Type de projet", content: "Projet de création d'identité de marque" },
           { title: "Date du projet", content: "2025" },
         ],
         imagesPage: {
@@ -409,8 +413,8 @@ export const projetsCreation = [
     imgMiniature: exemple4,
     idRea: "come-on", // ID unique pour chaque projet
     titre: "Maquette - Application Come On",
-    shortDescription: "Développement de projet avec des technologies web...",
-    outils: ["PHP", "TypeScript", "CSS", "HTML"],
+    shortDescription: "Création et maquettage d'une application de mise en relation de salle de concert & d'artistes.",
+    outils: ["Figma", "Photoshop", "Illustrator"],
     texteBoutonProjet: "Voir le projet",
     lienBoutonProjet: "/realisations/come-on",
     texteBoutonLive: "Voir en direct",
@@ -422,18 +426,18 @@ export const projetsCreation = [
           {
             title: "Contexte",
             content:
-              '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
+              'Dans le cadre de mon Master 2, j'ai eu l'occasion de beaucoup m'intéresser à l'UX des sites Internet, mais aussi des applications mobiles. Ce projet, Come On, a été imaginé et créé de A à Z sur Figma, en incorporant des designs et images avec Illustrator/Photoshop. Il a aussi été maquetté et est disponible en ligne.',
           },
           {
             title: "Objectifs",
             content:
-              '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+              'L'objectif était de proposer un design d'application mobile pour mettre en relation des salles de concert & des artistes. Les seules consignes étaient d'avoir un minimum de pages, que j'ai largement dépassé. Les couleurs, le logo, les différentes pages, la création de composants atomiques sur Figma, le respect de règles élémentaires de l'UX... ce projet m'a permis d'aborder tout cela d'un oeil professionnel, et m'a permis de grandemenet m'améliorer en design, mais aussi pour mes choix quand je développe des sites Internet par exemple.',
           },
         ],
         rightSection: [
-          { title: "Cadre", content: "Avec l'Agence Adjectif" },
-          { title: "Type de projet", content: "Projet de développement web" },
-          { title: "Date du projet", content: "2025" },
+          { title: "Cadre", content: "Dans le cadre de mon Master 2 - CIM" },
+          { title: "Type de projet", content: "Projet de création & de maquettage d'application mobile" },
+          { title: "Date du projet", content: "2024" },
         ],
         imagesPage: {
           title: "Aperçu",
@@ -448,8 +452,8 @@ export const projetsCreation = [
     imgMiniature: exemple4,
     idRea: "cusset-histoire", // ID unique pour chaque projet
     titre: "Maquette - Application Visite Historique - Cusset",
-    shortDescription: "Développement de projet avec des technologies web...",
-    outils: ["PHP", "TypeScript", "CSS", "HTML"],
+    shortDescription: "Création et maquettage d'une application de visite de lieux historiques de la région Lyonnaise.",
+    outils: ["Figma", "Photoshop", "Illustrator"],
     texteBoutonProjet: "Voir le projet",
     lienBoutonProjet: "/realisations/cusset-histoire",
     texteBoutonLive: "Voir en direct",
@@ -461,18 +465,18 @@ export const projetsCreation = [
           {
             title: "Contexte",
             content:
-              '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
+               'Dans le cadre de mon Master 2, j'ai eu l'opportunité de travailler sur des projets innovants alliant technologie et expérience utilisateur. Ce projet, qui porte sur une application de visite de lieux historiques en réalité augmentée (AR), a été conçu de A à Z. Tout a été imaginé sur Figma, avec une attention particulière aux détails visuels, tout en intégrant des éléments interactifs créés avec des outils comme Illustrator et Photoshop. Le prototype est fonctionnel et disponible en ligne pour une exploration immersive des lieux historiques.',
           },
           {
             title: "Objectifs",
             content:
-              '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+              'L'objectif était de créer une application mobile permettant aux utilisateurs de découvrir des lieux historiques à travers la réalité augmentée, enrichissant leur expérience avec des informations contextuelles en temps réel. Les contraintes étaient de proposer une interface simple et intuitive, tout en garantissant un contenu riche et interactif. J'ai pris soin d'incorporer des éléments graphiques modernes, des animations fluides et une navigation sans friction pour une expérience immersive. Ce projet m'a permis d'affiner mes compétences en UX/UI design, tout en me confrontant aux défis techniques et ergonomiques spécifiques aux applications de réalité augmentée.',
           },
         ],
         rightSection: [
-          { title: "Cadre", content: "Avec l'Agence Adjectif" },
-          { title: "Type de projet", content: "Projet de développement web" },
-          { title: "Date du projet", content: "2025" },
+          { title: "Cadre", content: "Dans le cadre de mon Master 2 - CIM" },
+          { title: "Type de projet", content: "Projet de création & de maquettage d'application mobile" },
+          { title: "Date du projet", content: "2024" },
         ],
         imagesPage: {
           title: "Aperçu",
@@ -486,9 +490,9 @@ export const projetsCreation = [
   {
     imgMiniature: exemple4,
     idRea: "motion-design-logo", // ID unique pour chaque projet
-    titre: "Maquette - Motion design - Logo",
-    shortDescription: "Développement de projet avec des technologies web...",
-    outils: ["PHP", "TypeScript", "CSS", "HTML"],
+    titre: "Motion design - Logo",
+    shortDescription: "Création d'un motion design très simple d'un logo d'une marque fictive - Go Fresh",
+    outils: ["After Effect", "Illustrator"],
     texteBoutonProjet: "Voir le projet",
     lienBoutonProjet: "/realisations/motion-design-logo",
     texteBoutonLive: "Voir en direct",
@@ -500,18 +504,18 @@ export const projetsCreation = [
           {
             title: "Contexte",
             content:
-              '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
+              'Un projet très bref d'introduction au motion design, et à quelques principes clés du montage vidéo / du sound design.',
           },
           {
             title: "Objectifs",
             content:
-              '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+              'L'objectif clé de ce projet était d'animer un logo très rapidement (quelques secondes maximum) pour comprendre le fonctionnement d'After Effect, et de nous donner des pistes pour du montage vidéo. Le sound design n'était pas imposé et totalement volontaire.',
           },
         ],
         rightSection: [
-          { title: "Cadre", content: "Avec l'Agence Adjectif" },
-          { title: "Type de projet", content: "Projet de développement web" },
-          { title: "Date du projet", content: "2025" },
+          { title: "Cadre", content: "Dans le cadre de mon Master 2 - CIM" },
+          { title: "Type de projet", content: "Projet de motion design - sound design" },
+          { title: "Date du projet", content: "2024" },
         ],
         imagesPage: {
           title: "Aperçu",
