@@ -1,5 +1,5 @@
 import React from "react";
-import Swal from 'sweetalert2'
+import Swal from 'sweetalert2';
 
 function Contact() {
 
@@ -41,7 +41,7 @@ function Contact() {
         <div className="gradient">
             <form onSubmit={onSubmit}>
                 <h2>Écrivez-moi !</h2>
-                <p>Que vous souhaitiez collaborer avec moi ou simplement discuter d'une idée, n'hésitez pas à me contacter !</p>
+                <p>Que vous souhaitiez collaborer ou simplement discuter d'une idée, n'hésitez pas à me contacter !</p>
 
                 <div className="input-box" >
                     <label>Votre nom</label>
@@ -57,6 +57,8 @@ function Contact() {
                     <label>Votre message</label>
                     <textarea name='message' className="field mess" placeholder='Bonjour Mathias, je souhaite te parler de ...!' required />
                 </div>
+
+                <input type="hidden" name="subject" value="Nouveau contact sur le site mathiasvacher.fr"/>
 
                 <button className="bouton" type="submit">Envoyer</button>
             </form>
