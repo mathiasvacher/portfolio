@@ -32,10 +32,10 @@ La première étape est d'installer et de setup le projet.
 
 ## Informations concernant le projet
 
-- Les informations affichées dans chacune des catégories du site sont toutes référencées dans des fichiers dédiés dans le dossier `src/assets/components/data`, elles sont donc à modifier à l'intérieur.
+- Les informations affichées dans chacune des catégories du site sont toutes référencées dans des fichiers dédiés dans le dossier `src/assets/components/data`, elles sont donc à modifier directement depuis ces fichiers data.
 
 - Il y a un script dans chacun des fichiers `404.html`et `index.html` pour permettre les redirections en cas de rafraichissement / accès au site depuis un lien direct. Ces scripts sont spécifiques pour s'adapter au fonctionnement de GitHub Pages qui gère pour le moment très mal les applications en une page.
 
-- Ce site a été développé en février 2025 par moi-même, en utiisants diverses ressources accessibles publiquement (script de redirection etc...), et est surtout pour moi une introduction à React, tout en créant un projet ayant du sens et une réelle utilité.
+- Ce site a été développé en février 2025 par moi-même, en utiisants diverses ressources accessibles publiquement (script de redirection etc...), et est surtout pour moi une introduction à React, tout en me permettant d'enfin créer un projet ayant du sens et une réelle utilité.
 
 
