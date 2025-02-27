@@ -18,9 +18,8 @@ La première étape est d'installer et de setup le projet.
 
 ### Pour travailler sur le projet :
 
-1. Le cloner depuis ce repo
-2. Lancer un terminal et installer les packages node avec : `npm install`
-3. Lancer un éditeur de code et travailler sur les fichiers dans le dossier `src/`
+1. Une fois le setup effectué, lancer un terminal et faire : `npm run dev`
+2. Puis se rendre à l'adresse indiquée dans le terminal.
 
 ### Pour publier les changements :
 
