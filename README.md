@@ -24,7 +24,7 @@ La première étape est d'installer et de setup le projet.
 ### Pour publier les changements :
 
 1. Add les changements : `git add .`
-2. Commit les changements : `git commit -m "Informations concernants les changements"
+2. Commit les changements : `git commit -m "Informations concernants les changements"`
 3. Push les changements : `git push`
 4. Construire le projet pour préparer le déploiement : `npm run build`
 5. Déployer le projet sur GitHub Pages : `npm run deploy`
