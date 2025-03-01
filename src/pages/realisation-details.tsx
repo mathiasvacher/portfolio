@@ -1,36 +1,49 @@
+import { useState } from "react";
 import { useParams, useNavigate, Link } from "react-router-dom";
 import {
   projetsDev,
   projetsCreation,
 } from "../components/data/realisations-data.tsx";
-
 import Error from '../components/404.tsx';
+import ImageModal from '../components/image-modal.tsx';  // Importer le composant ImageModal
 
 const RealisationsDetails = () => {
   const { projetId } = useParams();
   const navigate = useNavigate();
 
-  // Fusionner les projets de développement et de création
   const allProjets = [...projetsDev, ...projetsCreation];
-
-  // Trouver la réalisation actuelle
   const projet = allProjets.find((p) => p.idRea === projetId);
 
   if (!projet) {
     return <Error />;
   }
 
-  // Trouver l'indice de la réalisation actuelle
   const currentIndex = allProjets.findIndex((p) => p.idRea === projetId);
-
-  // Trouver la réalisation suivante et précédente
   const previousProjet = allProjets[currentIndex - 1];
   const nextProjet = allProjets[currentIndex + 1];
 
-  // Fonction pour naviguer vers la réalisation suivante ou précédente
-  const goToProjet = (id: string | undefined) => {
-    if (id) {
-      navigate(`/realisations/${id}`);
+  // Gestion de la galerie
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [currentImage, setCurrentImage] = useState<string | null>(null);
+  const [currentImageIndex, setCurrentImageIndex] = useState<number>(0);
+
+  // Ouvrir la modale et afficher l'image sélectionnée
+  const openModal = (image: string, index: number) => {
+    setCurrentImage(image);
+    setCurrentImageIndex(index);
+    setIsModalOpen(true);
+  };
+
+  // Fermer la modale
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
+  // Naviguer entre les images de la galerie
+  const navigateImage = (index: number) => {
+    if (index >= 0 && index < projet.contentPage[0].imagesPage.images.length) {
+      setCurrentImage(projet.contentPage[0].imagesPage.images[index]);
+      setCurrentImageIndex(index);
     }
   };
 
@@ -45,9 +58,9 @@ const RealisationsDetails = () => {
           {previousProjet && (
             <button
               className="bouton btn-navigation prec"
-              onClick={() => goToProjet(previousProjet.idRea)}
+              onClick={() => navigate(`/realisations/${previousProjet.idRea}`)}
             >
-             <span>←</span> Réalisation précédente 
+              <span>←</span> Réalisation précédente 
             </button>
           )}
 
@@ -58,7 +71,7 @@ const RealisationsDetails = () => {
           {nextProjet && (
             <button
               className="bouton btn-navigation suiv"
-              onClick={() => goToProjet(nextProjet.idRea)}
+              onClick={() => navigate(`/realisations/${nextProjet.idRea}`)}
             >
               Réalisation suivante <span>→</span>
             </button>
@@ -111,10 +124,10 @@ const RealisationsDetails = () => {
           </div>
 
           <div className="bouton-live-right desktop">
-              <a href={projet.lienBoutonLive} className="bouton">
-                {projet.texteBoutonLive}
-              </a>
-            </div>
+            <a href={projet.lienBoutonLive} className="bouton">
+              {projet.texteBoutonLive}
+            </a>
+          </div>
 
           <div className="gallery">
             {projet.contentPage.map((content, index) => (
@@ -127,6 +140,7 @@ const RealisationsDetails = () => {
                         src={image}
                         alt={`Illustration de réalisation ${imgIdx + 1}`}
                         className="gallery-image"
+                        onClick={() => openModal(image, imgIdx)} // Ouvre la modale avec l'image cliquée
                       />
                     </div>
                   ))}
@@ -134,8 +148,18 @@ const RealisationsDetails = () => {
               </div>
             ))}
           </div>
-        </div>        
+        </div>
       </div>
+
+      {/* Afficher la modale avec l'image en grand */}
+      <ImageModal
+        isOpen={isModalOpen}
+        onClose={closeModal}
+        imageUrl={currentImage || ""}
+        images={projet.contentPage[0].imagesPage.images}
+        currentIndex={currentImageIndex}
+        onNavigate={navigateImage}
+      />
     </section>
   );
 };

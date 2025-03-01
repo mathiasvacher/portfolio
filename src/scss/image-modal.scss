@@ -1,0 +1,75 @@
+@use 'variables' as *;
+
+
+.image-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  position: relative;
+  width: fit-content !important;
+}
+
+.close-modal {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  font-size: 25px;
+  border: none;
+  background: transparent;
+  color: $accent-color;
+  transition: all 0.5s ease-in-out;
+  padding: 0.5rem;
+  padding-top: 0.3rem !important;
+  line-height: 1;
+
+  &:hover {
+    color: $white;
+  }
+
+  @media (max-width: 550px) {
+    font-size: 1rem;
+    background: $accent-color;
+    color: $white;
+  }
+}
+
+.modal-image-container {
+  text-align: center;
+}
+
+.modal-image {
+  max-width: 100%;
+  max-height: 80vh;
+}
+
+.navigation-buttons-modal {
+  display: flex;
+  justify-content: space-between; /* Espace entre les boutons */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 98%; /* Prendre toute la largeur de son conteneur */
+  padding: 0 20px; /* Ajouter un peu de padding à gauche et à droite pour ne pas coller les boutons */
+
+  @media (max-width: 550px) {
+    top: 115%;
+  }
+}
+
+.prev-button-modal:disabled, .next-button-modal:disabled {
+  background: darken($white, 50%) !important;
+  cursor: not-allowed !important;
+}
