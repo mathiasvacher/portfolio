@@ -82,10 +82,18 @@
                   border: solid 1px rgb(39,39,42);
                   border-radius: 1rem;
                   padding: 2rem;
-                //   flex-grow: 1;
                   display: flex;
                   flex-direction: column;  /* Ajoute flex-direction: column pour organiser en colonne */
                   cursor: pointer;
+                  transition: all 0.5s ease-in-out;
+
+                  &:hover {
+                    border-color: $accent-color;
+                  }
+
+                  @media (max-width: 700px) {
+                    padding: 1.5rem;
+                  }
                   
                   .img-exp-container {
                     max-height: 40px;
@@ -101,7 +109,21 @@
                     display: flex;
                     flex-direction: column;  /* Ajoute flex-direction: column pour organiser en colonne */
                     gap: 0.5rem;
-                    // flex-grow: 1;  /* Permet à l'espace restant de pousser le bouton vers le bas */
+                    
+                    .more-infos {
+                      max-height: 0;
+                      opacity: 0;
+                      overflow: hidden;
+                      transition: all 0.5s ease-in-out;
+                      padding-bottom: 1rem;
+                    
+                      &.open {
+                        max-height: 1500px; // Ajuste selon la taille du contenu
+                        opacity: 1;
+                        padding-top: 1rem;
+                      }
+                    }
+                    
               
                     p {
                       text-align: justify;
@@ -116,18 +138,8 @@
                     }
               
                     .liste {
-                      margin-top: 2rem;
-                      max-height: 0; // Initialement, l'élément est caché
-                      overflow: hidden;
-                      opacity: 0;
-                      transition: all 0.5s ease-in-out;
-              
-                      &.open {
-                        max-height: 500px;  // Une valeur suffisante pour afficher le contenu (ajuste si nécessaire)
-                        opacity: 1;
-                        padding-bottom: 1rem;
-                      }
-              
+                      padding-bottom: 1rem;
+
                       .titre-liste {
                         font-weight: 500;
                       }

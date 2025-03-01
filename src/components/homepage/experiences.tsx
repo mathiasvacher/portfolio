@@ -6,7 +6,8 @@ type Experience = {
   nomEntreprise: string;
   titrePoste: string;
   dates: string;
-  description: string;
+  descriptionPremierePartie: string;
+  descriptionSecondePartie: string;
   titreListe?: string;
   elementsListe?: string[];
   lien: string;
@@ -58,27 +59,36 @@ const ExperienceItem = ({ exp }: { exp: Experience }) => {
           <h3 style={{ color: exp.couleur }}>{exp.nomEntreprise}</h3>
           <h4>{exp.titrePoste}</h4>
           <p className="date">{exp.dates}</p>
-          <p>{exp.description}</p>
+          <p>{exp.descriptionPremierePartie}</p>
 
-          {/* Vérification et affichage conditionnel */}
-          {exp.titreListe && exp.elementsListe && (
-            <div className={`liste ${isOpen ? 'open' : ''}`}>
-              <p className="titre-liste">{exp.titreListe}</p>
-              <ul>
-                {exp.elementsListe.map((element, idx) => (
-                  <li key={idx}>{element}</li>
-                ))}
-              </ul>
+
+          {/* Ajout de la classe open pour afficher ou cacher more-infos */}
+          <div className={`more-infos ${isOpen ? 'open' : ''}`}>
+            <div className='desc-wrapper'>
+              <p>{exp.descriptionSecondePartie}</p>
             </div>
-          )}
 
-          <a className="bouton" href={exp.lien} target="_blank" rel="noopener noreferrer">
-            {exp.texteBouton}
-          </a>
+            {/* Vérification et affichage conditionnel */}
+            {exp.titreListe && exp.elementsListe && (
+              <div className="liste">
+                <p className="titre-liste">{exp.titreListe}</p>
+                <ul>
+                  {exp.elementsListe.map((element, idx) => (
+                    <li key={idx}>{element}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            <a className="bouton" href={exp.lien} target="_blank" rel="noopener noreferrer">
+              {exp.texteBouton}
+            </a>
+          </div>
         </div>
       </div>
     </div>
   );
 };
+
 
 export default Experiences;

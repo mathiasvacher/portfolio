@@ -7,7 +7,7 @@ function Contact() {
         event.preventDefault();  
 
         const formData = new FormData(event.target as HTMLFormElement); // On cast event.target pour être sûr que c'est un HTMLFormElement
-        formData.append("access_key", "977ae743-1050-4e2b-a028-1e5565429da1");
+        formData.append("access_key", "3af5a57a-6822-4090-aad6-b7391e489df6");
 
         const object = Object.fromEntries(formData);
         const json = JSON.stringify(object);

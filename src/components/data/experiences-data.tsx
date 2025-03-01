@@ -9,8 +9,10 @@ export const experiences = [
     nomEntreprise: "Agence Adjectif",
     dates: "04/2024 - Présent",
     titrePoste: "Développeur web Fullstack - Alternance",
-    description:
-      "Durant mon stage puis en alternance pendant mon Master, j'ai eu l'opportunité de rejoindre l'Agence Adjectif. Là-bas, j'ai travaillé sur le développement de landing pages simples et de sites WordPress complexes avec personnalisation avancée via ACF, gestion d'API, et plus encore. J'ai aussi conçu et développé des sites à partir des maquettes créées par notre studio, ou de la simple modification de manière totalement autonome. Une expérience qui confrme mon envie de travailler en agence.",
+    descriptionPremierePartie:
+      "Durant mon stage puis en alternance pendant mon Master, j'ai eu l'opportunité de rejoindre l'Agence Adjectif. Là-bas, j'ai travaillé sur le développement de landing pages simples et de sites WordPress complexes avec personnalisation avancée via ACF, gestion d'API, et plus encore.",
+    descriptionSecondePartie:
+      "J'ai aussi conçu et développé des sites à partir des maquettes créées par notre studio, ou de la simple modification de manière totalement autonome. Une expérience qui confirme mon envie de travailler en agence.",
     titreListe: "Principales responsabilités et projets réalisés :",
     elementsListe: [
       "Conception et création de landing pages personnalisées pour des clients variés (HTML, CSS, jQuery, Bootstrap, NodeJS, etc.)",
@@ -30,8 +32,10 @@ export const experiences = [
     nomEntreprise: "Filtre BGE",
     dates: "04/2023 - 07/2023",
     titrePoste: "Développeur web - Stage",
-    description:
-      "Dans le cadre de ma licence, j'ai eu la chance de rejoindre l'équipe de Filtre BGE, où j'ai été chargé de créer un site WordPress boutique entièrement personnalisé pour la demande de devis. J'ai également travaillé sur la création et l'adaptation de nombreux produits, ainsi que sur la gestion de leurs caractéristiques et options dans la boutique, assurant une expérience utilisateur fluide et sur-mesure. Filtre BGE a été très satisfait de mon travail et m'a indiqué que le site leur a permis de convertir de nombreux clients et donc d'augmenter leur CA.",
+    descriptionPremierePartie:
+      "Dans le cadre de ma licence, j'ai eu la chance de rejoindre l'équipe de Filtre BGE, où j'ai été chargé de créer un site WordPress boutique entièrement personnalisé pour la demande de devis. J'ai également travaillé sur la création et l'adaptation de nombreux produits, ainsi que sur la gestion de leurs caractéristiques et options dans la boutique.",
+    descriptionSecondePartie:
+      "Cela a permis d'assurer une expérience utilisateur fluide et sur-mesure. Filtre BGE a été très satisfait de mon travail et m'a indiqué que le site leur a permis de convertir de nombreux clients et donc d'augmenter leur CA.",
     titreListe: "Contributions et réalisations clés :",
     elementsListe: [
       "Création complète d'un site WordPress sur-mesure, adapté aux besoins spécifiques du client",
@@ -51,8 +55,10 @@ export const experiences = [
     nomEntreprise: "Le Lab du Campus",
     dates: "03/2023 - 06/2023",
     titrePoste: "Développeur web WordPress - Stage",
-    description:
-      "Dans le cadre de mon stage de fin de DUT, j'ai eu l'opportunité de travailler au sein d'un label de l'État, le CMQIED. Durant ces deux mois d'immersion, j'ai conçu et développé un site web WordPress complet, en répondant aux besoins spécifiques de l'organisation. J'ai également créé un plugin sur-mesure pour intégrer une fonctionnalité de recherche avancée dans une base de données externe. Cette expérience m'a permis de mettre en pratique mes compétences techniques tout en apportant des solutions innovantes et personnalisées adaptées aux attentes des utilisateurs.",
+    descriptionPremierePartie:
+      "Dans le cadre de mon stage de fin de DUT, j'ai eu l'opportunité de travailler au sein d'un label de l'État, le CMQIED. Durant ces deux mois d'immersion, j'ai conçu et développé un site web WordPress complet, en répondant aux besoins spécifiques de l'organisation.",
+    descriptionSecondePartie:
+      "J'ai également créé un plugin sur-mesure pour intégrer une fonctionnalité de recherche avancée dans une base de données externe. Cette expérience m'a permis de mettre en pratique mes compétences techniques tout en apportant des solutions innovantes et adaptées aux attentes des utilisateurs.",
     titreListe: "Missions et objectifs accomplis :",
     elementsListe: [
       "Développement d'une application web WordPress complète répondant aux besoins de l'organisation",
