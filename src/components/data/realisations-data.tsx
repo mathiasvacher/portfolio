@@ -379,7 +379,7 @@ export const projetsCreation = [
     texteBoutonProjet: "Voir le projet",
     lienBoutonProjet: "/realisations/invite-etoile",
     texteBoutonLive: "Voir en direct",
-    lienBoutonLive: "/",
+    lienBoutonLive: "https://www.figma.com/deck/thFG2apzHX8q8WRHxsM2Cy/Dossier-invit%C3%A9-%C3%A9toil%C3%A9?node-id=1-25&t=xTJGnx4AmS2K8Ef0-1",
 
     contentPage: [
       {
@@ -418,7 +418,7 @@ export const projetsCreation = [
     texteBoutonProjet: "Voir le projet",
     lienBoutonProjet: "/realisations/come-on",
     texteBoutonLive: "Voir en direct",
-    lienBoutonLive: "/",
+    lienBoutonLive: "https://www.figma.com/proto/2OftsdFPf8sxbVeFXgiWrQ/Application-UX-Musicien-%2F-Salle---Mathias-VACHER?node-id=4402-28&t=T7c71fKeOhIMxy7u-1",
 
     contentPage: [
       {
@@ -457,7 +457,7 @@ export const projetsCreation = [
     texteBoutonProjet: "Voir le projet",
     lienBoutonProjet: "/realisations/cusset-histoire",
     texteBoutonLive: "Voir en direct",
-    lienBoutonLive: "/",
+    lienBoutonLive: "https://www.figma.com/proto/BU0UrpVoj4XkhMTQVruvSu/Application-Histoire-de-l'art?node-id=0-1&t=NoDaCaF43XRX53xV-1",
 
     contentPage: [
       {
@@ -494,9 +494,9 @@ export const projetsCreation = [
     shortDescription: "Création d'un motion design très simple d'un logo d'une marque fictive - Go Fresh",
     outils: ["After Effect", "Illustrator"],
     texteBoutonProjet: "Voir le projet",
-    lienBoutonProjet: "/realisations/motion-design-logo",
+    lienBoutonProjet: "/realisations/motion-design-logo-gofresh",
     texteBoutonLive: "Voir en direct",
-    lienBoutonLive: "/",
+    lienBoutonLive: "https://youtu.be/StG4Q6yNf3E",
 
     contentPage: [
       {
