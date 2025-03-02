@@ -10,7 +10,7 @@ export const experiences = [
     dates: "04/2024 - Présent",
     titrePoste: "Développeur web Fullstack - Alternance",
     descriptionPremierePartie:
-      "Durant mon stage puis en alternance pendant mon Master, j'ai eu l'opportunité de rejoindre l'Agence Adjectif. Là-bas, j'ai travaillé sur le développement de landing pages simples et de sites WordPress complexes avec personnalisation avancée via ACF, gestion d'API, et plus encore.",
+      "Durant mon stage puis en alternance pendant mon Master, j'ai eu l'opportunité de rejoindre l'Agence Adjectif. Là-bas, j'ai travaillé sur le développement de landing pages simples et de sites WordPress complexes avec personnalisation avancée via des champs ACF, de la gestion d'API très dense et plus encore.",
     descriptionSecondePartie:
       "J'ai aussi conçu et développé des sites à partir des maquettes créées par notre studio, ou de la simple modification de manière totalement autonome. Une expérience qui confirme mon envie de travailler en agence.",
     titreListe: "Principales responsabilités et projets réalisés :",
