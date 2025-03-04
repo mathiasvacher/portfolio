@@ -36,7 +36,7 @@ export const projetsDev = [
           {
             title: "Objectifs",
             content:
-              "Ils ont plusieurs consignes : il leur faut un site moderne, et qui sorte des codes de leur industrie (de la ventilation, de l'usine, de la poussière...). Leur attente principale de ce site est la possibilité pour les clients de sélectionner des filtres (ainsi que d'entrer leurs caractéristiques), et de les ajouter à une demande de devis. Après avoir prit le temps de réfléchir à la meilleure manière d'appréhender ce projet, j'ai trouvé qu'un site e-commerce type WordPress / WooCommerce allait parfaitement remplir les conditions fixées par l'entreprise. C'est donc en utilisant une combinaison d'Elementor, de Wordpress, de WooCommerce ainsi que de plugins annexes que j'ai réussi à arriver un résultat tout à fait satisfaisant pour Filtre BGE. Ils m'ont indiqué que leurs demandes de contact & leurs conversions ont explosées depuis la mise en ligne du site, et que j'étais allé bien au delà de leurs attentes.",
+              "Ils ont plusieurs consignes : il leur faut un site moderne, et qui sorte des codes de leur industrie (de la ventilation, de l'usine, de la poussière...). Leur attente principale de ce site est la possibilité pour les clients de sélectionner des filtres (ainsi que d'entrer leurs caractéristiques), et de les ajouter à une demande de devis. Après avoir prit le temps de réfléchir à la meilleure manière d'appréhender ce projet, j'ai trouvé qu'un site e-commerce type WordPress / WooCommerce allait parfaitement remplir les conditions fixées par l'entreprise. C'est donc en utilisant une combinaison d'Elementor, de Wordpress, de WooCommerce ainsi que de plugins annexes que j'ai réussi à arriver un résultat tout à fait satisfaisant pour Filtre BGE. Ils m'ont indiqué que leurs demandes de contact & leurs conversions ont explosées depuis la mise en ligne du site, et que j'étais allé bien au delà de leurs attentes. Pour rentrer un peu plus dans le côté technique du projet : j'ai utilisé un thème enfant pour modifier des composants de WooCommerce (affichage panier, gestion des caractéristiques des filtres à afficher / à gérer dans les mails, j'ai créé des designs de A à Z sur Figma puis intégrés sur Elementor, j'ai du adapter certains plugins qui n'étaient pas compatibles entre-eux et qui m'ont permis de gagner des heures de développement...",
           },
         ],
         rightSection: [
@@ -141,7 +141,7 @@ export const projetsDev = [
           {
             title: "Objectifs",
             content:
-              "Le principal objectif était d'être le plus fidèle à la maquette possible, ce qui est chose faite. À la fin du mois de février 2025 le site est encore en preprod, car le client n'a pas le encore prit le temps de vérifier et de valider le site. Comme précisé dans les outils, ce site est le résultat d'une combinaison de blocks gutenberg, de champs ACF, de code PHP/JS, de bootstrap/sass. J'ai développé 100% de ce qui est visible en ligne, et c'est évidemment développé pour mobile & desktop.",
+              "Le principal objectif était d'être le plus fidèle à la maquette possible, ce qui est chose faite. À la fin du mois de février 2025 le site est encore en preprod, car le client n'a pas le encore prit le temps de vérifier et de valider le site. Comme précisé dans les outils, ce site est le résultat d'une combinaison de blocks gutenberg, de champs ACF, de code PHP/JS, de bootstrap/sass. J'ai développé 100% de ce qui est visible en ligne, et c'est évidemment développé pour mobile & desktop. La technique de ce projet résidait vraiment dans le côté administrable de ce site. Il fallait que les pages et leur contenu soient toutes administrables via des blocks Gutenberg, et/ou des champs ACF. C'est chose faite, l'énorme majorité du contenu est administrable depuis les pages d'administration, ils ont aussi une page 'Options' d'ACF qui leur permet de gérer les numéros de téléphones affichées, les informations des agences, quand la nouvelle agence ouvrira ils auront la possibilité de la créer et elle s'ajoutera automatiquement au divers endroits du site... Un projet technique à prendre en main, mais qui s'est très bien déroulé et que j'ai hâte de mettre en production.",
           },
         ],
         rightSection: [
@@ -188,7 +188,7 @@ export const projetsDev = [
           {
             title: "Objectifs",
             content:
-              "J'ai été chargé de modifications plus ou moins importantes en fonction des attentes et besoins du client. De la simple création de nouvelle page avec de légères sections administrables via champs ACF à la gestion des importations des voitures via API + utilisation pour la création de template-parts pour des carousels complexes, j'ai pu m'améliorer et prendre en compétences sur WordPress de manière très rapide et sur des points que je n'avais pas encore eu l'occasion d'aborder. ",
+              "J'ai été chargé de modifications plus ou moins importantes en fonction des attentes et besoins du client. De la simple création de nouvelle page avec de légères sections administrables via champs ACF à la gestion des importations des voitures via API + utilisation pour la création de template-parts pour des carousels complexes, j'ai pu m'améliorer et prendre en compétences sur WordPress de manière très rapide et sur des points que je n'avais pas encore eu l'occasion d'aborder. Côté technique maintenant, mes missions étaient très diverses. J'ai pu par exemple créer une fonction qui allait récupérer des informations dans l'API du client et qui, grâce à celles-ci et à une liaison à des informations entrées dans des champs ACF, générait les patchs sur les carousels / cartes des voitures. J'ai pu aussi créer des systèmes de fonctionnement complexe d'affichage et de gestion des voitures, la gestion des prises de contact avec des champs dynamiques dans les formulaires CF7... Un projet très complet qui m'a grandement apprit et auxquel je suis très chanceux d'avoir pu prendre part.",
           },
         ],
         rightSection: [
@@ -231,7 +231,7 @@ export const projetsDev = [
           {
             title: "Objectifs",
             content:
-              "L'objectif principal était de donner un aspect plus moderne au site du client, tout en permettant de retrouver les mêmes informations qu'avant. Nous avons donc un hero de page relativement simple, avec les infos clés sur la gauche et des boutons importants en dessous, puis dans la suite de la page certaines sections clés. Des tableaux de prix administrables complètement, ou autonome en fonction des données récupérées dans l'API (par exemple : si tous les prix sont cachés, on décide de ne pas afficher la colonne de prix..., ou encore de la gestion de variable/du nom des données). J'ai donc pu toucher à une API très complexe, à la gestion de custom post type, de l'intégration de maquette, de la gestion de librairies pour les carousel, de la création de blocks pour gérer les sections \"voir plus\"... Un projet très dense et qui m'a prit du temps, mais que j'ai pris plaisir à voir évoluer.",
+              "L'objectif principal était de donner un aspect plus moderne au site du client, tout en permettant de retrouver les mêmes informations qu'avant. Nous avons donc un hero de page relativement simple, avec les infos clés sur la gauche et des boutons importants en dessous, puis dans la suite de la page certaines sections clés. Des tableaux de prix administrables complètement, ou autonome en fonction des données récupérées dans l'API (par exemple : si tous les prix sont cachés, on décide de ne pas afficher la colonne de prix..., ou encore de la gestion de variable/du nom des données). J'ai donc pu toucher à une API très complexe, à la gestion de custom post type, de l'intégration de maquette, de la gestion de librairies pour les carousel, de la création de blocks pour gérer les sections \"voir plus\"... Un projet très dense et qui m'a prit du temps, mais que j'ai pris plaisir à voir évoluer. Pour mentionner le côté plus technique maintenant : le plus complexe sur la refonte des pages Programmes était de complexe les données de l'API, et toutes les subtilités qui venaient avec. Certains logements étaient nommés des 'Studio', d'autres simplement des 'T1', il a fallu faire un gros travail en amont de préparation des données avant de les afficher et de créer la structure du site. En ajoutant à cela le fait que chacune des sections (hors celles qui affichées des données de l'API) est administrable mais pas obligatoire, cela donne un site très complet et qui nous pousse à prendre un temps de réflexion avant de procéder à des modifications.",
           },
         ],
         rightSection: [
@@ -253,7 +253,7 @@ export const projetsDev = [
     idRea: "vivre-villars", // ID unique pour chaque projet
     titre: "Création de landing page - Vivre Villars",
     shortDescription: "Développement d'une landing page pour UTEI visant à faciliter la prise de contact d'un programme immo.",
-    outils: ["PHP", "JS", "Sass", "HTML", "NodeJS", "Suivi de maquette"],
+    outils: ["PHP", "JS", "Sass", "HTML", "NodeJS", "Suivi de maquette", "Gulp", "NPM"],
     texteBoutonProjet: "Voir le projet",
     lienBoutonProjet: "/realisations/vivre-villars",
     texteBoutonLive: "Voir en direct",
@@ -270,7 +270,7 @@ export const projetsDev = [
           {
             title: "Objectifs",
             content:
-              "L'objectif principal était de faciliter la prise de contact et d'avoir un site de redirection pour les campagnes de marketing digital. J'ai donc développé ce site en m'appuyant sur une maquette créée par le studio de l'agence, et permis la vente de nombreux appartement via la redirection des contacts vers les commerciaux du promoteur client de l'agence.",
+              "L'objectif principal était de faciliter la prise de contact et d'avoir un site de redirection pour les campagnes de marketing digital. J'ai donc développé ce site en m'appuyant sur une maquette créée par le studio de l'agence, et permis la vente de nombreux appartement via la redirection des contacts vers les commerciaux du promoteur client de l'agence. Bref passage technique : le site est développé avec une combinaison de HTML / PHP / JS / Sass. PHP pour le formulaire avec gestion des champs, JS pour toutes les fonctionnalités plus techniques et Sass pour tout le style. Nous travaillons toutes nos landings pages avec le Task Runner Gulp, qui permet d'automatiser tout le processus de construction des fichiers.",
           },
         ],
         rightSection: [
@@ -292,7 +292,7 @@ export const projetsDev = [
     idRea: "vivre-annecy", // ID unique pour chaque projet
     titre: "Création de landing page - Vivre Annecy",
     shortDescription: "Développement d'une landing page pour Eiffage visant à faciliter la prise de contact d'un programme immo.",
-    outils: ["PHP", "JS", "Sass", "HTML", "NodeJS", "Suivi de maquette"],
+    outils: ["PHP", "JS", "Sass", "HTML", "NodeJS", "Suivi de maquette", "Gulp", "NPM"],
     texteBoutonProjet: "Voir le projet",
     lienBoutonProjet: "/realisations/vivre-annecy",
     texteBoutonLive: "Voir en direct",
@@ -304,12 +304,12 @@ export const projetsDev = [
           {
             title: "Contexte",
             content:
-              "Dans le cadre de mon travail à l'agence Adjectif, spécialisée dans la publicité pour l'immobilier, j'ai participé à la création d'une landing page pour un programme immobilier.",
+              "Dans le cadre de mon travail à l'agence Adjectif, spécialisée dans la publicité pour l'immobilier, j'ai participé à la création d'une landing page pour un programme immobilier. ",
           },
           {
             title: "Objectifs",
             content:
-              "L'objectif était d'optimiser le processus de contact et de créer une passerelle efficace pour les campagnes marketing. En m'appuyant sur la maquette réalisée par le studio de l'agence, j'ai développé un site intuitif qui a permis une redirection fluide des prospects vers les commerciaux du promoteur, contribuant ainsi à la vente de nombreux appartements.",
+              "L'objectif était d'optimiser le processus de contact et de créer une passerelle efficace pour les campagnes marketing. En m'appuyant sur la maquette réalisée par le studio de l'agence, j'ai développé un site intuitif qui a permis une redirection fluide des prospects vers les commerciaux du promoteur, contribuant ainsi à la vente de nombreux appartements. Bref passage technique : le site est développé avec une combinaison de HTML / PHP / JS / Sass. PHP pour le formulaire avec gestion des champs, JS pour toutes les fonctionnalités plus techniques et Sass pour tout le style. Nous travaillons toutes nos landings pages avec le Task Runner Gulp, qui permet d'automatiser tout le processus de construction des fichiers.",
           },
         ],
         rightSection: [
@@ -331,7 +331,7 @@ export const projetsDev = [
     idRea: "odyssee-bourg", // ID unique pour chaque projet
     titre: "Création de landing page - Odysée Bourg",
     shortDescription: "Développement d'une landing page pour Care Immobilier visant à faciliter la prise de contact d'un programme immo.",
-    outils: ["PHP", "JS", "Sass", "HTML", "NodeJS", "Suivi de maquette"],
+    outils: ["PHP", "JS", "Sass", "HTML", "NodeJS", "Suivi de maquette", "Gulp", "NPM"],
     texteBoutonProjet: "Voir le projet",
     lienBoutonProjet: "/realisations/odyssee-bourg",
     texteBoutonLive: "Voir en direct",
@@ -348,7 +348,7 @@ export const projetsDev = [
           {
             title: "",
             content:
-              'En suivant la maquette fournie par le studio de l\'agence, j\'ai développé un site qui a non seulement facilité la prise de contact, mais a également généré un grand nombre de ventes d\'appartements en dirigeant les prospects vers les commerciaux du promoteur immobilier.',
+              "En suivant la maquette fournie par le studio de l\'agence, j\'ai développé un site qui a non seulement facilité la prise de contact, mais a également généré un grand nombre de ventes d\'appartements en dirigeant les prospects vers les commerciaux du promoteur immobilier. Bref passage technique : le site est développé avec une combinaison de HTML / PHP / JS / Sass. PHP pour le formulaire avec gestion des champs, JS pour toutes les fonctionnalités plus techniques et Sass pour tout le style. Nous travaillons toutes nos landings pages avec le Task Runner Gulp, qui permet d'automatiser tout le processus de construction des fichiers.",
           },
         ],
         rightSection: [
