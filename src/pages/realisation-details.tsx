@@ -105,7 +105,7 @@ const RealisationsDetails = () => {
             ))}
 
             <div className="bouton-live-right mobile">
-              <a href={projet.lienBoutonLive} className="bouton">
+              <a href={projet.lienBoutonLive} className="bouton" target="_blank" rel="noopener noreferrer">
                 {projet.texteBoutonLive}
               </a>
             </div>
