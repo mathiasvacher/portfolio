@@ -3,10 +3,50 @@ import exemple2 from "../../assets/img/realisations/exemple2.webp";
 import exemple3 from "../../assets/img/realisations/exemple3.webp";
 import exemple4 from "../../assets/img/realisations/exemple4.webp";
 
+import financileiphone1 from "../../assets/img/realisations/financile-iphone-1.jpg";
+import financileiphone2 from "../../assets/img/realisations/financile-iphone-2.jpg";
+import financilemacbook1 from "../../assets/img/realisations/financile-mac-1.jpg";
+import financilemacbook2 from "../../assets/img/realisations/financile-mac-2.jpg";
+
+import filtreBgeIphone1 from "../../assets/img/realisations/filtre-bge-iphone-1.jpg";
+import filtreBgeIphone2 from "../../assets/img/realisations/filtre-bge-iphone-2.jpg";
+import filtreBgeMacbook1 from "../../assets/img/realisations/filtre-bge-mac-1.jpg";
+import filtreBgeMacbook2 from "../../assets/img/realisations/filtre-bge-mac-2.jpg";
+
+import odysseeBourgIphone1 from "../../assets/img/realisations/odyssee-bourg-iphone-1.jpg";
+import odysseeBourgIphone2 from "../../assets/img/realisations/odyssee-bourg-iphone-2.jpg";
+import odysseeBourgMacbook1 from "../../assets/img/realisations/odyssee-bourg-mac-1.jpg";
+import odysseeBourgMacbook2 from "../../assets/img/realisations/odyssee-bourg-mac-2.jpg";
+
+import agenceDuLeasingIphone1 from "../../assets/img/realisations/agence-du-leasing-iphone-1.jpg";
+import agenceDuLeasingIphone2 from "../../assets/img/realisations/agence-du-leasing-iphone-2.jpg";
+import agenceDuLeasingMacbook1 from "../../assets/img/realisations/agence-du-leasing-mac-1.jpg";
+import agenceDuLeasingMacbook2 from "../../assets/img/realisations/agence-du-leasing-mac-2.jpg";
+
+import franckArchimbaudIphone1 from "../../assets/img/realisations/franck-archimbaud-iphone-1.jpg";
+import franckArchimbaudIphone2 from "../../assets/img/realisations/franck-archimbaud-iphone-2.jpg";
+import franckArchimbaudMacbook1 from "../../assets/img/realisations/franck-archimbaud-mac-1.jpg";
+import franckArchimbaudMacbook2 from "../../assets/img/realisations/franck-archimbaud-mac-2.jpg";
+
+import plurimmoIphone1 from "../../assets/img/realisations/plurimmo-iphone-1.jpg";
+import plurimmoIphone2 from "../../assets/img/realisations/plurimmo-iphone-2.jpg";
+import plurimmoMacbook1 from "../../assets/img/realisations/plurimmo-mac-1.jpg";
+import plurimmoMacbook2 from "../../assets/img/realisations/plurimmo-mac-2.jpg";
+
+import vivreAnnecyIphone1 from "../../assets/img/realisations/vivre-annecy-iphone-1.jpg";
+import vivreAnnecyIphone2 from "../../assets/img/realisations/vivre-annecy-iphone-2.jpg";
+import vivreAnnecyMacbook1 from "../../assets/img/realisations/vivre-annecy-mac-1.jpg";
+import vivreAnnecyMacbook2 from "../../assets/img/realisations/vivre-annecy-mac-2.jpg";
+
+import vivreVillarsIphone1 from "../../assets/img/realisations/vivre-villars-iphone-1.jpg";
+import vivreVillarsIphone2 from "../../assets/img/realisations/vivre-villars-iphone-2.jpg";
+import vivreVillarsMacbook1 from "../../assets/img/realisations/vivre-villars-mac-1.jpg";
+import vivreVillarsMacbook2 from "../../assets/img/realisations/vivre-villars-mac-2.jpg";
+
 export const projetsDev = [
   // Filtre BGE
   {
-    imgMiniature: exemple,
+    imgMiniature: filtreBgeMacbook1,
     idRea: "filtre-bge", // ID unique pour chaque projet
     titre: "Création de site WordPress - Filtre BGE",
     shortDescription:
@@ -46,10 +86,16 @@ export const projetsDev = [
             content: "Projet de développement web / WordPress",
           },
           { title: "Date du projet", content: "2023" },
+          { title: "Client", content:"Filtre BGE"},
         ],
         imagesPage: {
           title: "Aperçu",
-          images: [exemple, exemple2, exemple3, exemple4],
+          images: [
+            filtreBgeMacbook1,
+            filtreBgeIphone1,
+            filtreBgeIphone2,
+            filtreBgeMacbook2,
+          ],
         },
       },
     ],
@@ -57,7 +103,7 @@ export const projetsDev = [
 
   // Franck Archimbaud
   {
-    imgMiniature: exemple2,
+    imgMiniature: franckArchimbaudIphone1,
     idRea: "franck-archimbaud", // ID unique pour chaque projet
     titre: "Création de site WordPress - Franck Archimbaud",
     shortDescription:
@@ -98,10 +144,17 @@ export const projetsDev = [
             content: "Projet de développement web / wordpress",
           },
           { title: "Date du projet", content: "de 2023 à aujourd'hui" },
+          { title: "Client", content:"Franck Archimbaud"},
+
         ],
         imagesPage: {
           title: "Aperçu",
-          images: [exemple, exemple2, exemple3, exemple4],
+          images: [
+            franckArchimbaudMacbook1,
+            franckArchimbaudIphone1,
+            franckArchimbaudIphone2,
+            franckArchimbaudMacbook2,
+          ],
         },
       },
     ],
@@ -109,7 +162,7 @@ export const projetsDev = [
 
   // Financ'ile
   {
-    imgMiniature: exemple3,
+    imgMiniature: financilemacbook1,
     idRea: "financile", // ID unique pour chaque projet
     titre: "Création de site WordPress - Financ'ile",
     shortDescription:
@@ -148,10 +201,16 @@ export const projetsDev = [
           { title: "Cadre", content: "Avec l'Agence Adjectif" },
           { title: "Type de projet", content: "Projet de développement web" },
           { title: "Date du projet", content: "2024" },
+          { title: "Client", content:"Financile"},
         ],
         imagesPage: {
           title: "Aperçu",
-          images: [exemple, exemple2, exemple3, exemple4],
+          images: [
+            financilemacbook1,
+            financileiphone1,
+            financileiphone2,
+            financilemacbook2,
+          ],
         },
       },
     ],
@@ -159,10 +218,12 @@ export const projetsDev = [
 
   // Agence du Leasing
   {
-    imgMiniature: exemple,
+    imgMiniature: agenceDuLeasingMacbook2,
     idRea: "agence-du-leasing", // ID unique pour chaque projet
-    titre: "Développement de fonctionnalités - WordPress - ACF - Agence du Leasing",
-    shortDescription: "J'ai pu travailler sur un site WordPress complexe pour une agence de location de voiture, utilisant des champs ACF, des données d'API...",
+    titre:
+      "Développement de fonctionnalités - WordPress - ACF - Agence du Leasing",
+    shortDescription:
+      "J'ai pu travailler sur un site WordPress complexe pour une agence de location de voiture, utilisant des champs ACF, des données d'API...",
     outils: [
       "PHP",
       "WordPress",
@@ -198,22 +259,28 @@ export const projetsDev = [
             content: "Projet de développement web / wordpress complexe",
           },
           { title: "Date du projet", content: "2024 - 2025" },
+          { title: "Client", content:"Yooliz / Agence du Leasing"},
         ],
         imagesPage: {
           title: "Aperçu",
-          images: [exemple, exemple2, exemple3, exemple4],
+          images: [
+            agenceDuLeasingMacbook1,
+            agenceDuLeasingIphone1,
+            agenceDuLeasingIphone2,
+            agenceDuLeasingMacbook2,
+          ],
         },
       },
     ],
   },
 
-  
   // Plurimmo
   {
-    imgMiniature: exemple2,
+    imgMiniature: plurimmoIphone1,
     idRea: "plurimmo", // ID unique pour chaque projet
     titre: "Refonte des pages 'Programmes' - WordPress - API - Plurimmo",
-    shortDescription: "J'ai participé au dev. de la refonte des pages programmes du site Plurimmo.",
+    shortDescription:
+      "J'ai participé au dev. de la refonte des pages programmes du site Plurimmo.",
     outils: ["PHP", "API", "WordPress", "HTML", "Sass", "ACF"],
     texteBoutonProjet: "Voir le projet",
     lienBoutonProjet: "/realisations/plurimmo",
@@ -236,12 +303,21 @@ export const projetsDev = [
         ],
         rightSection: [
           { title: "Cadre", content: "Avec l'Agence Adjectif" },
-          { title: "Type de projet", content: "Projet de développement web / wordpress complexe" },
+          {
+            title: "Type de projet",
+            content: "Projet de développement web / wordpress complexe",
+          },
           { title: "Date du projet", content: "2024" },
+          { title: "Client", content:"Plurimmo"},
         ],
         imagesPage: {
           title: "Aperçu",
-          images: [exemple, exemple2, exemple3, exemple4],
+          images: [
+            plurimmoMacbook1,
+            plurimmoIphone1,
+            plurimmoIphone2,
+            plurimmoMacbook2,
+          ],
         },
       },
     ],
@@ -249,11 +325,21 @@ export const projetsDev = [
 
   // Vivre Villars
   {
-    imgMiniature: exemple3,
+    imgMiniature: vivreVillarsMacbook1,
     idRea: "vivre-villars", // ID unique pour chaque projet
     titre: "Création de landing page - Vivre Villars",
-    shortDescription: "Développement d'une landing page pour UTEI visant à faciliter la prise de contact d'un programme immo.",
-    outils: ["PHP", "JS", "Sass", "HTML", "NodeJS", "Suivi de maquette", "Gulp", "NPM"],
+    shortDescription:
+      "Développement d'une landing page pour UTEI visant à faciliter la prise de contact d'un programme immo.",
+    outils: [
+      "PHP",
+      "JS",
+      "Sass",
+      "HTML",
+      "NodeJS",
+      "Suivi de maquette",
+      "Gulp",
+      "NPM",
+    ],
     texteBoutonProjet: "Voir le projet",
     lienBoutonProjet: "/realisations/vivre-villars",
     texteBoutonLive: "Voir en direct",
@@ -276,11 +362,17 @@ export const projetsDev = [
         rightSection: [
           { title: "Cadre", content: "Avec l'Agence Adjectif" },
           { title: "Type de projet", content: "Projet de développement web" },
-          { title: "Date du projet", content: "2045" },
+          { title: "Date du projet", content: "2024" },
+          { title: "Client", content:"U.T.E.I."},
         ],
         imagesPage: {
           title: "Aperçu",
-          images: [exemple, exemple2, exemple3, exemple4],
+          images: [
+            vivreVillarsMacbook1,
+            vivreVillarsIphone1,
+            vivreVillarsIphone2,
+            vivreVillarsMacbook2,
+          ],
         },
       },
     ],
@@ -288,11 +380,21 @@ export const projetsDev = [
 
   // Vivre Annecy
   {
-    imgMiniature: exemple4,
+    imgMiniature: vivreAnnecyIphone1,
     idRea: "vivre-annecy", // ID unique pour chaque projet
     titre: "Création de landing page - Vivre Annecy",
-    shortDescription: "Développement d'une landing page pour Eiffage visant à faciliter la prise de contact d'un programme immo.",
-    outils: ["PHP", "JS", "Sass", "HTML", "NodeJS", "Suivi de maquette", "Gulp", "NPM"],
+    shortDescription:
+      "Développement d'une landing page pour Eiffage visant à faciliter la prise de contact d'un programme immo.",
+    outils: [
+      "PHP",
+      "JS",
+      "Sass",
+      "HTML",
+      "NodeJS",
+      "Suivi de maquette",
+      "Gulp",
+      "NPM",
+    ],
     texteBoutonProjet: "Voir le projet",
     lienBoutonProjet: "/realisations/vivre-annecy",
     texteBoutonLive: "Voir en direct",
@@ -316,10 +418,16 @@ export const projetsDev = [
           { title: "Cadre", content: "Avec l'Agence Adjectif" },
           { title: "Type de projet", content: "Projet de développement web" },
           { title: "Date du projet", content: "2024" },
+          { title: "Client", content:"Eiffage"},
         ],
         imagesPage: {
           title: "Aperçu",
-          images: [exemple, exemple2, exemple3, exemple4],
+          images: [
+            vivreAnnecyMacbook1,
+            vivreAnnecyIphone1,
+            vivreAnnecyIphone2,
+            vivreAnnecyMacbook2,
+          ],
         },
       },
     ],
@@ -327,11 +435,21 @@ export const projetsDev = [
 
   // Odyssée bourg
   {
-    imgMiniature: exemple3,
+    imgMiniature: odysseeBourgMacbook1,
     idRea: "odyssee-bourg", // ID unique pour chaque projet
     titre: "Création de landing page - Odysée Bourg",
-    shortDescription: "Développement d'une landing page pour Care Immobilier visant à faciliter la prise de contact d'un programme immo.",
-    outils: ["PHP", "JS", "Sass", "HTML", "NodeJS", "Suivi de maquette", "Gulp", "NPM"],
+    shortDescription:
+      "Développement d'une landing page pour Care Immobilier visant à faciliter la prise de contact d'un programme immo.",
+    outils: [
+      "PHP",
+      "JS",
+      "Sass",
+      "HTML",
+      "NodeJS",
+      "Suivi de maquette",
+      "Gulp",
+      "NPM",
+    ],
     texteBoutonProjet: "Voir le projet",
     lienBoutonProjet: "/realisations/odyssee-bourg",
     texteBoutonLive: "Voir en direct",
@@ -343,30 +461,33 @@ export const projetsDev = [
           {
             title: "Contexte",
             content:
-              'En tant que membre de l\'agence Adjectif, spécialisée dans l\'immobilier, j\'ai eu l\'opportunité de travailler sur la création d\'une landing page dédiée à un programme immobilier. Le but principal était de simplifier le processus de contact et d\'assurer une redirection optimale pour les campagnes de marketing digital.',
+              "En tant que membre de l'agence Adjectif, spécialisée dans l'immobilier, j'ai eu l'opportunité de travailler sur la création d'une landing page dédiée à un programme immobilier. Le but principal était de simplifier le processus de contact et d'assurer une redirection optimale pour les campagnes de marketing digital.",
           },
           {
             title: "",
             content:
-              "En suivant la maquette fournie par le studio de l\'agence, j\'ai développé un site qui a non seulement facilité la prise de contact, mais a également généré un grand nombre de ventes d\'appartements en dirigeant les prospects vers les commerciaux du promoteur immobilier. Bref passage technique : le site est développé avec une combinaison de HTML / PHP / JS / Sass. PHP pour le formulaire avec gestion des champs, JS pour toutes les fonctionnalités plus techniques et Sass pour tout le style. Nous travaillons toutes nos landings pages avec le Task Runner Gulp, qui permet d'automatiser tout le processus de construction des fichiers.",
+              "En suivant la maquette fournie par le studio de l'agence, j'ai développé un site qui a non seulement facilité la prise de contact, mais a également généré un grand nombre de ventes d'appartements en dirigeant les prospects vers les commerciaux du promoteur immobilier. Bref passage technique : le site est développé avec une combinaison de HTML / PHP / JS / Sass. PHP pour le formulaire avec gestion des champs, JS pour toutes les fonctionnalités plus techniques et Sass pour tout le style. Nous travaillons toutes nos landings pages avec le Task Runner Gulp, qui permet d'automatiser tout le processus de construction des fichiers.",
           },
         ],
         rightSection: [
           { title: "Cadre", content: "Avec l'Agence Adjectif" },
           { title: "Type de projet", content: "Projet de développement web" },
           { title: "Date du projet", content: "2024" },
+          { title: "Client", content:"CARE Promotion"},
         ],
         imagesPage: {
           title: "Aperçu",
-          images: [exemple, exemple2, exemple3, exemple4],
+          images: [
+            odysseeBourgMacbook1,
+            odysseeBourgIphone1,
+            odysseeBourgIphone2,
+            odysseeBourgMacbook2,
+          ],
         },
       },
     ],
   },
 ];
-
-
-
 
 export const projetsCreation = [
   // INVITE ETOILE
@@ -374,12 +495,14 @@ export const projetsCreation = [
     imgMiniature: exemple3,
     idRea: "invite-etoile", // ID unique pour chaque projet
     titre: "Création de DA - Invité Étolé",
-    shortDescription: "J'ai pu créer, imaginer et donner une identité à une marque fictive de livraison de repas gastronomique.",
+    shortDescription:
+      "J'ai pu créer, imaginer et donner une identité à une marque fictive de livraison de repas gastronomique.",
     outils: ["Figma", "Illustrator", "Figma Slides", "Photoshop", "InDesign"],
     texteBoutonProjet: "Voir le projet",
     lienBoutonProjet: "/realisations/invite-etoile",
     texteBoutonLive: "Voir en direct",
-    lienBoutonLive: "https://www.figma.com/deck/thFG2apzHX8q8WRHxsM2Cy/Dossier-invit%C3%A9-%C3%A9toil%C3%A9?node-id=1-25&t=xTJGnx4AmS2K8Ef0-1",
+    lienBoutonLive:
+      "https://www.figma.com/deck/thFG2apzHX8q8WRHxsM2Cy/Dossier-invit%C3%A9-%C3%A9toil%C3%A9?node-id=1-25&t=xTJGnx4AmS2K8Ef0-1",
 
     contentPage: [
       {
@@ -387,17 +510,20 @@ export const projetsCreation = [
           {
             title: "Contexte",
             content:
-              'Dans mon master 2, j\'ai la chance d\'avoir une composante web majeure, mais aussi de matières qui me permettent d\'exprimer ma créativité grâce à des projets de grande envergure. Dans ce cas, c\'était la création d\'une identité pour une marque de livraison de repas gastronomique à domicile. Logo, identité propre, mockup, concept... Il a fallu tout imaginer et concevoir',
+              "Dans mon master 2, j'ai la chance d'avoir une composante web majeure, mais aussi de matières qui me permettent d'exprimer ma créativité grâce à des projets de grande envergure. Dans ce cas, c'était la création d'une identité pour une marque de livraison de repas gastronomique à domicile. Logo, identité propre, mockup, concept... Il a fallu tout imaginer et concevoir",
           },
           {
             title: "Objectifs",
             content:
-              "Je suis resté très classique dans mes décisions, des couleurs très simples et classiques de l\'univers de la gastronomie, mais la ou mon idée se distingue : le concept. Grâce au concept que vous pourrez retrouver sur mon document Figma Slides, j'ai pu concevoir des idées d\'éléments marketing très pertinent et quio nt du sens. Une expérience très enrichissante, et qui m\'a permis de mieux découvrir des logiciels comme InDesign ou Illustrator.",
+              "Je suis resté très classique dans mes décisions, des couleurs très simples et classiques de l'univers de la gastronomie, mais la ou mon idée se distingue : le concept. Grâce au concept que vous pourrez retrouver sur mon document Figma Slides, j'ai pu concevoir des idées d'éléments marketing très pertinent et quio nt du sens. Une expérience très enrichissante, et qui m'a permis de mieux découvrir des logiciels comme InDesign ou Illustrator.",
           },
         ],
         rightSection: [
           { title: "Cadre", content: "Dans le cadre de mon Master 2 - CIM" },
-          { title: "Type de projet", content: "Projet de création d'identité de marque" },
+          {
+            title: "Type de projet",
+            content: "Projet de création d'identité de marque",
+          },
           { title: "Date du projet", content: "2025" },
         ],
         imagesPage: {
@@ -413,12 +539,14 @@ export const projetsCreation = [
     imgMiniature: exemple4,
     idRea: "come-on", // ID unique pour chaque projet
     titre: "Maquette - Application Come On",
-    shortDescription: "Création et maquettage d'une application de mise en relation de salle de concert & d'artistes.",
+    shortDescription:
+      "Création et maquettage d'une application de mise en relation de salle de concert & d'artistes.",
     outils: ["Figma", "Photoshop", "Illustrator"],
     texteBoutonProjet: "Voir le projet",
     lienBoutonProjet: "/realisations/come-on",
     texteBoutonLive: "Voir en direct",
-    lienBoutonLive: "https://www.figma.com/proto/2OftsdFPf8sxbVeFXgiWrQ/Application-UX-Musicien-%2F-Salle---Mathias-VACHER?node-id=4402-28&t=T7c71fKeOhIMxy7u-1",
+    lienBoutonLive:
+      "https://www.figma.com/proto/2OftsdFPf8sxbVeFXgiWrQ/Application-UX-Musicien-%2F-Salle---Mathias-VACHER?node-id=4402-28&t=T7c71fKeOhIMxy7u-1",
 
     contentPage: [
       {
@@ -426,17 +554,20 @@ export const projetsCreation = [
           {
             title: "Contexte",
             content:
-              'Dans le cadre de mon Master 2, j\'ai eu l\'occasion de beaucoup m\'intéresser à l\'UX des sites Internet, mais aussi des applications mobiles. Ce projet, Come On, a été imaginé et créé de A à Z sur Figma, en incorporant des designs et images avec Illustrator/Photoshop. Il a aussi été maquetté et est disponible en ligne.',
+              "Dans le cadre de mon Master 2, j'ai eu l'occasion de beaucoup m'intéresser à l'UX des sites Internet, mais aussi des applications mobiles. Ce projet, Come On, a été imaginé et créé de A à Z sur Figma, en incorporant des designs et images avec Illustrator/Photoshop. Il a aussi été maquetté et est disponible en ligne.",
           },
           {
             title: "Objectifs",
             content:
-              "L'objectif était de proposer un design d'application mobile pour mettre en relation des salles de concert & des artistes. Les seules consignes étaient d'avoir un minimum de pages, que j'ai largement dépassé. Les couleurs, le logo, les différentes pages, la création de composants atomiques sur Figma, le respect de règles élémentaires de l\'UX... ce projet m\'a permis d'aborder tout cela d'un oeil professionnel, et m'a permis de grandemenet m'améliorer en design, mais aussi pour mes choix quand je développe des sites Internet par exemple.",
+              "L'objectif était de proposer un design d'application mobile pour mettre en relation des salles de concert & des artistes. Les seules consignes étaient d'avoir un minimum de pages, que j'ai largement dépassé. Les couleurs, le logo, les différentes pages, la création de composants atomiques sur Figma, le respect de règles élémentaires de l'UX... ce projet m'a permis d'aborder tout cela d'un oeil professionnel, et m'a permis de grandemenet m'améliorer en design, mais aussi pour mes choix quand je développe des sites Internet par exemple.",
           },
         ],
         rightSection: [
           { title: "Cadre", content: "Dans le cadre de mon Master 2 - CIM" },
-          { title: "Type de projet", content: "Projet de création & de maquettage d'application mobile" },
+          {
+            title: "Type de projet",
+            content: "Projet de création & de maquettage d'application mobile",
+          },
           { title: "Date du projet", content: "2024" },
         ],
         imagesPage: {
@@ -452,12 +583,14 @@ export const projetsCreation = [
     imgMiniature: exemple4,
     idRea: "cusset-histoire", // ID unique pour chaque projet
     titre: "Maquette - Application Visite Historique - Cusset",
-    shortDescription: "Création et maquettage d'une application de visite de lieux historiques de la région Lyonnaise.",
+    shortDescription:
+      "Création et maquettage d'une application de visite de lieux historiques de la région Lyonnaise.",
     outils: ["Figma", "Photoshop", "Illustrator"],
     texteBoutonProjet: "Voir le projet",
     lienBoutonProjet: "/realisations/cusset-histoire",
     texteBoutonLive: "Voir en direct",
-    lienBoutonLive: "https://www.figma.com/proto/BU0UrpVoj4XkhMTQVruvSu/Application-Histoire-de-l'art?node-id=0-1&t=NoDaCaF43XRX53xV-1",
+    lienBoutonLive:
+      "https://www.figma.com/proto/BU0UrpVoj4XkhMTQVruvSu/Application-Histoire-de-l'art?node-id=0-1&t=NoDaCaF43XRX53xV-1",
 
     contentPage: [
       {
@@ -465,7 +598,7 @@ export const projetsCreation = [
           {
             title: "Contexte",
             content:
-               "Dans le cadre de mon Master 2, j'ai eu l'opportunité de travailler sur des projets innovants alliant technologie et expérience utilisateur. Ce projet, qui porte sur une application de visite de lieux historiques en réalité augmentée (AR), a été conçu de A à Z. Tout a été imaginé sur Figma, avec une attention particulière aux détails visuels, tout en intégrant des éléments interactifs créés avec des outils comme Illustrator et Photoshop. Le prototype est fonctionnel et disponible en ligne pour une exploration immersive des lieux historiques.",
+              "Dans le cadre de mon Master 2, j'ai eu l'opportunité de travailler sur des projets innovants alliant technologie et expérience utilisateur. Ce projet, qui porte sur une application de visite de lieux historiques en réalité augmentée (AR), a été conçu de A à Z. Tout a été imaginé sur Figma, avec une attention particulière aux détails visuels, tout en intégrant des éléments interactifs créés avec des outils comme Illustrator et Photoshop. Le prototype est fonctionnel et disponible en ligne pour une exploration immersive des lieux historiques.",
           },
           {
             title: "Objectifs",
@@ -475,7 +608,10 @@ export const projetsCreation = [
         ],
         rightSection: [
           { title: "Cadre", content: "Dans le cadre de mon Master 2 - CIM" },
-          { title: "Type de projet", content: "Projet de création & de maquettage d'application mobile" },
+          {
+            title: "Type de projet",
+            content: "Projet de création & de maquettage d'application mobile",
+          },
           { title: "Date du projet", content: "2024" },
         ],
         imagesPage: {
@@ -491,7 +627,8 @@ export const projetsCreation = [
     imgMiniature: exemple4,
     idRea: "motion-design-logo", // ID unique pour chaque projet
     titre: "Motion design - Logo",
-    shortDescription: "Création d'un motion design très simple d'un logo d'une marque fictive - Go Fresh",
+    shortDescription:
+      "Création d'un motion design très simple d'un logo d'une marque fictive - Go Fresh",
     outils: ["After Effect", "Illustrator"],
     texteBoutonProjet: "Voir le projet",
     lienBoutonProjet: "/realisations/motion-design-logo-gofresh",
@@ -514,7 +651,10 @@ export const projetsCreation = [
         ],
         rightSection: [
           { title: "Cadre", content: "Dans le cadre de mon Master 2 - CIM" },
-          { title: "Type de projet", content: "Projet de motion design - sound design" },
+          {
+            title: "Type de projet",
+            content: "Projet de motion design - sound design",
+          },
           { title: "Date du projet", content: "2024" },
         ],
         imagesPage: {
