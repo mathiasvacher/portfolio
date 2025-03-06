@@ -103,7 +103,7 @@ export const projetsDev = [
 
   // Franck Archimbaud
   {
-    imgMiniature: franckArchimbaudIphone1,
+    imgMiniature: franckArchimbaudMacbook1,
     idRea: "franck-archimbaud", // ID unique pour chaque projet
     titre: "Création de site WordPress - Franck Archimbaud",
     shortDescription:
