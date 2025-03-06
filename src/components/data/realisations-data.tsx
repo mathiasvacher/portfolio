@@ -218,7 +218,7 @@ export const projetsDev = [
 
   // Agence du Leasing
   {
-    imgMiniature: agenceDuLeasingMacbook2,
+    imgMiniature: agenceDuLeasingIphone2,
     idRea: "agence-du-leasing", // ID unique pour chaque projet
     titre:
       "Développement de fonctionnalités - WordPress - ACF - Agence du Leasing",
