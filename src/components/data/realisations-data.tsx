@@ -71,14 +71,25 @@ export const projetsDev = [
           {
             title: "Contexte",
             content:
-              "L'entreprise Filtre BGE est spécialisée dans les équipements aéraulique. Ils font lintermédiaire entre les fournisseurs et les clients de ce type de produits. En 2023, ils décident de m'engager en temps que stagiaire pour concevoir et réaliser leur site.   ",
+              "L'entreprise Filtre BGE est spécialisée dans les équipements aérauliques, faisant l'intermédiaire entre les fournisseurs et les clients de ces produits. En 2023, ils ont décidé de m'engager en tant que stagiaire pour concevoir et réaliser leur site.",
           },
           {
             title: "Objectifs",
             content:
-              "Ils ont plusieurs consignes : il leur faut un site moderne, et qui sorte des codes de leur industrie (de la ventilation, de l'usine, de la poussière...). Leur attente principale de ce site est la possibilité pour les clients de sélectionner des filtres (ainsi que d'entrer leurs caractéristiques), et de les ajouter à une demande de devis. Après avoir prit le temps de réfléchir à la meilleure manière d'appréhender ce projet, j'ai trouvé qu'un site e-commerce type WordPress / WooCommerce allait parfaitement remplir les conditions fixées par l'entreprise. C'est donc en utilisant une combinaison d'Elementor, de Wordpress, de WooCommerce ainsi que de plugins annexes que j'ai réussi à arriver un résultat tout à fait satisfaisant pour Filtre BGE. Ils m'ont indiqué que leurs demandes de contact & leurs conversions ont explosées depuis la mise en ligne du site, et que j'étais allé bien au delà de leurs attentes. Pour rentrer un peu plus dans le côté technique du projet : j'ai utilisé un thème enfant pour modifier des composants de WooCommerce (affichage panier, gestion des caractéristiques des filtres à afficher / à gérer dans les mails, j'ai créé des designs de A à Z sur Figma puis intégrés sur Elementor, j'ai du adapter certains plugins qui n'étaient pas compatibles entre-eux et qui m'ont permis de gagner des heures de développement...",
+              "L'objectif principal de Filtre BGE était d'obtenir un site moderne, loin des codes traditionnels de l'industrie de la ventilation. Leur attente clé était d'offrir aux clients la possibilité de sélectionner des filtres, de renseigner leurs caractéristiques (ex : taille, efficacité, etc.) et de les ajouter à une demande de devis. Après avoir étudié la meilleure solution, j'ai opté pour un site e-commerce basé sur WordPress/WooCommerce, qui répondait parfaitement aux besoins de l'entreprise. En utilisant Elementor, WooCommerce, et divers plugins, j'ai livré un résultat très satisfaisant.",
+          },
+          {
+            title: "Technique",
+            content:
+              "Le projet a nécessité une personnalisation poussée de WooCommerce pour répondre aux spécifications de Filtre BGE. J'ai créé un thème enfant pour adapter les composants de WooCommerce, comme l'affichage du panier et la gestion des caractéristiques des filtres. Un défi majeur a été de faire fonctionner ensemble des plugins incompatibles, pour lesquels j'ai utilisé des hooks et filtres WordPress afin d'ajuster leur intégration. L'intégration de Figma avec Elementor a permis de concevoir une interface moderne et intuitive. Des optimisations de performance ont été réalisées, notamment la réduction de la taille des images et l'élimination de scripts inutiles pour accélérer le temps de chargement du site.",
+          },
+          {
+            title: "Résultats",
+            content:
+              "Le site a largement dépassé les attentes de Filtre BGE. Les demandes de contact et les conversions ont considérablement augmenté, impactant positivement leur chiffre d'affaires. Le processus de demande de devis a été simplifié et rendu plus accessible, contribuant à une expérience utilisateur plus fluide. La gestion des filtres et la personnalisation des demandes ont également optimisé les processus commerciaux.  Filtre BGE est très satisfait du retour sur investissement et de la satisfaction client générée par le projet. Enfin, un site de ce type donne une bien meilleure image de l'entreprise, et permet aux clients d'avoir confiance en Filtre BGE.",
           },
         ],
+        
         rightSection: [
           { title: "Cadre", content: "En stage de Licence 3" },
           {
@@ -129,14 +140,25 @@ export const projetsDev = [
           {
             title: "Contexte",
             content:
-              "En recherche de client pour développer mon portfolio, j'ai contacté tous types de clients pour leur proposer de développer leur site / leur image en ligne. Franck Archimbaud, masseur kinésithérapeute m'a répondu qu'il était très intéressé, mais que son domaine était très réglementé. Après m'y être intéressé et avoir vu si j'étais apte à répondre à ses attentes, nous avons commencé à discuter de celles-ci. ",
+              "En recherche de clients pour développer mon portfolio, j'ai contacté divers professionnels pour leur proposer mes services de développement web. Franck Archimbaud, masseur kinésithérapeute, m'a répondu positivement. Cependant, il m'a précisé que son domaine était très réglementé, ce qui m'a poussé à me renseigner sur les contraintes spécifiques avant de me lancer dans le projet.",
           },
           {
             title: "Objectifs",
             content:
-              "Les attentes de M. Archimbaud étaient assez claires : avoir une présence en ligne (autre que simplement Doctolib / les pages jaunes), et d'avoir un endroit ou centraliser ses demandes de contact ou/et de rendez-vous. Il n'avait pas plus d'attentes, et ne m'a pas précisé de thème, de couleurs, ou d'inspirations pour le site. J'ai donc du me creuser la tête pour lui proposer quelque chose que je trouvais cohérent avec son activité, mais surtout qui respectait les conditions fixées par l'ordre des médecins. Je suis arrivé à un résultat qui convient très bien à mon client et à moi aussi. Je continue d'intervenir sur son site pour mettre à jour les actualités, pour régler les problèmes qui peuvent survenir...",
+              "M. Archimbaud avait pour objectif d'établir une présence en ligne au-delà des plateformes classiques comme Doctolib. Il souhaitait un site permettant de centraliser ses demandes de contact et de rendez-vous, sans préciser de thème ou de préférences particulières quant au style de son site. J'ai donc dû imaginer un design cohérent avec son activité tout en respectant les réglementations strictes du domaine médical. Le site a été conçu pour répondre à ses besoins tout en respectant les contraintes imposées par l'ordre des médecins.",
+          },
+          {
+            title: "Technique",
+            content:
+              "Le site a été développé sur WordPress avec une utilisation avancée d'Elementor pour la création de pages personnalisées. J'ai également pris le soin de choisir  des plugins sur mesure pour gérer les demandes de contact et de rendez-vous, tout en garantissant la sécurité des données personnelles des patients. La conformité avec le RGPD et d'autres régulations du domaine médical a été une priorité. L'objectif était d'offrir une interface simple et fonctionnelle, permettant aux patients de prendre rendez-vous facilement, tout en respectant les exigences réglementaires et en offrant une expérience utilisateur fluide (du aux visiteurs qui sont souvent âgés et peu à l'aise avec la technologie).",
+          },
+          {
+            title: "Résultats",
+            content:
+              "Le site a permis à M. Archimbaud d'acquérir une véritable présence professionnelle en ligne. Les patients peuvent désormais prendre rendez-vous directement sur le site, et toutes les demandes sont centralisées, simplifiant ainsi la gestion des rendez-vous. En termes de visibilité, le site a commencé à générer du trafic , ce qui a amélioré la position de M. Archimbaud dans les résultats de recherche locaux. Le site répond également aux exigences des organismes de santé, renforçant ainsi la crédibilité du professionnel auprès de ses patients. Le projet a non seulement répondu aux attentes du client, mais a également facilité la gestion de son activité et amélioré sa visibilité en ligne tout en proposant des informations sur le parcours et les pratiques proposées par M. Franck Archimbaud à son cabinet.",
           },
         ],
+        
         rightSection: [
           { title: "Cadre", content: "En freelance" },
           {
@@ -189,14 +211,25 @@ export const projetsDev = [
           {
             title: "Contexte",
             content:
-              "Pour un client de l'agence Adjectif lors de mon alternance, j'ai eu la chance de travailler sur le site de l'entreprise Financile. Ce site avait été maquetté par une UX Designer externe à l'agence sur Figma, que j'ai pu suivre au mieux pour créer chacune des pages et animations présentes sur le site.",
+              "Lors de mon alternance à l'agence Adjectif, j'ai eu l'opportunité de travailler sur le site de l'entreprise Financile. La maquette a été réalisée par une UX Designer externe à l'agence, sur Figma, et j'ai suivi ces maquettes pour créer chacune des pages et animations du site.",
           },
           {
             title: "Objectifs",
             content:
-              "Le principal objectif était d'être le plus fidèle à la maquette possible, ce qui est chose faite. À la fin du mois de février 2025 le site est encore en preprod, car le client n'a pas le encore prit le temps de vérifier et de valider le site. Comme précisé dans les outils, ce site est le résultat d'une combinaison de blocks gutenberg, de champs ACF, de code PHP/JS, de bootstrap/sass. J'ai développé 100% de ce qui est visible en ligne, et c'est évidemment développé pour mobile & desktop. La technique de ce projet résidait vraiment dans le côté administrable de ce site. Il fallait que les pages et leur contenu soient toutes administrables via des blocks Gutenberg, et/ou des champs ACF. C'est chose faite, l'énorme majorité du contenu est administrable depuis les pages d'administration, ils ont aussi une page 'Options' d'ACF qui leur permet de gérer les numéros de téléphones affichées, les informations des agences, quand la nouvelle agence ouvrira ils auront la possibilité de la créer et elle s'ajoutera automatiquement au divers endroits du site... Un projet technique à prendre en main, mais qui s'est très bien déroulé et que j'ai hâte de mettre en production.",
+              "L'objectif principal était de respecter au mieux la maquette fournie. À la fin du mois de février 2025, le site est encore en pré-production, car le client n'a pas encore validé la version finale. Le projet utilise une combinaison de blocs Gutenberg, de champs ACF, de code PHP/JS, et de Bootstrap/Sass pour garantir une gestion facile du contenu. J'ai développé 100% du site visible en ligne, avec une version mobile et desktop entièrement fonctionnelle. Un des défis techniques a été de rendre le site administrable via Gutenberg et ACF, permettant au client de gérer facilement les contenus, notamment l'ajout de nouvelles agences, les informations de contact, et autres éléments du site.",
+          },
+          {
+            title: "Technique",
+            content:
+              "Le site a été construit sur WordPress, utilisant Gutenberg pour la gestion des pages avec des blocs personnalisés, et ACF pour la personnalisation du contenu. Les informations comme les numéros de téléphone et les détails des agences sont entièrement gérées via le back-office, avec une page d'options permettant au client d'ajouter de nouvelles agences, qui seront automatiquement intégrées dans tout le site. Le développement backend utilise PHP pour gérer les fonctionnalités, tandis que le frontend repose sur Bootstrap et Sass pour garantir un design responsive, fonctionnant parfaitement sur mobile et desktop. Des animations et interactions dynamiques ont été ajoutées grâce à JQuery et JavaScript, améliorant l'expérience utilisateur.",
+          },
+          {
+            title: "Résultats",
+            content:
+              "Une fois mis en production, le site permettra au client de gérer son contenu de manière autonome, sans compétences techniques. Les pages seront entièrement modifiables et administrable. Le design responsive garantit une expérience fluide tant sur mobile que sur desktop. Le site offre une interface flexible et bénéficie également de performances optimisées, avec des temps de chargement rapides. Une fois validé par le client, ce site augmentera la visibilité de l'entreprise tout en répondant à ses besoins administratifs et commerciaux. ",
           },
         ],
+        
         rightSection: [
           { title: "Cadre", content: "Avec l'Agence Adjectif" },
           { title: "Type de projet", content: "Projet de développement web" },
@@ -244,14 +277,25 @@ export const projetsDev = [
           {
             title: "Contexte",
             content:
-              "J'ai eu l'opportunité de travailler sur le site d'un client développé par un précédent développeur de l'agence Adjectif durant mon alternance : le site de l'Agence du Leasing. Ce site WordPress est très complexe, il fait appel à une API pour créer et remplir des Custom Post Type de voitures, et les afficher sur le site pour les proposer à la location. En passant outre les détails techniques, ce site était très dense et délicat à appréhender.",
+              "Lors de mon alternance à l'agence Adjectif, j'ai travaillé sur le site de l'Agence du Leasing, un projet WordPress complexe qui avait été développé par un précédent développeur. Le site utilise une API pour importer et remplir des Custom Post Types de voitures destinées à la location. Il s'agissait d'un site dense et technique, difficile à appréhender au départ.",
           },
           {
             title: "Objectifs",
             content:
-              "J'ai été chargé de modifications plus ou moins importantes en fonction des attentes et besoins du client. De la simple création de nouvelle page avec de légères sections administrables via champs ACF à la gestion des importations des voitures via API + utilisation pour la création de template-parts pour des carousels complexes, j'ai pu m'améliorer et prendre en compétences sur WordPress de manière très rapide et sur des points que je n'avais pas encore eu l'occasion d'aborder. Côté technique maintenant, mes missions étaient très diverses. J'ai pu par exemple créer une fonction qui allait récupérer des informations dans l'API du client et qui, grâce à celles-ci et à une liaison à des informations entrées dans des champs ACF, générait les patchs sur les carousels / cartes des voitures. J'ai pu aussi créer des systèmes de fonctionnement complexe d'affichage et de gestion des voitures, la gestion des prises de contact avec des champs dynamiques dans les formulaires CF7... Un projet très complet qui m'a grandement apprit et auxquel je suis très chanceux d'avoir pu prendre part.",
+              "Mon rôle était de réaliser différentes modifications sur le site en fonction des besoins du client. Cela allait de la création de pages et de sections administrables via ACF à la modification de l'importantion des voitures via l'API du client. J'ai aussi développé des template-parts pour gérer des carousels complexes et travailler sur des systèmes dynamiques d'affichage et de gestion des voitures. Ce projet m'a permis de rapidement améliorer mes compétences sur WordPress, notamment dans l'intégration d'API et la création de fonctionnalités sur mesure.",
+          },
+          {
+            title: "Technique",
+            content:
+              "Le projet a impliqué une gestion avancée de WordPress, avec une utilisation poussée d'ACF pour rendre les données des voitures et des pages facilement administrables. L'un des aspects clés a été la modification de l'API pour importer des données sur les voitures et les lier aux Custom Post Types. J'ai développé une fonction PHP sur mesure pour automatiser ce processus et afficher dynamiquement les données sur le site. Les carousels et les cartes des voitures ont été rendus interactifs et dynamiques grâce à des template-parts personnalisés. J'ai également modifié les formulaires CF7 en y ajoutant des champs dynamiques pour optimiser la collecte des informations. Un travail sur la logique d'affichage des voitures a été réalisé en JavaScript pour gérer les interactions et animations sur la page.",
+          },
+          {
+            title: "Résultats",
+            content:
+              "Le site a permis à l'Agence du Leasing de gérer efficacement sa flotte de voitures à louer, avec une interface administrable via ACF/l'administration de WP. L'intégration de l'API a assuré que le site reste toujours à jour avec les données les plus récentes, sans intervention manuelle. Les carousels dynamiques ont amélioré la présentation des voitures, offrant une expérience utilisateur fluide et engageante. Les formulaires CF7 ont optimisé la gestion des demandes de contact, avec des informations plus précises et faciles à traiter. Ce projet a également permis de réduire les erreurs manuelles et d'améliorer l'efficacité du site pour l'équipe de l'agence. Grâce à ce projet, j'ai acquis des compétences solides en gestion d'API, personnalisation de WordPress et développement de fonctionnalités sur mesure.",
           },
         ],
+        
         rightSection: [
           { title: "Cadre", content: "Avec l'Agence Adjectif" },
           {
@@ -293,14 +337,25 @@ export const projetsDev = [
           {
             title: "Contexte",
             content:
-              "Dans une quête de remise à neuf de son site web WordPress, le client Plurimmo de l'agence Adjectif à souhaité que nous retravaillons les pages 'Programmes' en ligne. J'ai donc pu, après avoir étudié la maquette créé par le studio de l'agence, m'attaquer au développement de ce modèle de page. Il y avait énormément d'informations à récupérer soit de champs ACF, soit de serveurs externes via une API, soit dans des custom post type.",
+              "Dans le cadre de la refonte de son site WordPress, le client Plurimmo, représenté par l'agence Adjectif, m'a confié la tâche de retravailler les pages 'Programmes'. Après avoir étudié la maquette créée par le studio de l'agence, je me suis attaqué au développement de ce modèle de page. L'intégration des informations s'est faite en puisant dans différents types de données : champs ACF, API externes, et Custom Post Types.",
           },
           {
             title: "Objectifs",
             content:
-              "L'objectif principal était de donner un aspect plus moderne au site du client, tout en permettant de retrouver les mêmes informations qu'avant. Nous avons donc un hero de page relativement simple, avec les infos clés sur la gauche et des boutons importants en dessous, puis dans la suite de la page certaines sections clés. Des tableaux de prix administrables complètement, ou autonome en fonction des données récupérées dans l'API (par exemple : si tous les prix sont cachés, on décide de ne pas afficher la colonne de prix..., ou encore de la gestion de variable/du nom des données). J'ai donc pu toucher à une API très complexe, à la gestion de custom post type, de l'intégration de maquette, de la gestion de librairies pour les carousel, de la création de blocks pour gérer les sections \"voir plus\"... Un projet très dense et qui m'a prit du temps, mais que j'ai pris plaisir à voir évoluer. Pour mentionner le côté plus technique maintenant : le plus complexe sur la refonte des pages Programmes était de complexe les données de l'API, et toutes les subtilités qui venaient avec. Certains logements étaient nommés des 'Studio', d'autres simplement des 'T1', il a fallu faire un gros travail en amont de préparation des données avant de les afficher et de créer la structure du site. En ajoutant à cela le fait que chacune des sections (hors celles qui affichées des données de l'API) est administrable mais pas obligatoire, cela donne un site très complet et qui nous pousse à prendre un temps de réflexion avant de procéder à des modifications.",
+              "L'objectif principal était de moderniser le site tout en conservant la structure des informations existantes. J'ai créé une page avec un hero simple, comprenant les informations clés à gauche et des boutons importants en dessous, suivi de sections dynamiques. Parmi les éléments clés de la page, il y avait des tableaux de prix administrables, qui se mettaient à jour de manière autonome selon les données récupérées dans l'API. Le travail sur l'API a été complexe, car il a fallu comprendre et traiter les données, notamment la gestion des termes comme 'Studio' ou 'T1'. Ce projet m'a permis d'intervenir sur des aspects très techniques, comme l'intégration d'API, la gestion de custom post types, l'intégration de maquettes, et la création de blocs Gutenberg pour l'administration du site. Chaque section du site était flexible, mais non obligatoire, ce qui a rendu la gestion du projet plus délicate, mais passionnante.",
           },
+          {
+            title: "Technique",
+            content:
+              "Le projet a demandé une gestion avancée de données et une utilisation poussée de WordPress, en particulier les Custom Post Types et les champs ACF. L'un des principaux défis a été l'intégration de l'API, qui fournissait des informations complexes sur les programmes immobiliers. Un travail de préparation des données a été nécessaire, surtout pour traiter la terminologie des logements (par exemple, 'Studio' ou 'T1'). Ensuite, j'ai créé des templates dynamiques pour afficher ces données dans les tableaux de prix et autres sections. Côté front-end, j'ai utilisé Sass pour styliser l'interface et garantir que le site soit responsive. La création de blocs Gutenberg, l'utilisation de bibliothèques tierces pour les carousels, et l'intégration des données de l'API ont permis d'enrichir l'expérience utilisateur tout en facilitant l'administration du site.",
+          },
+          {
+            title: "Résultats",
+            content:
+              "La refonte du site a permis à Plurimmo de moderniser son image tout en offrant une plateforme plus accessible et intuitive pour ses utilisateurs. Les tableaux de prix sont désormais dynamiques et entièrement administrables, offrant une flexibilité maximale pour afficher ou masquer des informations selon les besoins. Les équipes de Plurimmo apprécient la simplicité de l'interface WordPress, ce qui leur permet de mettre à jour rapidement les programmes sans perte de temps. Grâce à l'API, les données sont constamment actualisées, assurant ainsi l'exactitude des informations. Le site est entièrement responsive, offrant une expérience utilisateur optimale sur mobile et desktop. Cette refonte des pages 'Programmes' a non seulement amélioré l'ergonomie du site, mais aussi renforcé la crédibilité et la modernité de l'agence dans le secteur immobilier.",
+          }
         ],
+        
         rightSection: [
           { title: "Cadre", content: "Avec l'Agence Adjectif" },
           {
@@ -351,14 +406,25 @@ export const projetsDev = [
           {
             title: "Contexte",
             content:
-              "Adjectif, agence de publicité spécialisée dans l'immobilier propose de créer des landing page pour des programmes immobiliers. C'est donc dans ce cadre que j'ai eu l'opportunité de travailler sur cette landing page que j'ai pris énormément de plaisir à voir évoluer.",
+              "Adjectif, agence de publicité spécialisée dans l'immobilier, propose de créer des landing pages pour des programmes immobiliers. C'est dans ce cadre que j'ai eu l'opportunité de travailler sur cette landing page, que j'ai pris énormément de plaisir à voir évoluer.",
           },
           {
             title: "Objectifs",
             content:
-              "L'objectif principal était de faciliter la prise de contact et d'avoir un site de redirection pour les campagnes de marketing digital. J'ai donc développé ce site en m'appuyant sur une maquette créée par le studio de l'agence, et permis la vente de nombreux appartement via la redirection des contacts vers les commerciaux du promoteur client de l'agence. Bref passage technique : le site est développé avec une combinaison de HTML / PHP / JS / Sass. PHP pour le formulaire avec gestion des champs, JS pour toutes les fonctionnalités plus techniques et Sass pour tout le style. Nous travaillons toutes nos landings pages avec le Task Runner Gulp, qui permet d'automatiser tout le processus de construction des fichiers.",
+              "L'objectif principal était de faciliter la prise de contact et d'avoir un site de redirection pour les campagnes de marketing digital. Le principal but était donc d'avoir un site web permettant le lien entre les demandes de contact et les commerciaux du promoteur client de l'agence.",
           },
+          {
+            title: "Technique",
+            content:
+              "La landing page a été développée en utilisant une combinaison de technologies pour garantir un site à la fois performant et réactif. Le formulaire, développé en PHP, est conçu pour faciliter la prise de contact en capturant les informations essentielles des utilisateurs, telles que le nom, l'email, et la demande de renseignements spécifiques. Du côté du front-end, j'ai utilisé JavaScript pour implémenter des fonctionnalités interactives et des animations d'éléments au scroll. Sass a été utilisé pour le style, afin de rendre la page visuellement attrayante tout en garantissant une structure de code claire et modulaire. Le processus de développement a été optimisé grâce à Gulp, un Task Runner qui m'a permis d'automatiser des tâches telles que la minification des fichiers CSS et JS, la gestion des préprocesseurs, et la synchronisation du rechargement du navigateur en temps réel. Cette configuration permet un flux de travail fluide et efficace, particulièrement pour des projets avec des délais serrés.",
+          },
+          {
+            title: "Résultats",
+            content:
+              "La landing page a permis d’atteindre l’objectif principal, à savoir simplifier la prise de contact et orienter les prospects directement vers les commerciaux du promoteur immobilier. En facilitant l’interaction avec le formulaire, nous avons pu augmenter le nombre de demandes de renseignements et de conversions. Grâce à la redirection automatique des contacts, les commerciaux ont pu réagir rapidement et efficacement. La page a également été optimisée pour un rendu rapide sur tous les appareils, augmentant ainsi l’engagement des utilisateurs. Le client a vu un taux de conversion notablement plus élevé, ce qui a renforcé la stratégie marketing digitale mise en place. Le processus de développement, avec l'utilisation de Gulp et d'autres outils modernes, a permis de livrer une page rapidement et de manière optimisée, tout en gardant une excellente qualité de code.",
+          }
         ],
+        
         rightSection: [
           { title: "Cadre", content: "Avec l'Agence Adjectif" },
           { title: "Type de projet", content: "Projet de développement web" },
@@ -406,14 +472,25 @@ export const projetsDev = [
           {
             title: "Contexte",
             content:
-              "Dans le cadre de mon travail à l'agence Adjectif, spécialisée dans la publicité pour l'immobilier, j'ai participé à la création d'une landing page pour un programme immobilier. ",
+              "Dans le cadre de mon travail à l'agence Adjectif, spécialisée dans la publicité pour l'immobilier, j'ai participé à la création d'une landing page pour un programme immobilier.",
           },
           {
             title: "Objectifs",
             content:
-              "L'objectif était d'optimiser le processus de contact et de créer une passerelle efficace pour les campagnes marketing. En m'appuyant sur la maquette réalisée par le studio de l'agence, j'ai développé un site intuitif qui a permis une redirection fluide des prospects vers les commerciaux du promoteur, contribuant ainsi à la vente de nombreux appartements. Bref passage technique : le site est développé avec une combinaison de HTML / PHP / JS / Sass. PHP pour le formulaire avec gestion des champs, JS pour toutes les fonctionnalités plus techniques et Sass pour tout le style. Nous travaillons toutes nos landings pages avec le Task Runner Gulp, qui permet d'automatiser tout le processus de construction des fichiers.",
+              "L'objectif était d'optimiser le processus de contact et de créer une passerelle efficace pour les campagnes marketing. En m'appuyant sur la maquette réalisée par le studio de l'agence, j'ai développé un site intuitif qui a permis une redirection fluide des prospects vers les commerciaux du promoteur, contribuant ainsi à la vente de nombreux appartements.",
           },
+          {
+            title: "Technique",
+            content:
+              "Pour la réalisation de cette landing page, plusieurs technologies ont été utilisées pour offrir une expérience fluide et performante. Le formulaire de contact a été développé en PHP, permettant la gestion des champs personnalisés et la validation côté serveur. Pour améliorer l'interactivité et la fluidité du site, JavaScript a été intégré pour gérer des animations et des fonctionnalités interactives comme les validations en temps réel et les effets des éléments. Le design visuel a été géré à l'aide de Sass, garantissant une modularité et une évolution simple du code. L'utilisation de Gulp, un task runner, a permis d'automatiser les processus de compilation, la minification des fichiers CSS et JS, ainsi que la gestion des dépendances via NPM, optimisant ainsi la gestion des assets et le workflow de développement.",
+          },
+          {
+            title: "Résultats",
+            content:
+              "La landing page a largement contribué à atteindre les objectifs définis en facilitant la prise de contact pour les prospects. Grâce à sa conception optimisée, le site a permis une redirection efficace des contacts vers les commerciaux du promoteur, favorisant ainsi les ventes. L'intégration du formulaire de contact a permis de capter les informations des prospects rapidement et efficacement, ce qui a grandement amélioré le taux de conversion. En termes de performance, la page a été conçue pour être légère, rapide et responsive, assurant une expérience utilisateur optimale sur tous les types d'appareils. Le client a observé une augmentation notable du nombre de demandes de renseignements, ce qui a renforcé la stratégie de marketing digital du promoteur. Le processus de développement facilité par Gulp et NPM a permis une livraison rapide et une mise à jour facile des différents composants du projet.",
+          }
         ],
+        
         rightSection: [
           { title: "Cadre", content: "Avec l'Agence Adjectif" },
           { title: "Type de projet", content: "Projet de développement web" },
@@ -464,11 +541,22 @@ export const projetsDev = [
               "En tant que membre de l'agence Adjectif, spécialisée dans l'immobilier, j'ai eu l'opportunité de travailler sur la création d'une landing page dédiée à un programme immobilier. Le but principal était de simplifier le processus de contact et d'assurer une redirection optimale pour les campagnes de marketing digital.",
           },
           {
-            title: "",
+            title: "Objectifs",
             content:
-              "En suivant la maquette fournie par le studio de l'agence, j'ai développé un site qui a non seulement facilité la prise de contact, mais a également généré un grand nombre de ventes d'appartements en dirigeant les prospects vers les commerciaux du promoteur immobilier. Bref passage technique : le site est développé avec une combinaison de HTML / PHP / JS / Sass. PHP pour le formulaire avec gestion des champs, JS pour toutes les fonctionnalités plus techniques et Sass pour tout le style. Nous travaillons toutes nos landings pages avec le Task Runner Gulp, qui permet d'automatiser tout le processus de construction des fichiers.",
+              "En suivant la maquette fournie par le studio de l'agence, j'ai développé un site qui a non seulement facilité la prise de contact, mais a également généré un grand nombre de ventes d'appartements en dirigeant les prospects vers les commerciaux du promoteur immobilier.",
           },
+          {
+            title: "Technique",
+            content:
+              "Le développement de cette landing page a impliqué l'utilisation de plusieurs technologies pour garantir une expérience fluide et performante. Le formulaire de contact a été développé en PHP, permettant une gestion robuste des champs et des validations côté serveur pour assurer une collecte efficace des informations. JavaScript a été intégré pour ajouter des fonctionnalités dynamiques telles que les validations de formulaire en temps réel et l'interactivité des éléments de la page. Pour le design et la mise en forme, j'ai utilisé Sass, un préprocesseur CSS qui m'a permis de gérer un code modulaire et de garantir une personnalisation poussée et plus rapide du style de la page. Enfin, l'intégration de Gulp en tant que task runner a permis d'automatiser le processus de construction des fichiers, en optimisant les étapes de compilation, minification et gestion des dépendances via NPM, ce qui a amélioré l'efficacité du développement et la gestion des assets.",
+          },
+          {
+            title: "Résultats",
+            content:
+              "La landing page a pleinement rempli son objectif de faciliter la prise de contact pour les prospects intéressés par le programme immobilier. Grâce à son design intuitif et sa structure optimisée, le site a permis de diriger efficacement les prospects vers les commerciaux du promoteur, ce qui a contribué à la vente de nombreux appartements. La rapidité de chargement de la page et sa compatibilité mobile ont également joué un rôle clé dans l'augmentation des conversions. En outre, l'automatisation du processus de développement grâce à Gulp et NPM a permis de livrer rapidement la page tout en garantissant une qualité de code constante et une gestion simplifiée des assets. En termes de résultats, le client a observé une augmentation des demandes de renseignements et une meilleure efficacité dans la gestion des leads, renforçant ainsi la stratégie de marketing digital du promoteur immobilier.",
+          }
         ],
+        
         rightSection: [
           { title: "Cadre", content: "Avec l'Agence Adjectif" },
           { title: "Type de projet", content: "Projet de développement web" },
