@@ -9,33 +9,22 @@ export const formations = [
     titreListe: 'Compétences développées',
     elementsListe: [
       // Développement Web
-      'React.js',
-      'JavaScript',
-      'Angular',
-      'jQuery',
+      'React.js / Angular',
+      'JavaScript / TypeScript / jQuery',
       'PHP',
       'SQL',
-      'HTML',
-      'CSS',
-      'Bootstrap',
+      'HTML, SCSS, Bootstrap',
       'Git et gestion de version',
 
       // UX/UI Design
-      'UX',
-      'UI',
+      'UX/UI axé accessibilité et intuitivité',
 
       // Logiciels de création
-      'Figma',
-      'Photoshop',
-      'Illustrator',
-      'InDesign',
-      'After Effects',
-      'Premiere',
+      'Suite Adobe : Photoshop, Illustrator, InDesign, AE, Premiere',
 
       // Gestion et marketing
-      'Gestion de projet',
-      'Marketing',
-      'Développement d\'une marque de A à Z',
+      'Gestion de projets web',
+      'Marketing / SEO',
       'Analyse des besoins techniques et choix des meilleures solutions',
     ],
     lien: 'https://www.univ-lyon2.fr/master-2-informatique-conception-et-integration-multimedia-cim',
@@ -51,24 +40,19 @@ export const formations = [
     titreListe: 'Compétences développées',
     elementsListe: [
       // Développement web
-      'JavaScript',
-      'HTML & CSS modernes',
-      'PHP',
+      'HTML & CSS',
+      'JavaScript, PHP & techno. web',
       'Création d\'applications web avec gestion des utilisateurs et des bases de données',
-      'C',
       'Python / Gestion d\'API',
 
       // Développement UX/UI
       'Accessibilité',
-      'Design System & UI Kits',
-      'Prototypage avec Figma',
+      'Design System et prototypage avec Figma',
       'Tests utilisateurs et itérations',
 
       // Outils & qualité
       'Git & gestion de version',
-      'Optimisation des performances web',
-      'Référencement',
-      'Création de maquettes d\'applications/sites web',
+      'Optimisation des performances web / Référencement',
     ],
     lien: 'https://www.univ-lyon2.fr/licence-3-informatique-creation-numerique',
     texteBouton: 'En apprendre plus',
@@ -82,15 +66,12 @@ export const formations = [
     description: 'Un diplôme polyvalent, offrant une base solide en développement informatique, incluant des modules sur la gestion de bases de données, le web, les scripts en Python/Bash, ainsi qu\'une introduction aux systèmes Linux. Si le programme était généraliste, l\'enseignement sur le développement web allait bien au-delà d\'une simple découverte et m\'a permis de développer des compétences techniques solides.',
     titreListe: 'Compétences développées',
     elementsListe: [
-      'HTML5',
-      'CSS3',
-      'JavaScript',
+      'HTML5, CSS3, JavaScript, langages web',
       'Git',
       'Linux',
-      'SQL',
-      'Gestion de bases de données',
+      'SQL / PostgreSQL',
       'Algorithmie',
-      'Conception de systèmes informatiques',
+      'Conception de systèmes informatiques & gestion de projet',
       'Introduction aux réseaux',
     ],
     lien: 'https://www.iut-valence.fr/nos-formations/b-u-t-/b-u-t-info/b-u-t-informatique-776395.kjsp',
