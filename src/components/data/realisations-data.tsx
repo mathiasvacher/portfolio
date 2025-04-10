@@ -44,144 +44,6 @@ import vivreVillarsMacbook1 from "../../assets/img/realisations/vivre-villars-ma
 import vivreVillarsMacbook2 from "../../assets/img/realisations/vivre-villars-mac-2.jpg";
 
 export const projetsDev = [
-  // Filtre BGE
-  {
-    imgMiniature: filtreBgeMacbook1,
-    idRea: "filtre-bge", // ID unique pour chaque projet
-    titre: "Création de site WordPress - Filtre BGE",
-    shortDescription:
-      "Conception & éveloppement d'un site WordPress - WooCommerce complexe sur-mesure pour de la demande de devis.",
-    outils: [
-      "PHP",
-      "WordPress",
-      "WooCommerce",
-      "Plugins sur mesure",
-      "Gestion de projet",
-      "Autonomie",
-      "Tenue de réunions",
-    ],
-    texteBoutonProjet: "Voir le projet",
-    lienBoutonProjet: "/realisations/filtre-bge",
-    texteBoutonLive: "Voir en direct",
-    lienBoutonLive: "https://www.filtre-bge.fr/",
-
-    contentPage: [
-      {
-        leftSection: [
-          {
-            title: "Contexte",
-            content:
-              "L'entreprise Filtre BGE est spécialisée dans les équipements aérauliques, faisant l'intermédiaire entre les fournisseurs et les clients de ces produits. En 2023, ils ont décidé de m'engager en tant que stagiaire pour concevoir et réaliser leur site.",
-          },
-          {
-            title: "Objectifs",
-            content:
-              "L'objectif principal de Filtre BGE était d'obtenir un site moderne, loin des codes traditionnels de l'industrie de la ventilation. Leur attente clé était d'offrir aux clients la possibilité de sélectionner des filtres, de renseigner leurs caractéristiques (ex : taille, efficacité, etc.) et de les ajouter à une demande de devis. Après avoir étudié la meilleure solution, j'ai opté pour un site e-commerce basé sur WordPress/WooCommerce, qui répondait parfaitement aux besoins de l'entreprise. En utilisant Elementor, WooCommerce, et divers plugins, j'ai livré un résultat très satisfaisant.",
-          },
-          {
-            title: "Technique",
-            content:
-              "Le projet a nécessité une personnalisation poussée de WooCommerce pour répondre aux spécifications de Filtre BGE. J'ai créé un thème enfant pour adapter les composants de WooCommerce, comme l'affichage du panier et la gestion des caractéristiques des filtres. Un défi majeur a été de faire fonctionner ensemble des plugins incompatibles, pour lesquels j'ai utilisé des hooks et filtres WordPress afin d'ajuster leur intégration. L'intégration de Figma avec Elementor a permis de concevoir une interface moderne et intuitive. Des optimisations de performance ont été réalisées, notamment la réduction de la taille des images et l'élimination de scripts inutiles pour accélérer le temps de chargement du site.",
-          },
-          {
-            title: "Résultats",
-            content:
-              "Le site a largement dépassé les attentes de Filtre BGE. Les demandes de contact et les conversions ont considérablement augmenté, impactant positivement leur chiffre d'affaires. Le processus de demande de devis a été simplifié et rendu plus accessible, contribuant à une expérience utilisateur plus fluide. La gestion des filtres et la personnalisation des demandes ont également optimisé les processus commerciaux.  Filtre BGE est très satisfait du retour sur investissement et de la satisfaction client générée par le projet. Enfin, un site de ce type donne une bien meilleure image de l'entreprise, et permet aux clients d'avoir confiance en Filtre BGE.",
-          },
-        ],
-        
-        rightSection: [
-          { title: "Cadre", content: "En stage de Licence 3" },
-          {
-            title: "Type de projet",
-            content: "Projet de développement web / WordPress",
-          },
-          { title: "Date du projet", content: "2023" },
-          { title: "Client", content:"Filtre BGE"},
-        ],
-        imagesPage: {
-          title: "Aperçu",
-          images: [
-            filtreBgeMacbook1,
-            filtreBgeIphone1,
-            filtreBgeIphone2,
-            filtreBgeMacbook2,
-          ],
-        },
-      },
-    ],
-  },
-
-  // Franck Archimbaud
-  {
-    imgMiniature: franckArchimbaudMacbook1,
-    idRea: "franck-archimbaud", // ID unique pour chaque projet
-    titre: "Création de site WordPress - Franck Archimbaud",
-    shortDescription:
-      "Conception & développement d'un site WordPress pour un client Kinésithérapeute - Freelance",
-    outils: [
-      "PHP",
-      "WordPress",
-      "Elementor",
-      "Plugins sur mesure",
-      "Gestion de projet",
-      "Autonomie complète",
-      "Recherche de client",
-      "Conception de A à Z",
-    ],
-    texteBoutonProjet: "Voir le projet",
-    lienBoutonProjet: "/realisations/franck-archimbaud",
-    texteBoutonLive: "Voir en direct",
-    lienBoutonLive: "https://franckarchimbaud.fr/",
-
-    contentPage: [
-      {
-        leftSection: [
-          {
-            title: "Contexte",
-            content:
-              "En recherche de clients pour développer mon portfolio, j'ai contacté divers professionnels pour leur proposer mes services de développement web. Franck Archimbaud, masseur kinésithérapeute, m'a répondu positivement. Cependant, il m'a précisé que son domaine était très réglementé, ce qui m'a poussé à me renseigner sur les contraintes spécifiques avant de me lancer dans le projet.",
-          },
-          {
-            title: "Objectifs",
-            content:
-              "M. Archimbaud avait pour objectif d'établir une présence en ligne au-delà des plateformes classiques comme Doctolib. Il souhaitait un site permettant de centraliser ses demandes de contact et de rendez-vous, sans préciser de thème ou de préférences particulières quant au style de son site. J'ai donc dû imaginer un design cohérent avec son activité tout en respectant les réglementations strictes du domaine médical. Le site a été conçu pour répondre à ses besoins tout en respectant les contraintes imposées par l'ordre des médecins.",
-          },
-          {
-            title: "Technique",
-            content:
-              "Le site a été développé sur WordPress avec une utilisation avancée d'Elementor pour la création de pages personnalisées. J'ai également pris le soin de choisir  des plugins sur mesure pour gérer les demandes de contact et de rendez-vous, tout en garantissant la sécurité des données personnelles des patients. La conformité avec le RGPD et d'autres régulations du domaine médical a été une priorité. L'objectif était d'offrir une interface simple et fonctionnelle, permettant aux patients de prendre rendez-vous facilement, tout en respectant les exigences réglementaires et en offrant une expérience utilisateur fluide (du aux visiteurs qui sont souvent âgés et peu à l'aise avec la technologie).",
-          },
-          {
-            title: "Résultats",
-            content:
-              "Le site a permis à M. Archimbaud d'acquérir une véritable présence professionnelle en ligne. Les patients peuvent désormais prendre rendez-vous directement sur le site, et toutes les demandes sont centralisées, simplifiant ainsi la gestion des rendez-vous. En termes de visibilité, le site a commencé à générer du trafic , ce qui a amélioré la position de M. Archimbaud dans les résultats de recherche locaux. Le site répond également aux exigences des organismes de santé, renforçant ainsi la crédibilité du professionnel auprès de ses patients. Le projet a non seulement répondu aux attentes du client, mais a également facilité la gestion de son activité et amélioré sa visibilité en ligne tout en proposant des informations sur le parcours et les pratiques proposées par M. Franck Archimbaud à son cabinet.",
-          },
-        ],
-        
-        rightSection: [
-          { title: "Cadre", content: "En freelance" },
-          {
-            title: "Type de projet",
-            content: "Projet de développement web / wordpress",
-          },
-          { title: "Date du projet", content: "de 2023 à aujourd'hui" },
-          { title: "Client", content:"Franck Archimbaud"},
-
-        ],
-        imagesPage: {
-          title: "Aperçu",
-          images: [
-            franckArchimbaudMacbook1,
-            franckArchimbaudIphone1,
-            franckArchimbaudIphone2,
-            franckArchimbaudMacbook2,
-          ],
-        },
-      },
-    ],
-  },
-
   // Financ'ile
   {
     imgMiniature: financilemacbook1,
@@ -372,6 +234,143 @@ export const projetsDev = [
             plurimmoIphone1,
             plurimmoIphone2,
             plurimmoMacbook2,
+          ],
+        },
+      },
+    ],
+  },
+  // Filtre BGE
+  {
+    imgMiniature: filtreBgeMacbook1,
+    idRea: "filtre-bge", // ID unique pour chaque projet
+    titre: "Création de site WordPress - Filtre BGE",
+    shortDescription:
+      "Conception & éveloppement d'un site WordPress - WooCommerce complexe sur-mesure pour de la demande de devis.",
+    outils: [
+      "PHP",
+      "WordPress",
+      "WooCommerce",
+      "Plugins sur mesure",
+      "Gestion de projet",
+      "Autonomie",
+      "Tenue de réunions",
+    ],
+    texteBoutonProjet: "Voir le projet",
+    lienBoutonProjet: "/realisations/filtre-bge",
+    texteBoutonLive: "Voir en direct",
+    lienBoutonLive: "https://www.filtre-bge.fr/",
+
+    contentPage: [
+      {
+        leftSection: [
+          {
+            title: "Contexte",
+            content:
+              "L'entreprise Filtre BGE est spécialisée dans les équipements aérauliques, faisant l'intermédiaire entre les fournisseurs et les clients de ces produits. En 2023, ils ont décidé de m'engager en tant que stagiaire pour concevoir et réaliser leur site.",
+          },
+          {
+            title: "Objectifs",
+            content:
+              "L'objectif principal de Filtre BGE était d'obtenir un site moderne, loin des codes traditionnels de l'industrie de la ventilation. Leur attente clé était d'offrir aux clients la possibilité de sélectionner des filtres, de renseigner leurs caractéristiques (ex : taille, efficacité, etc.) et de les ajouter à une demande de devis. Après avoir étudié la meilleure solution, j'ai opté pour un site e-commerce basé sur WordPress/WooCommerce, qui répondait parfaitement aux besoins de l'entreprise. En utilisant Elementor, WooCommerce, et divers plugins, j'ai livré un résultat très satisfaisant.",
+          },
+          {
+            title: "Technique",
+            content:
+              "Le projet a nécessité une personnalisation poussée de WooCommerce pour répondre aux spécifications de Filtre BGE. J'ai créé un thème enfant pour adapter les composants de WooCommerce, comme l'affichage du panier et la gestion des caractéristiques des filtres. Un défi majeur a été de faire fonctionner ensemble des plugins incompatibles, pour lesquels j'ai utilisé des hooks et filtres WordPress afin d'ajuster leur intégration. L'intégration de Figma avec Elementor a permis de concevoir une interface moderne et intuitive. Des optimisations de performance ont été réalisées, notamment la réduction de la taille des images et l'élimination de scripts inutiles pour accélérer le temps de chargement du site.",
+          },
+          {
+            title: "Résultats",
+            content:
+              "Le site a largement dépassé les attentes de Filtre BGE. Les demandes de contact et les conversions ont considérablement augmenté, impactant positivement leur chiffre d'affaires. Le processus de demande de devis a été simplifié et rendu plus accessible, contribuant à une expérience utilisateur plus fluide. La gestion des filtres et la personnalisation des demandes ont également optimisé les processus commerciaux.  Filtre BGE est très satisfait du retour sur investissement et de la satisfaction client générée par le projet. Enfin, un site de ce type donne une bien meilleure image de l'entreprise, et permet aux clients d'avoir confiance en Filtre BGE.",
+          },
+        ],
+        
+        rightSection: [
+          { title: "Cadre", content: "En stage de Licence 3" },
+          {
+            title: "Type de projet",
+            content: "Projet de développement web / WordPress",
+          },
+          { title: "Date du projet", content: "2023" },
+          { title: "Client", content:"Filtre BGE"},
+        ],
+        imagesPage: {
+          title: "Aperçu",
+          images: [
+            filtreBgeMacbook1,
+            filtreBgeIphone1,
+            filtreBgeIphone2,
+            filtreBgeMacbook2,
+          ],
+        },
+      },
+    ],
+  },
+
+  // Franck Archimbaud
+  {
+    imgMiniature: franckArchimbaudMacbook1,
+    idRea: "franck-archimbaud", // ID unique pour chaque projet
+    titre: "Création de site WordPress - Franck Archimbaud",
+    shortDescription:
+      "Conception & développement d'un site WordPress pour un client Kinésithérapeute - Freelance",
+    outils: [
+      "PHP",
+      "WordPress",
+      "Elementor",
+      "Plugins sur mesure",
+      "Gestion de projet",
+      "Autonomie complète",
+      "Recherche de client",
+      "Conception de A à Z",
+    ],
+    texteBoutonProjet: "Voir le projet",
+    lienBoutonProjet: "/realisations/franck-archimbaud",
+    texteBoutonLive: "Voir en direct",
+    lienBoutonLive: "https://franckarchimbaud.fr/",
+
+    contentPage: [
+      {
+        leftSection: [
+          {
+            title: "Contexte",
+            content:
+              "En recherche de clients pour développer mon portfolio, j'ai contacté divers professionnels pour leur proposer mes services de développement web. Franck Archimbaud, masseur kinésithérapeute, m'a répondu positivement. Cependant, il m'a précisé que son domaine était très réglementé, ce qui m'a poussé à me renseigner sur les contraintes spécifiques avant de me lancer dans le projet.",
+          },
+          {
+            title: "Objectifs",
+            content:
+              "M. Archimbaud avait pour objectif d'établir une présence en ligne au-delà des plateformes classiques comme Doctolib. Il souhaitait un site permettant de centraliser ses demandes de contact et de rendez-vous, sans préciser de thème ou de préférences particulières quant au style de son site. J'ai donc dû imaginer un design cohérent avec son activité tout en respectant les réglementations strictes du domaine médical. Le site a été conçu pour répondre à ses besoins tout en respectant les contraintes imposées par l'ordre des médecins.",
+          },
+          {
+            title: "Technique",
+            content:
+              "Le site a été développé sur WordPress avec une utilisation avancée d'Elementor pour la création de pages personnalisées. J'ai également pris le soin de choisir  des plugins sur mesure pour gérer les demandes de contact et de rendez-vous, tout en garantissant la sécurité des données personnelles des patients. La conformité avec le RGPD et d'autres régulations du domaine médical a été une priorité. L'objectif était d'offrir une interface simple et fonctionnelle, permettant aux patients de prendre rendez-vous facilement, tout en respectant les exigences réglementaires et en offrant une expérience utilisateur fluide (du aux visiteurs qui sont souvent âgés et peu à l'aise avec la technologie).",
+          },
+          {
+            title: "Résultats",
+            content:
+              "Le site a permis à M. Archimbaud d'acquérir une véritable présence professionnelle en ligne. Les patients peuvent désormais prendre rendez-vous directement sur le site, et toutes les demandes sont centralisées, simplifiant ainsi la gestion des rendez-vous. En termes de visibilité, le site a commencé à générer du trafic , ce qui a amélioré la position de M. Archimbaud dans les résultats de recherche locaux. Le site répond également aux exigences des organismes de santé, renforçant ainsi la crédibilité du professionnel auprès de ses patients. Le projet a non seulement répondu aux attentes du client, mais a également facilité la gestion de son activité et amélioré sa visibilité en ligne tout en proposant des informations sur le parcours et les pratiques proposées par M. Franck Archimbaud à son cabinet.",
+          },
+        ],
+        
+        rightSection: [
+          { title: "Cadre", content: "En freelance" },
+          {
+            title: "Type de projet",
+            content: "Projet de développement web / wordpress",
+          },
+          { title: "Date du projet", content: "de 2023 à aujourd'hui" },
+          { title: "Client", content:"Franck Archimbaud"},
+
+        ],
+        imagesPage: {
+          title: "Aperçu",
+          images: [
+            franckArchimbaudMacbook1,
+            franckArchimbaudIphone1,
+            franckArchimbaudIphone2,
+            franckArchimbaudMacbook2,
           ],
         },
       },
