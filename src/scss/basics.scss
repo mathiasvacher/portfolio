@@ -18,6 +18,13 @@
     &:active {
         transform: translateY(1px);
     }
+
+    &.secondary {
+        border: 1px solid $accent-color;
+        background: transparent;
+        color: $accent-color;
+
+    }
 }
 
 .btn-live {
