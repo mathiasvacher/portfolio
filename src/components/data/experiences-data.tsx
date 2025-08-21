@@ -20,7 +20,7 @@ export const experiences = [
       "Développement de sites WordPress administrables (ACF, CPT, personnalisation avancée)",
       "Mise en place de workflows modernes (Git, CI/CD, automatisations)",
       "Maintenance, optimisation des performances et correction de bugs",
-      "Veille technologique continue sur les frameworks et outils modernes (React, Next.js, Node.js, TailwindCSS, etc.)",
+      "Veille technologique continue sur les frameworks et outils modernes (React, WordPress, Node.js, Bootstrap / Tailwind, ACF, etc.)",
     ],
     lien: "#contact",
     texteBouton: "Prendre contact",
