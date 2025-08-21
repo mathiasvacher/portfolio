@@ -4,6 +4,29 @@ import cmqiedLogo from "../../assets/img/experiences/cmqied.png";
 
 export const experiences = [
   {
+    couleur: "#F39C12",
+    nomEntreprise: "Freelance",
+    dates: "08/2025 - Présent",
+    titrePoste: "Développeur Web Fullstack Freelance",
+    descriptionPremierePartie:
+      "En tant que freelance, j’accompagne des entreprises, indépendants et associations dans la conception et le développement de sites internet et d’applications web. Je propose des solutions adaptées aux besoins de chaque client, allant du site vitrine à la plateforme plus complexe, en passant par des missions de renfort technique auprès d’équipes en place.",
+    descriptionSecondePartie:
+      "Je gère l’ensemble du cycle de développement : analyse des besoins, conception, intégration, développement, mise en production et suivi technique. Cette activité me permet de diversifier mes projets, de collaborer avec des clients variés et de rester en veille constante sur les nouvelles technologies.",
+    titreListe: "Principales responsabilités et projets réalisés :",
+    elementsListe: [
+      "Conception et développement de sites vitrines, landing pages et applications web",
+      "Création de fonctionnalités sur mesure et intégration d’API",
+      "Missions ponctuelles en renfort dans des équipes techniques",
+      "Développement de sites WordPress administrables (ACF, CPT, personnalisation avancée)",
+      "Mise en place de workflows modernes (Git, CI/CD, automatisations)",
+      "Maintenance, optimisation des performances et correction de bugs",
+      "Veille technologique continue sur les frameworks et outils modernes (React, Next.js, Node.js, TailwindCSS, etc.)",
+    ],
+    lien: "#contact",
+    texteBouton: "Prendre contact",
+  },
+
+  {
     logo: adjectifLogo,
     couleur: "#DF272C",
     nomEntreprise: "Agence Adjectif",

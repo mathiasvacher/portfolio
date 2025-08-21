@@ -7,7 +7,7 @@ const Competences = () => {
     return (
         <section id="competences">
             <div className="container-fluid">
-                <TitreSection titre="Compétences" explication="Mon stack technique" />
+                <TitreSection titre="Compétences" explication="Ma stack technique" />
                 <div className="competences-grid">
                     {competences.map((item, index) => (
                         <div 

@@ -22,9 +22,22 @@ const ImageModal: React.FC<ModalProps> = ({
   return (
     <div className="image-modal" onClick={onClose}>
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-        <button className="close-modal bouton " onClick={onClose}>×</button>
+        <button className="close-modal bouton" onClick={onClose}>×</button>
+        
         <div className="modal-image-container">
           <img src={imageUrl} alt="Large View" className="modal-image" />
+        </div>
+
+        {/* Bouton ouvrir dans un nouvel onglet */}
+        <div className="open-new-tab-container">
+          <a
+            href={imageUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="open-new-tab-button bouton"
+          >
+            Ouvrir dans un nouvel onglet
+          </a>
         </div>
 
         <div className="navigation-buttons-modal">

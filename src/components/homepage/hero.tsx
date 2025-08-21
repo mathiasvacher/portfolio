@@ -7,7 +7,7 @@ function Hero() {
             <div className="gradient">
                 <div className="content">
 
-                    <p className="job-title">Développeur web</p>
+                    <p className="job-title">Développeur web - Freelance</p>
 
                     <h2>Créer des expériences uniques par le code</h2>
                     

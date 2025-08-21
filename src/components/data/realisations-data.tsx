@@ -1,7 +1,11 @@
-import exemple from "../../assets/img/realisations/exemple.webp";
-import exemple2 from "../../assets/img/realisations/exemple2.webp";
-import exemple3 from "../../assets/img/realisations/exemple3.webp";
-import exemple4 from "../../assets/img/realisations/exemple4.webp";
+import mouveMockup from "../../assets/img/realisations/mockup-mouve.png";
+import mouveFullscreen from "../../assets/img/realisations/mouve-clermont-min.jpg";
+
+import planetMockup from "../../assets/img/realisations/mockup-planet.png";
+import planetFullscreen from "../../assets/img/realisations/planet-immo-min.jpg";
+
+import collineMockup from "../../assets/img/realisations/mockup-colline.png";
+import collineFullscreen from "../../assets/img/realisations/la-colline-bron-min.jpg";
 
 import financileiphone1 from "../../assets/img/realisations/financile-iphone-1.jpg";
 import financileiphone2 from "../../assets/img/realisations/financile-iphone-2.jpg";
@@ -43,12 +47,221 @@ import vivreVillarsIphone2 from "../../assets/img/realisations/vivre-villars-iph
 import vivreVillarsMacbook1 from "../../assets/img/realisations/vivre-villars-mac-1.jpg";
 import vivreVillarsMacbook2 from "../../assets/img/realisations/vivre-villars-mac-2.jpg";
 
+import ieLogo from "../../assets/img/realisations/ie-logo.jpg";
+import iePost from "../../assets/img/realisations/ie-post.jpg";
+import ieMoodboard from "../../assets/img/realisations/ie-moodboard.jpg";
+import ieGuide from "../../assets/img/realisations/ie-guide.jpg";
+import ieEmailing from "../../assets/img/realisations/ie-emailing.jpg";
+
+import comeonOnboarding from "../../assets/img/realisations/comeon-onboarding.jpg";
+import comeonLogo from "../../assets/img/realisations/comeon-logo.jpg";
+import comeonHomepage from "../../assets/img/realisations/comeon-homepage.jpg";
+import comeonProfile from "../../assets/img/realisations/comeon-creation-profile.jpg";
+import comeonMap from "../../assets/img/realisations/comeon-map.jpg";
+
+import cussetBatiments from "../../assets/img/realisations/cusset-batiments.jpg";
+import cussetInstructions from "../../assets/img/realisations/cusset-instructions.jpg";
+import cussetResultsTest from "../../assets/img/realisations/cusset-results-test.jpg";
+
+import logoAnimGif from "../../assets/img/realisations/logo-go-fresh.gif";
+
+
 export const projetsDev = [
+  // Planet'Immo
+  {
+    imgMiniature: planetMockup,
+    idRea: "planet-immo", // ID unique pour chaque projet
+    titre: "Dev. Landing Page - Planet'Immo",
+    shortDescription:
+      "Développement web axé design / style afin de rendre l'évènement le plus attrayant possible.",
+    outils: [
+      "PHP",
+      "JS",
+      "Sass",
+      "HTML",
+      "NodeJS",
+      "Suivi de maquette Figma",
+      "Gulp",
+      "NPM",
+    ],
+    texteBoutonProjet: "Voir le projet",
+    lienBoutonProjet: "/realisations/planet-immo",
+    texteBoutonLive: "Voir en direct",
+    lienBoutonLive: "https://www.planet-immo.fr/",
+
+    contentPage: [
+      {
+        leftSection: [
+          {
+            title: "Contexte",
+            content:
+              "Planet Immo est un événement organisé par Alliade Habitat, permettant aux visiteurs de découvrir et de se renseigner sur différents programmes immobiliers. J’ai eu l’opportunité de travailler sur la création du site dédié à l’événement, avec pour but de centraliser les informations et de faciliter les inscriptions.",
+          },
+          {
+            title: "Objectifs",
+            content:
+              "Le site devait présenter clairement l’ensemble des programmes immobiliers proposés lors de l’événement, tout en intégrant un formulaire d’inscription simple et efficace. Un autre objectif majeur était de respecter le style graphique choisi, inspiré de l’univers de la bande dessinée, afin de donner une identité forte et reconnaissable au projet.",
+          },
+          {
+            title: "Technique",
+            content:
+              "Le développement a été orienté vers la mise en valeur du contenu et la fluidité de navigation. Un formulaire interactif a été intégré pour permettre aux visiteurs de s’inscrire directement en ligne. L’intégration front-end a demandé une attention particulière afin de respecter scrupuleusement le style graphique BD, avec des éléments visuels et des animations cohérentes. Le code a été optimisé pour garantir un affichage rapide et une bonne expérience utilisateur sur tous les supports.",
+          },
+          {
+            title: "Résultats",
+            content:
+              "Le site Planet Immo a rempli pleinement son rôle : il a permis de présenter de manière claire et attractive les programmes immobiliers de l’événement, tout en simplifiant le processus d’inscription. Le respect du style BD a donné une identité unique et marquante au site, renforçant l’impact visuel et l’attractivité de l’événement. Les visiteurs ont pu accéder facilement aux informations et s’inscrire en quelques clics, contribuant au succès de la communication autour de Planet Immo.",
+          }
+        ],
+        
+        rightSection: [
+          { title: "Cadre", content: "Avec l'Agence Adjectif" },
+          { title: "Type de projet", content: "Projet de développement web" },
+          { title: "Date du projet", content: "2025" },
+          { title: "Client", content:"Alliade Habitat"},
+        ],
+        imagesPage: {
+          title: "Aperçu",
+          images: [
+            planetFullscreen
+          ],
+        },
+      },
+    ],
+  },
+
+  // La Colline Bron
+  {
+    imgMiniature: collineMockup,
+    idRea: "la-colline-bron", // ID unique pour chaque projet
+    titre: "Landing Page complète - La Colline - Bron",
+    shortDescription:
+      "Une nouvelle landing page réalisée et qui a permis la vente de nombreux appartements.",
+    outils: [
+      "PHP",
+      "JS",
+      "Sass",
+      "HTML",
+      "NodeJS",
+      "Suivi de maquette Figma",
+      "Gulp",
+      "NPM",
+    ],
+    texteBoutonProjet: "Voir le projet",
+    lienBoutonProjet: "/realisations/la-colline-bron",
+    texteBoutonLive: "Voir en direct",
+    lienBoutonLive: "https://www.la-colline-bron.fr/",
+
+    contentPage: [
+      {
+        leftSection: [
+          {
+            title: "Contexte",
+            content:
+              "La Colline Bron est un programme immobilier situé dans la métropole lyonnaise. J’ai travaillé sur la création d’une landing page dédiée, avec pour mission de mettre en valeur le projet et de proposer un site clair, moderne et adapté aux attentes des prospects locaux.",
+          },
+          {
+            title: "Objectifs",
+            content:
+              "L’objectif principal était de concevoir une page simple et intuitive, permettant aux utilisateurs d’accéder rapidement aux informations clés sur le programme. Une attention particulière a été portée à la lisibilité et à l’expérience utilisateur. Le projet visait aussi à proposer une mise en avant soignée des visuels et à optimiser la compatibilité multi-supports, afin de toucher efficacement un public varié.",
+          },
+          {
+            title: "Technique",
+            content:
+              "Le développement de la landing page a reposé sur une intégration front-end précise pour retranscrire fidèlement la maquette. Le code a été optimisé pour la performance et la rapidité d’affichage, avec une structure pensée pour s’adapter parfaitement aux différents écrans. L’utilisation d’animations légères et d’effets au scroll a permis d’apporter de la fluidité tout en gardant une navigation intuitive. Les bonnes pratiques SEO ont également été appliquées pour améliorer la visibilité en ligne.",
+          },
+          {
+            title: "Résultats",
+            content:
+              "La landing page de La Colline Bron a permis de présenter efficacement le programme, en mettant en avant les informations essentielles de manière claire et attractive. Le site, à la fois rapide et responsive, a favorisé l’engagement des utilisateurs et la prise de contact. Grâce à la fidélité à la maquette et aux optimisations techniques, la page a pleinement rempli son rôle en renforçant la communication digitale autour du projet.",
+          }
+        ],
+        
+        rightSection: [
+          { title: "Cadre", content: "Avec l'Agence Adjectif" },
+          { title: "Type de projet", content: "Projet de développement web" },
+          { title: "Date du projet", content: "2025" },
+          { title: "Client", content:"Icade - Nexity"},
+        ],
+        imagesPage: {
+          title: "Aperçu",
+          images: [
+            collineFullscreen
+          ],
+        },
+      },
+    ],
+  },
+
+
+  // Mouve Clermont
+  {
+    imgMiniature: mouveMockup,
+    idRea: "mouve-clermont", // ID unique pour chaque projet
+    titre: "Dev. Landing Page - Mouve Clermont - Financ'ile",
+    shortDescription:
+      "Une landing page réalisée aec succès qui a permis un succès commercial.",
+    outils: [
+      "PHP",
+      "JS",
+      "Sass",
+      "HTML",
+      "NodeJS",
+      "Suivi de maquette Figma",
+      "Gulp",
+      "NPM",
+    ],
+    texteBoutonProjet: "Voir le projet",
+    lienBoutonProjet: "/realisations/mouve-clermont",
+    texteBoutonLive: "Voir en direct",
+    lienBoutonLive: "https://www.mouve-clermont.com/",
+
+    contentPage: [
+      {
+        leftSection: [
+          {
+            title: "Contexte",
+            content:
+              "Mouve Clermont est un projet web destiné à valoriser un programme immobilier dans la région de Clermont-Ferrand. J’ai eu l’opportunité de travailler sur la création de cette landing page, avec pour but de proposer un site moderne, fidèle à la maquette initiale et pensé pour répondre efficacement aux attentes du public cible.",
+          },
+          {
+            title: "Objectifs",
+            content:
+              "Les objectifs principaux étaient de concevoir un site rapide et fluide, permettant aux visiteurs d’obtenir facilement les informations essentielles sur le programme immobilier. Il s’agissait également de veiller à optimiser le référencement naturel (SEO) afin d’assurer une meilleure visibilité en ligne. Enfin, il était crucial de rester fidèle à la maquette graphique, pour garantir une cohérence parfaite entre la conception et la réalisation.",
+          },
+          {
+            title: "Technique",
+            content:
+              "La landing page a été développée avec une approche axée sur la performance et l’optimisation. Le code a été pensé pour garantir un chargement rapide et une expérience utilisateur fluide. L’intégration front-end a été réalisée avec une attention particulière aux détails afin de respecter fidèlement la maquette. Des optimisations SEO ont été intégrées dès la structure du projet (balises, hiérarchie des contenus, métadonnées) afin de favoriser le positionnement du site sur les moteurs de recherche. Les outils modernes utilisés ont permis de garder un code propre, modulaire et efficace.",
+          },
+          {
+            title: "Résultats",
+            content:
+              "Le site final a parfaitement répondu aux attentes : rapide, clair et accessible, il offre aux visiteurs un accès immédiat aux informations essentielles. L’optimisation SEO a contribué à améliorer la visibilité en ligne et à renforcer la stratégie marketing globale. La fidélité à la maquette a permis de conserver une identité visuelle cohérente et impactante. Le client a ainsi bénéficié d’un outil performant, à la fois esthétique et efficace, qui s’adresse directement à son public cible.",
+          }
+        ],
+        
+        rightSection: [
+          { title: "Cadre", content: "Avec l'Agence Adjectif" },
+          { title: "Type de projet", content: "Projet de développement web" },
+          { title: "Date du projet", content: "2025" },
+          { title: "Client", content:"Groupe Cardinal"},
+        ],
+        imagesPage: {
+          title: "Aperçu",
+          images: [
+            mouveFullscreen
+          ],
+        },
+      },
+    ],
+  },
+
   // Financ'ile
   {
     imgMiniature: financilemacbook1,
     idRea: "financile", // ID unique pour chaque projet
-    titre: "Création de site WordPress - Financ'ile",
+    titre: "Développement de site WordPress - Financ'ile",
     shortDescription:
       "Dans le cadre de mon stage en agence, j'ai pu travailler en autonomie complète sur un site WordPress complexe, une bonne introduction sur un projet qui a du sens pour l'agence.",
     outils: [
@@ -243,7 +456,7 @@ export const projetsDev = [
   {
     imgMiniature: filtreBgeMacbook1,
     idRea: "filtre-bge", // ID unique pour chaque projet
-    titre: "Création de site WordPress - Filtre BGE",
+    titre: "Dev. de site WordPress - Filtre BGE",
     shortDescription:
       "Conception & éveloppement d'un site WordPress - WooCommerce complexe sur-mesure pour de la demande de devis.",
     outils: [
@@ -311,7 +524,7 @@ export const projetsDev = [
   {
     imgMiniature: franckArchimbaudMacbook1,
     idRea: "franck-archimbaud", // ID unique pour chaque projet
-    titre: "Création de site WordPress - Franck Archimbaud",
+    titre: "Dev. de site WordPress - Franck Archimbaud",
     shortDescription:
       "Conception & développement d'un site WordPress pour un client Kinésithérapeute - Freelance",
     outils: [
@@ -381,7 +594,7 @@ export const projetsDev = [
   {
     imgMiniature: vivreVillarsMacbook1,
     idRea: "vivre-villars", // ID unique pour chaque projet
-    titre: "Création de landing page - Vivre Villars",
+    titre: "Dev. de landing page - Vivre Villars",
     shortDescription:
       "Développement d'une landing page pour UTEI visant à faciliter la prise de contact d'un programme immo.",
     outils: [
@@ -447,7 +660,7 @@ export const projetsDev = [
   {
     imgMiniature: vivreAnnecyIphone1,
     idRea: "vivre-annecy", // ID unique pour chaque projet
-    titre: "Création de landing page - Vivre Annecy",
+    titre: "Dev. de landing page - Vivre Annecy",
     shortDescription:
       "Développement d'une landing page pour Eiffage visant à faciliter la prise de contact d'un programme immo.",
     outils: [
@@ -513,7 +726,7 @@ export const projetsDev = [
   {
     imgMiniature: odysseeBourgMacbook1,
     idRea: "odyssee-bourg", // ID unique pour chaque projet
-    titre: "Création de landing page - Odysée Bourg",
+    titre: "Dev. de landing page - Odysée Bourg",
     shortDescription:
       "Développement d'une landing page pour Care Immobilier visant à faciliter la prise de contact d'un programme immo.",
     outils: [
@@ -579,9 +792,9 @@ export const projetsDev = [
 export const projetsCreation = [
   // INVITE ETOILE
   {
-    imgMiniature: exemple3,
+    imgMiniature: ieLogo,
     idRea: "invite-etoile", // ID unique pour chaque projet
-    titre: "Création de DA - Invité Étolé",
+    titre: "Dev. de DA - Invité Étolé",
     shortDescription:
       "J'ai pu créer, imaginer et donner une identité à une marque fictive de livraison de repas gastronomique.",
     outils: ["Figma", "Illustrator", "Figma Slides", "Photoshop", "InDesign"],
@@ -615,15 +828,15 @@ export const projetsCreation = [
         ],
         imagesPage: {
           title: "Aperçu",
-          images: [exemple, exemple2, exemple3, exemple4],
+          images: [ieMoodboard, iePost, ieGuide, ieEmailing],
         },
       },
     ],
   },
 
-  // Come-on
+// Come-on
   {
-    imgMiniature: exemple4,
+    imgMiniature: comeonLogo,
     idRea: "come-on", // ID unique pour chaque projet
     titre: "Maquette - Application Come On",
     shortDescription:
@@ -659,7 +872,7 @@ export const projetsCreation = [
         ],
         imagesPage: {
           title: "Aperçu",
-          images: [exemple, exemple2, exemple3, exemple4],
+          images: [comeonOnboarding, comeonProfile, comeonHomepage, comeonMap],
         },
       },
     ],
@@ -667,7 +880,7 @@ export const projetsCreation = [
 
   // Appli cusset
   {
-    imgMiniature: exemple4,
+    imgMiniature: cussetInstructions,
     idRea: "cusset-histoire", // ID unique pour chaque projet
     titre: "Maquette - Application Visite Historique - Cusset",
     shortDescription:
@@ -703,7 +916,7 @@ export const projetsCreation = [
         ],
         imagesPage: {
           title: "Aperçu",
-          images: [exemple, exemple2, exemple3, exemple4],
+          images: [cussetBatiments, cussetInstructions, cussetResultsTest],
         },
       },
     ],
@@ -711,8 +924,8 @@ export const projetsCreation = [
 
   // Motion design logo
   {
-    imgMiniature: exemple4,
-    idRea: "motion-design-logo", // ID unique pour chaque projet
+    imgMiniature: logoAnimGif,
+    idRea: "motion-design-logo-gofresh", // ID unique pour chaque projet
     titre: "Motion design - Logo",
     shortDescription:
       "Création d'un motion design très simple d'un logo d'une marque fictive - Go Fresh",
@@ -746,7 +959,7 @@ export const projetsCreation = [
         ],
         imagesPage: {
           title: "Aperçu",
-          images: [exemple, exemple2, exemple3, exemple4],
+          images: [logoAnimGif],
         },
       },
     ],

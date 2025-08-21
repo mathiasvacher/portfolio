@@ -12,7 +12,7 @@ type Experience = {
   elementsListe?: string[];
   lien: string;
   texteBouton: string;
-  logo: string;
+  logo?: string; // <-- rendu optionnel
   couleur: string;
 };
 
@@ -51,16 +51,18 @@ const ExperienceItem = ({ exp }: { exp: Experience }) => {
       </div>
 
       <div className='experience-single'>
-        <div className='img-exp-container'>
-          <img src={exp.logo} alt={exp.nomEntreprise} />
-        </div>
+        {/* Affiche le logo seulement si présent */}
+        {exp.logo && (
+          <div className='img-exp-container'>
+            <img src={exp.logo} alt={exp.nomEntreprise} />
+          </div>
+        )}
 
         <div className="infos-experience">
           <h3 style={{ color: exp.couleur }}>{exp.nomEntreprise}</h3>
           <h4>{exp.titrePoste}</h4>
           <p className="date">{exp.dates}</p>
           <p>{exp.descriptionPremierePartie}</p>
-
 
           {/* Ajout de la classe open pour afficher ou cacher more-infos */}
           <div className={`more-infos ${isOpen ? 'open' : ''}`}>
@@ -80,15 +82,27 @@ const ExperienceItem = ({ exp }: { exp: Experience }) => {
               </div>
             )}
 
-            <a className="bouton" href={exp.lien} target="_blank" rel="noopener noreferrer">
-              {exp.texteBouton}
-            </a>
+            {exp.lien === "#contact" ? (
+              <a className="bouton" href={exp.lien}>
+                {exp.texteBouton}
+              </a>
+            ) : (
+              <a
+                className="bouton"
+                href={exp.lien}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {exp.texteBouton}
+              </a>
+            )}
           </div>
         </div>
       </div>
     </div>
   );
 };
+
 
 
 export default Experiences;
