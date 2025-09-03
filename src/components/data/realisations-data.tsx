@@ -1,11 +1,14 @@
 import mouveMockup from "../../assets/img/realisations/mockup-mouve.png";
 import mouveFullscreen from "../../assets/img/realisations/mouve-clermont-min.jpg";
+import mouveMobile from "../../assets/img/realisations/mouve-clermont-mobile.jpg";
 
 import planetMockup from "../../assets/img/realisations/mockup-planet.png";
 import planetFullscreen from "../../assets/img/realisations/planet-immo-min.jpg";
+import planetMobile from "../../assets/img/realisations/planet-immo-mobile.jpg";
 
 import collineMockup from "../../assets/img/realisations/mockup-colline.png";
 import collineFullscreen from "../../assets/img/realisations/la-colline-bron-min.jpg";
+import collineMobile from "../../assets/img/realisations/la-colline-bron-mobile.jpg";
 
 import financileiphone1 from "../../assets/img/realisations/financile-iphone-1.jpg";
 import financileiphone2 from "../../assets/img/realisations/financile-iphone-2.jpg";
@@ -123,7 +126,8 @@ export const projetsDev = [
         imagesPage: {
           title: "Aperçu",
           images: [
-            planetFullscreen
+            planetFullscreen,
+            planetMobile
           ],
         },
       },
@@ -186,7 +190,8 @@ export const projetsDev = [
         imagesPage: {
           title: "Aperçu",
           images: [
-            collineFullscreen
+            collineFullscreen,
+            collineMobile
           ],
         },
       },
@@ -250,7 +255,8 @@ export const projetsDev = [
         imagesPage: {
           title: "Aperçu",
           images: [
-            mouveFullscreen
+            mouveFullscreen,
+            mouveMobile
           ],
         },
       },
