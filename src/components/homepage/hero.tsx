@@ -1,5 +1,4 @@
 import LogoSocials from "../logos-socials";
-import CV from "../../assets/pdf/CV_Mathias_Vacher.pdf";
 function Hero() {
   return (
     <section id="hero">
@@ -25,13 +24,7 @@ function Hero() {
               {" "}
               Voir mes projets
             </a>
-            <a
-              href={CV}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bouton secondary"
-            >
-              {" "}
+            <a href="/cv" className="bouton secondary">
               Mon CV
             </a>
           </div>

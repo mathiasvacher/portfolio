@@ -11,6 +11,7 @@ import Error from "./components/404.tsx";
 import PageRealisations from "./pages/realisations.tsx";
 import Homepage from "./pages/homepage.tsx";
 import RealisationsDetails from "./pages/realisation-details.tsx";
+import CV from "./pages/cv.tsx";
 
 const pageVariants = {
   initial: { opacity: 0 },
@@ -47,6 +48,14 @@ function AnimatedRoutes() {
           element={
             <PageWrapper>
               <PageRealisations />
+            </PageWrapper>
+          }
+        />
+        <Route
+          path="/cv"
+          element={
+            <PageWrapper>
+              <CV />
             </PageWrapper>
           }
         />

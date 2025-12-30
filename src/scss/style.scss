@@ -13,6 +13,8 @@
 
 @use '404' as *;
 
+@use './cv/cv' as *;
+
 @use './homepage/hero' as *;
 @use './homepage/experiences' as *;
 @use './homepage/realisations' as *;
@@ -81,7 +83,7 @@ body {
 section {
     margin: $spacing-section auto;
 
-    &#hero {
+    &#hero, &#cv-page{
         margin-top: 0 !important;
     }
 
