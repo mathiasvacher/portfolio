@@ -1,8 +1,6 @@
 @use '../variables' as *;
 
 #cv-page {
-
-
     background-image: radial-gradient(circle, $accent-color 0%, transparent 8%);
     background-size: 25px 25px; /* Espacement des points */
     background-repeat: repeat;
@@ -10,9 +8,6 @@
 
     animation: pulse 30s infinite ease-in-out; /* Animation respiration */
 
-    @media (max-width: 750px) {
-        padding: 7rem 5% 10% 5%;
-    }
 
     .gradient {
         background: $background-color;
@@ -28,6 +23,10 @@
         justify-content: center;
         text-align: center;
         gap: 3rem;
+
+        @media (max-width: 900px) {
+            padding: 7rem 5% 10% 5%;
+        }
     }
 
     img {
