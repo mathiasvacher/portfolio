@@ -1,9 +1,33 @@
+import fluidtopicsLogo from "../../assets/img/experiences/fluidtopics.svg";
 import adjectifLogo from "../../assets/img/experiences/adjectif.png";
 import filtrebgeLogo from "../../assets/img/experiences/filtre-bge.png";
 import cmqiedLogo from "../../assets/img/experiences/cmqied.png";
 import emveLogo from "../../assets/img/experiences/emve-logo.png";
 
 export const experiences = [
+    {
+    logo: fluidtopicsLogo,
+    couleur: "#AF1295",
+    nomEntreprise: "Fluid Topics",
+    dates: "12/2025 - Présent",
+    titrePoste: "Développeur web - Front-end",
+    descriptionPremierePartie:
+      "En tant que Frontend Web Developer chez Fluid Topics, je conçois et développe des solutions frontend sur mesure au sein de la plateforme Fluid Topics afin de répondre aux besoins spécifiques de chaque client. J’interviens sur des projets nécessitant des personnalisations avancées, des extensions fonctionnelles et des intégrations adaptées à des contextes métier complexes.",
+    descriptionSecondePartie:
+      "Je travaille en étroite collaboration avec les clients, les équipes produit et les développeurs backend pour traduire des exigences fonctionnelles en implémentations frontend performantes, maintenables et évolutives. Mon rôle couvre la conception d’interfaces, l’extension des capacités de la plateforme, l’optimisation des performances ainsi que la maintenance et l’amélioration continue des projets déployés.",
+    titreListe: "Principales responsabilités et réalisations :", 
+    elementsListe: [
+      "Développement de fonctionnalités frontend sur mesure en adéquation avec les spécifications clients",
+      "Personnalisation et extension de la plateforme Fluid Topics (UI, theming, configuration avancée)",
+      "Conception d’interfaces responsives, accessibles et orientées performance",
+      "Intégration avec des services tiers et APIs selon les besoins métiers",
+      "Collaboration transverse avec équipes produit, backend et clients",
+      "Résolution de problématiques techniques complexes et optimisation des performances",
+      "Maintenance, évolutions et amélioration continue des implémentations spécifiques clients",
+    ],
+    lien: "https://www.fluidtopics.com/",
+    texteBouton: "Aller sur le site",
+  },
   {
     logo: emveLogo,
     couleur: "#ffffff",
