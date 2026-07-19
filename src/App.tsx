@@ -12,6 +12,7 @@ import PageRealisations from "./pages/realisations.tsx";
 import Homepage from "./pages/homepage.tsx";
 import RealisationsDetails from "./pages/realisation-details.tsx";
 import CV from "./pages/cv.tsx";
+import AutresSites from "./pages/autres-sites.tsx";
 
 const pageVariants = {
   initial: { opacity: 0 },
@@ -56,6 +57,14 @@ function AnimatedRoutes() {
           element={
             <PageWrapper>
               <CV />
+            </PageWrapper>
+          }
+        />
+        <Route
+          path="/autres-sites"
+          element={
+            <PageWrapper>
+              <AutresSites />
             </PageWrapper>
           }
         />

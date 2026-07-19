@@ -1,0 +1,86 @@
+@use '../variables' as *;
+
+#liste-autres-sites {
+    .autres-sites-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 2rem;
+        max-width: 1100px;
+        margin: auto;
+
+        @media (max-width: 750px) {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .autre-site-card {
+        min-height: 320px;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 2rem;
+        border: solid 1px rgb(39, 39, 42);
+        border-radius: 1rem;
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.04) 5%, $background-color, rgba(255, 255, 255, 0.04));
+        transition: transform 0.3s ease-in-out, border-color 0.3s ease-in-out;
+
+        &:hover {
+            transform: translateY(-5px);
+            border-color: $accent-color;
+        }
+
+        .site-illustration-link {
+            display: block;
+            border: 1px solid rgb(39, 39, 42);
+            border-radius: 0.75rem;
+            overflow: hidden;
+        }
+
+        .site-illustration {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .site-type {
+            margin-bottom: 1rem;
+            color: $accent-color;
+            font-family: $font-clash;
+            font-weight: 500;
+        }
+
+        h2 {
+            margin-bottom: 1rem;
+            color: $white;
+        }
+
+        .site-card-footer {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 1.5rem;
+        }
+
+        .site-card-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .site-technologies {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+
+            span {
+                padding: 0.3rem 0.65rem;
+                border: 1px solid rgb(39, 39, 42);
+                border-radius: 999px;
+                color: darken($white, 30%);
+                font-size: calc($paragraph-size - 2px);
+            }
+        }
+    }
+}

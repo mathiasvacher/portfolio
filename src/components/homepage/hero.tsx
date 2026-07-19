@@ -1,4 +1,5 @@
 import LogoSocials from "../logos-socials";
+import { Link } from "react-router-dom";
 function Hero() {
   return (
     <section id="hero">
@@ -24,9 +25,12 @@ function Hero() {
               {" "}
               Voir mes projets
             </a>
-            <a href="/cv" className="bouton secondary">
+            <Link to="/cv" className="bouton secondary">
               Mon CV
-            </a>
+            </Link>
+            <Link to="/autres-sites" className="bouton secondary">
+              Autres sites
+            </Link>
           </div>
         </div>
       </div>

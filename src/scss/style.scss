@@ -26,6 +26,9 @@
 @use './page-realisation/introduction-realisations.scss';
 @use './page-realisation/liste-realisations.scss';
 
+@use './page-autres-sites/introduction-autres-sites.scss';
+@use './page-autres-sites/liste-autres-sites.scss';
+
 @use './realisation-details/realisation-details.scss';
 
 @import 'bootstrap/scss/bootstrap';
@@ -124,4 +127,3 @@ section {
         font-family: $font-outfit;
     }    
 }
-
