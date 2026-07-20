@@ -70,6 +70,7 @@ import careR5Desktop from "../../assets/img/realisations/care-r5-desktop.jpg";
 import careR5Mobile from "../../assets/img/realisations/care-r5-mobile.jpg";
 import livingR5Desktop from "../../assets/img/realisations/livinx-r5-desktop.jpg";
 import livingR5Mobile from "../../assets/img/realisations/livinx-r5-mobile.jpg";
+import sullyDivonne from "../../assets/img/realisations/sully-divonne.jpg";
 
 import jeSaisPasDesktop from "../../assets/img/autres-sites/jesaispas.jpg";
 import jeSaisPasMobile from "../../assets/img/autres-sites/jesaispas-mobile.jpg";
@@ -137,72 +138,7 @@ export const projetsDev = [
     ],
   },
 
-  // Care Promotion x Livinx — Concours R5
-  {
-    imgMiniature: careR5Desktop,
-    idRea: "care-livinx-concours-r5",
-    titre: "Dev. Landing Page - Care & Livinx - Concours R5",
-    shortDescription:
-      "Développement d’une landing page de co-promotion pour faire gagner une Renault 5 électrique.",
-    outils: [
-      "PHP",
-      "JavaScript",
-      "Sass",
-      "HTML",
-      "NodeJS",
-      "Suivi de maquette Figma",
-      "Gulp",
-      "NPM",
-    ],
-    texteBoutonProjet: "Voir le projet",
-    lienBoutonProjet: "/realisations/care-livinx-concours-r5",
-    texteBoutonLive: "En apprendre + sur le concours",
-    lienBoutonLive: "https://www.echantillonsclub.com/217009-renault-5-electrique-gagner-jeu-concours-gratuit.html",
-
-    contentPage: [
-      {
-        leftSection: [
-          {
-            title: "Contexte",
-            content:
-              "Dans le cadre de mon travail avec l’agence Adjectif, j’ai participé au développement d’une landing page événementielle imaginée pour Care Promotion et Livinx. Cette opération de co-promotion, organisée en 2025, permettait aux acquéreurs d’un appartement de tenter de gagner une Renault 5 électrique.",
-          },
-          {
-            title: "Objectifs",
-            content:
-              "L’enjeu était de créer une expérience de campagne forte et immédiatement compréhensible, capable de valoriser les deux marques tout en mettant le concours au centre de l’attention. La page devait présenter l’opération, guider les visiteurs vers les résidences participantes et simplifier l’inscription au jeu concours grâce à un formulaire clair et accessible sur tous les écrans.",
-          },
-          {
-            title: "Technique",
-            content:
-              "J’ai intégré la maquette en veillant à retranscrire son univers visuel très immersif : dégradés lumineux, mise en scène de la Renault 5 et animations au scroll. Le front-end a été construit en HTML, Sass et JavaScript, avec une attention particulière portée au responsive pour conserver l’impact de la campagne sur mobile. Le formulaire PHP permettait de collecter les informations nécessaires à la participation, tandis que l’environnement Node.js, Gulp et NPM facilitait la compilation et l’optimisation des assets.",
-          },
-          {
-            title: "Résultats",
-            content:
-              "La landing page a offert un support dédié à l’opération Care Promotion x Livinx, en réunissant les informations du concours, les résidences concernées et le parcours de participation dans une même expérience. Son identité graphique distinctive a permis de donner de la visibilité à la campagne tout en conservant un parcours simple, lisible et fluide pour les prospects.",
-          },
-        ],
-        rightSection: [
-          { title: "Cadre", content: "Avec l’Agence Adjectif" },
-          { title: "Type de projet", content: "Projet de développement web" },
-          { title: "Date du projet", content: "2025" },
-          { title: "Client", content: "Care Promotion & Livinx" },
-        ],
-        imagesPage: {
-          title: "Aperçu",
-          images: [
-            careR5Desktop,
-            careR5Mobile,
-            livingR5Desktop,
-            livingR5Mobile,
-          ],
-        },
-      },
-    ],
-  },
-
-  // Planet'Immo
+    // Planet'Immo
   {
     imgMiniature: planetMockup,
     idRea: "planet-immo", // ID unique pour chaque projet
@@ -330,6 +266,70 @@ export const projetsDev = [
     ],
   },
 
+  // Care Promotion x Livinx — Concours R5
+  {
+    imgMiniature: careR5Desktop,
+    idRea: "care-livinx-concours-r5",
+    titre: "Dev. Landing Page - Care & Livinx - Concours R5",
+    shortDescription:
+      "Développement d’une landing page de co-promotion pour faire gagner une Renault 5 électrique.",
+    outils: [
+      "PHP",
+      "JavaScript",
+      "Sass",
+      "HTML",
+      "NodeJS",
+      "Suivi de maquette Figma",
+      "Gulp",
+      "NPM",
+    ],
+    texteBoutonProjet: "Voir le projet",
+    lienBoutonProjet: "/realisations/care-livinx-concours-r5",
+    texteBoutonLive: "En apprendre + sur le concours",
+    lienBoutonLive: "https://www.echantillonsclub.com/217009-renault-5-electrique-gagner-jeu-concours-gratuit.html",
+
+    contentPage: [
+      {
+        leftSection: [
+          {
+            title: "Contexte",
+            content:
+              "Dans le cadre de mon travail avec l’agence Adjectif, j’ai participé au développement d’une landing page événementielle imaginée pour Care Promotion et Livinx. Cette opération de co-promotion, organisée en 2025, permettait aux acquéreurs d’un appartement de tenter de gagner une Renault 5 électrique.",
+          },
+          {
+            title: "Objectifs",
+            content:
+              "L’enjeu était de créer une expérience de campagne forte et immédiatement compréhensible, capable de valoriser les deux marques tout en mettant le concours au centre de l’attention. La page devait présenter l’opération, guider les visiteurs vers les résidences participantes et simplifier l’inscription au jeu concours grâce à un formulaire clair et accessible sur tous les écrans.",
+          },
+          {
+            title: "Technique",
+            content:
+              "J’ai intégré la maquette en veillant à retranscrire son univers visuel très immersif : dégradés lumineux, mise en scène de la Renault 5 et animations au scroll. Le front-end a été construit en HTML, Sass et JavaScript, avec une attention particulière portée au responsive pour conserver l’impact de la campagne sur mobile. Le formulaire PHP permettait de collecter les informations nécessaires à la participation, tandis que l’environnement Node.js, Gulp et NPM facilitait la compilation et l’optimisation des assets.",
+          },
+          {
+            title: "Résultats",
+            content:
+              "La landing page a offert un support dédié à l’opération Care Promotion x Livinx, en réunissant les informations du concours, les résidences concernées et le parcours de participation dans une même expérience. Son identité graphique distinctive a permis de donner de la visibilité à la campagne tout en conservant un parcours simple, lisible et fluide pour les prospects.",
+          },
+        ],
+        rightSection: [
+          { title: "Cadre", content: "Avec l’Agence Adjectif" },
+          { title: "Type de projet", content: "Projet de développement web" },
+          { title: "Date du projet", content: "2025" },
+          { title: "Client", content: "Care Promotion & Livinx" },
+        ],
+        imagesPage: {
+          title: "Aperçu",
+          images: [
+            careR5Desktop,
+            careR5Mobile,
+            livingR5Desktop,
+            livingR5Mobile,
+          ],
+        },
+      },
+    ],
+  },
 
   // Mouve Clermont
   {
@@ -526,6 +526,57 @@ export const projetsDev = [
             agenceDuLeasingIphone2,
             agenceDuLeasingMacbook2,
           ],
+        },
+      },
+    ],
+  },
+
+  // Sully Divonne-les-Bains
+  {
+    imgMiniature: sullyDivonne,
+    idRea: "sully-divonne-les-bains",
+    titre: "Site immobilier - Sully Divonne-les-Bains",
+    shortDescription:
+      "Un site immobilier bilingue, pensé pour présenter avec clarté la résidence Le Clos Bel Ami.",
+    outils: ["WordPress", "PHP", "ACF", "API", "JavaScript", "Sass", "Google Maps"],
+    texteBoutonProjet: "Voir le projet",
+    lienBoutonProjet: "/realisations/sully-divonne-les-bains",
+    texteBoutonLive: "Voir en direct",
+    lienBoutonLive: "https://www.sully-divonne.com/?lang=fr",
+
+    contentPage: [
+      {
+        leftSection: [
+          {
+            title: "Contexte",
+            content:
+              "Réalisé en 2025 au sein de l’agence Adjectif pour Sully Immobilier, ce site accompagne la commercialisation de la résidence Le Clos Bel Ami à Divonne-les-Bains. Il met en valeur les appartements, la résidence et son environnement privilégié aux portes de Genève.",
+          },
+          {
+            title: "Expérience utilisateur",
+            content:
+              "Le parcours a été conçu pour un public immobilier plus mature, avec une navigation volontairement simple, des contenus hiérarchisés et une typographie confortable à lire. Les informations essentielles — caractéristiques de la résidence, localisation et prise de contact — sont accessibles rapidement, aussi bien sur ordinateur que sur mobile.",
+          },
+          {
+            title: "Développement",
+            content:
+              "Le site est disponible en français et en anglais afin de s’adresser à une clientèle locale comme internationale. J’ai participé à son intégration responsive et à la mise en place de composants administrables. Le projet comprend également l’intégration d’une carte interactive, d’un formulaire de contact et de données alimentées par API pour enrichir le parcours et faciliter la prise d’informations.",
+          },
+          {
+            title: "Résultat",
+            content:
+              "Le site propose une présentation élégante et accessible du programme immobilier, fidèle à son positionnement premium. Son interface responsive conserve une lecture fluide sur tous les formats, tandis que le bilinguisme et les éléments interactifs rendent l’offre facilement compréhensible pour les différents profils de visiteurs.",
+          },
+        ],
+        rightSection: [
+          { title: "Cadre", content: "Avec l’agence Adjectif" },
+          { title: "Type de projet", content: "Site vitrine immobilier" },
+          { title: "Date du projet", content: "2025" },
+          { title: "Client", content: "Sully Immobilier" },
+        ],
+        imagesPage: {
+          title: "Aperçu",
+          images: [sullyDivonne],
         },
       },
     ],
