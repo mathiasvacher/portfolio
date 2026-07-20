@@ -66,10 +66,142 @@ import cussetBatiments from "../../assets/img/realisations/cusset-batiments.jpg"
 import cussetInstructions from "../../assets/img/realisations/cusset-instructions.jpg";
 import cussetResultsTest from "../../assets/img/realisations/cusset-results-test.jpg";
 
+import careR5Desktop from "../../assets/img/realisations/care-r5-desktop.jpg";
+import careR5Mobile from "../../assets/img/realisations/care-r5-mobile.jpg";
+import livingR5Desktop from "../../assets/img/realisations/livinx-r5-desktop.jpg";
+import livingR5Mobile from "../../assets/img/realisations/livinx-r5-mobile.jpg";
+
+import jeSaisPasDesktop from "../../assets/img/autres-sites/jesaispas.jpg";
+import jeSaisPasMobile from "../../assets/img/autres-sites/jesaispas-mobile.jpg";
+import meteoDesktop from "../../assets/img/autres-sites/meteo.jpg";
+import meteoMobile from "../../assets/img/autres-sites/meteo-mobile.jpg";
+import meteoDarkDesktop from "../../assets/img/autres-sites/meteo-dark.jpg";
+import meteoDarkMobile from "../../assets/img/autres-sites/meteo-dark-mobile.jpg";
+
 import logoAnimGif from "../../assets/img/realisations/logo-go-fresh.gif";
 
 
 export const projetsDev = [
+  // Je sais pas
+  {
+    imgMiniature: jeSaisPasDesktop,
+    idRea: "je-sais-pas",
+    titre: "Dev. Application web - Je sais pas",
+    shortDescription:
+      "Une application qui aide à choisir quoi manger et à trouver où aller, sans prise de tête.",
+    outils: ["React", "TypeScript", "Vite", "CSS", "Google Maps"],
+    texteBoutonProjet: "Voir le projet",
+    lienBoutonProjet: "/realisations/je-sais-pas",
+    texteBoutonLive: "Voir en direct",
+    lienBoutonLive: "https://www.jesaispas.mathiasvacher.fr/",
+
+    contentPage: [
+      {
+        leftSection: [
+          {
+            title: "Contexte",
+            content:
+              "« Je sais pas » est un projet personnel né d’une question très simple, mais récurrente : qu’est-ce qu’on mange ce soir ? L’idée était de transformer ce moment d’hésitation en une expérience rapide, ludique et agréable, que l’on cherche un restaurant, une idée de repas à préparer ou simplement une source d’inspiration.",
+          },
+          {
+            title: "Objectifs",
+            content:
+              "L’application devait aider l’utilisateur à trancher sans lui imposer une réponse dès le départ. Le parcours propose plusieurs idées à la fois, conserve les choix qui plaisent et renouvelle les autres jusqu’à faire émerger une suggestion finale. Des filtres permettent d’adapter les propositions selon le type de repas, les envies culinaires, le moment, un dîner à deux, à la maison ou au restaurant.",
+          },
+          {
+            title: "Technique",
+            content:
+              "L’application a été conçue avec React et TypeScript, puis développée avec Vite pour bénéficier d’un environnement rapide et moderne. La logique de sélection conserve les choix validés tout au long d’une série de huit tours, tout en proposant de nouvelles alternatives. Les données de repas sont filtrées côté client selon les préférences sélectionnées. Une fois le choix final trouvé, un lien Google Maps génère une recherche à proximité pour passer facilement de l’idée à l’action.",
+          },
+          {
+            title: "Résultats",
+            content:
+              "« Je sais pas » propose une façon simple et engageante de choisir un repas. L’interface met l’accent sur une expérience légère, avec des suggestions variées, une option surprise et un catalogue consultable à tout moment. Le projet m’a permis de travailler à la fois la logique d’état React, le filtrage de données et la conception d’un parcours utilisateur pensé pour un usage rapide, sur desktop comme sur mobile.",
+          },
+        ],
+        rightSection: [
+          { title: "Cadre", content: "Projet personnel" },
+          { title: "Type de projet", content: "Application web" },
+          { title: "Date du projet", content: "2026" },
+          {
+            title: "Code source",
+            content: "Disponible sur mon GitHub",
+            lien: "https://github.com/mathiasvacher/je-sais-pas",
+          },
+        ],
+        imagesPage: {
+          title: "Aperçu",
+          images: [jeSaisPasDesktop, jeSaisPasMobile],
+        },
+      },
+    ],
+  },
+
+  // Care Promotion x Livinx — Concours R5
+  {
+    imgMiniature: careR5Desktop,
+    idRea: "care-livinx-concours-r5",
+    titre: "Dev. Landing Page - Care & Livinx - Concours R5",
+    shortDescription:
+      "Développement d’une landing page de co-promotion pour faire gagner une Renault 5 électrique.",
+    outils: [
+      "PHP",
+      "JavaScript",
+      "Sass",
+      "HTML",
+      "NodeJS",
+      "Suivi de maquette Figma",
+      "Gulp",
+      "NPM",
+    ],
+    texteBoutonProjet: "Voir le projet",
+    lienBoutonProjet: "/realisations/care-livinx-concours-r5",
+    texteBoutonLive: "En apprendre + sur le concours",
+    lienBoutonLive: "https://www.echantillonsclub.com/217009-renault-5-electrique-gagner-jeu-concours-gratuit.html",
+
+    contentPage: [
+      {
+        leftSection: [
+          {
+            title: "Contexte",
+            content:
+              "Dans le cadre de mon travail avec l’agence Adjectif, j’ai participé au développement d’une landing page événementielle imaginée pour Care Promotion et Livinx. Cette opération de co-promotion, organisée en 2025, permettait aux acquéreurs d’un appartement de tenter de gagner une Renault 5 électrique.",
+          },
+          {
+            title: "Objectifs",
+            content:
+              "L’enjeu était de créer une expérience de campagne forte et immédiatement compréhensible, capable de valoriser les deux marques tout en mettant le concours au centre de l’attention. La page devait présenter l’opération, guider les visiteurs vers les résidences participantes et simplifier l’inscription au jeu concours grâce à un formulaire clair et accessible sur tous les écrans.",
+          },
+          {
+            title: "Technique",
+            content:
+              "J’ai intégré la maquette en veillant à retranscrire son univers visuel très immersif : dégradés lumineux, mise en scène de la Renault 5 et animations au scroll. Le front-end a été construit en HTML, Sass et JavaScript, avec une attention particulière portée au responsive pour conserver l’impact de la campagne sur mobile. Le formulaire PHP permettait de collecter les informations nécessaires à la participation, tandis que l’environnement Node.js, Gulp et NPM facilitait la compilation et l’optimisation des assets.",
+          },
+          {
+            title: "Résultats",
+            content:
+              "La landing page a offert un support dédié à l’opération Care Promotion x Livinx, en réunissant les informations du concours, les résidences concernées et le parcours de participation dans une même expérience. Son identité graphique distinctive a permis de donner de la visibilité à la campagne tout en conservant un parcours simple, lisible et fluide pour les prospects.",
+          },
+        ],
+        rightSection: [
+          { title: "Cadre", content: "Avec l’Agence Adjectif" },
+          { title: "Type de projet", content: "Projet de développement web" },
+          { title: "Date du projet", content: "2025" },
+          { title: "Client", content: "Care Promotion & Livinx" },
+        ],
+        imagesPage: {
+          title: "Aperçu",
+          images: [
+            careR5Desktop,
+            careR5Mobile,
+            livingR5Desktop,
+            livingR5Mobile,
+          ],
+        },
+      },
+    ],
+  },
+
   // Planet'Immo
   {
     imgMiniature: planetMockup,
@@ -394,6 +526,51 @@ export const projetsDev = [
             agenceDuLeasingIphone2,
             agenceDuLeasingMacbook2,
           ],
+        },
+      },
+    ],
+  },
+
+  // Météo
+  {
+    imgMiniature: meteoDesktop,
+    idRea: "meteo",
+    titre: "Dev. Application web - Météo",
+    shortDescription:
+      "Une application simple pour consulter la météo d’une ville et ses prévisions.",
+    outils: ["React", "TypeScript", "Vite", "API Open-Meteo", "Sass"],
+    texteBoutonProjet: "Voir le projet",
+    lienBoutonProjet: "/realisations/meteo",
+    texteBoutonLive: "Voir en direct",
+    lienBoutonLive: "https://www.meteo.mathiasvacher.fr/",
+
+    contentPage: [
+      {
+        leftSection: [
+          {
+            title: "Le projet",
+            content:
+              "Une petite application météo réalisée pour consulter les conditions actuelles et les prévisions d’une ville. Elle intègre une recherche avec autocomplétion et une interface pensée pour être lisible sur ordinateur comme sur mobile.",
+          },
+          {
+            title: "Technique",
+            content:
+              "Développée avec React et TypeScript, l’application récupère les données de température, ressenti, vent, humidité et prévisions via l’API Open-Meteo. J’ai également intégré un thème clair et un thème sombre pour adapter l’affichage aux préférences de l’utilisateur.",
+          },
+        ],
+        rightSection: [
+          { title: "Cadre", content: "Projet personnel" },
+          { title: "Type de projet", content: "Application web" },
+          { title: "Date du projet", content: "2025" },
+          {
+            title: "Code source",
+            content: "Disponible sur mon GitHub",
+            lien: "https://github.com/mathiasvacher/meteo",
+          },
+        ],
+        imagesPage: {
+          title: "Aperçu",
+          images: [meteoDesktop, meteoMobile, meteoDarkDesktop, meteoDarkMobile],
         },
       },
     ],

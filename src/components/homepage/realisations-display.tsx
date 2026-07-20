@@ -56,7 +56,6 @@ const RealisationsDisplay: React.FC<RealisationsDisplayProps> = ({ titre, projet
               <a href={realisation.lienBoutonLive} className='btn-live' target="_blank" rel="noopener noreferrer">
                 {realisation.texteBoutonLive}
               </a>
-
             </div>
             {/* Affichage du contentPage si disponible */}
           </div>

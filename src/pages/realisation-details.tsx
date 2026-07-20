@@ -21,7 +21,6 @@ const RealisationsDetails = () => {
   const currentIndex = allProjets.findIndex((p) => p.idRea === projetId);
   const previousProjet = allProjets[currentIndex - 1];
   const nextProjet = allProjets[currentIndex + 1];
-
   // Gestion de la galerie
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentImage, setCurrentImage] = useState<string | null>(null);
@@ -98,7 +97,15 @@ const RealisationsDetails = () => {
                 {content.rightSection.map((section, idx) => (
                   <div className="container-title-text" key={idx}>
                     <h3>{section.title}</h3>
-                    <p>{section.content}</p>
+                    {"lien" in section && typeof section.lien === "string" ? (
+                      <p>
+                        <a href={section.lien} className="btn-live" target="_blank" rel="noopener noreferrer">
+                          {section.content}
+                        </a>
+                      </p>
+                    ) : (
+                      <p>{section.content}</p>
+                    )}
                   </div>
                 ))}
               </div>
@@ -124,7 +131,7 @@ const RealisationsDetails = () => {
           </div>
 
           <div className="bouton-live-right desktop">
-            <a href={projet.lienBoutonLive} className="bouton">
+            <a href={projet.lienBoutonLive} className="bouton" target="_blank" rel="noopener noreferrer">
               {projet.texteBoutonLive}
             </a>
           </div>
