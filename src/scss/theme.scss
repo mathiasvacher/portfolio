@@ -10,6 +10,8 @@
     --text-primary: #fff;
     --text-secondary: #ebebeb;
     --text-dark: #0a0a0a;
+    --input-background: rgba(10, 10, 10, .5);
+    --input-border: rgb(39, 39, 42);
     color-scheme: dark;
 }
 
@@ -25,6 +27,8 @@ html[data-theme='light'] {
     --text-primary: #281d0d;
     --text-secondary: #675a47;
     --text-dark: #281d0d;
+    --input-background: rgba(255, 255, 255, .92);
+    --input-border: rgba(40, 29, 13, .18);
     color-scheme: light;
 
     header .header-container,
@@ -32,12 +36,6 @@ html[data-theme='light'] {
     #contact form {
         background: rgba(255, 255, 255, .78) !important;
         border: 1px solid rgba(40, 29, 13, .08);
-    }
-
-    #contact .input-box .field {
-        background: rgba(255, 255, 255, .9);
-        border-color: rgba(40, 29, 13, .18);
-        color: var(--text-primary);
     }
 
     .services-page h1,

@@ -4,12 +4,12 @@
     .competences-grid {
         display: grid;
         grid-template-columns: repeat(4, 1fr); // 4 colonnes max
-        gap: 2rem;
+        gap: 1.25rem;
         justify-items: stretch; // Étend les éléments sur toute la largeur dispo
 
         @media (max-width: 700px) {
             grid-template-columns: repeat(3, 1fr); // 4 colonnes max
-            gap: 1.5rem;
+            gap: 1rem;
         }
 
         @media (max-width: 550px) {
@@ -32,7 +32,7 @@
         p {
             font-family: $font-clash;
             font-size: clamp($paragraph-size, calc($paragraph-size + 20%), calc($paragraph-size + 0.2rem));
-            padding: .75rem 0;
+            padding: .5rem 0;
             text-align: start;
             font-weight: 400;
             text-transform: uppercase;

@@ -80,6 +80,17 @@ function Services() {
         </div>
       </section>
 
+      <section className="services-projects">
+        <div>
+          <p className="services-eyebrow">Des projets concrets</p>
+          <h2>Découvrez des exemples de sites et d’expériences que j’ai réalisés.</h2>
+          <p>
+            Chaque projet est pensé pour répondre à un besoin précis, avec une attention particulière portée à l’identité, à la clarté et à l’expérience utilisateur.
+          </p>
+        </div>
+        <Link className="bouton secondary" to="/realisations">Voir mes réalisations</Link>
+      </section>
+
       <section className="services-cta">
         <p className="services-eyebrow">Prêt à passer à l’étape suivante ?</p>
         <h2>Votre établissement mérite une vitrine à sa hauteur.</h2>

@@ -20,6 +20,7 @@
 @use './cv/cv' as *;
 
 @use './homepage/hero' as *;
+@use './homepage/services-promo' as *;
 @use './homepage/experiences' as *;
 @use './homepage/realisations' as *;
 @use './homepage/formations' as *;
@@ -65,11 +66,18 @@ html, #root, body {
 }
 
 body {
+    font-size: $paragraph-size;
+
     h1, h2, h3, h4 {
         margin: 0;
         font-family: $font-clash;
         color: $white-text;
     }
+
+    h1 { font-size: clamp(1.9rem, 3.5vw, 2.6rem); }
+    h2 { font-size: clamp(1.5rem, 2.5vw, 2rem); }
+    h3 { font-size: 1.2rem; }
+    h4 { font-size: 1.05rem; }
 
     p, a, li {
         font-family: $font-outfit;
@@ -99,29 +107,29 @@ section {
     }
 
     &#competences {
-        margin: calc($spacing-section * 2) auto !important;
+        margin: $spacing-section auto !important;
     }
 
     &#realisation-details {
-        margin: calc($spacing-section * 2) auto !important;
+        margin: $spacing-section auto !important;
     }
 
     &#error {
-        margin: calc($spacing-section * 2) auto !important;
+        margin: $spacing-section auto !important;
     }
 
     @media (max-width: 700px) {
         &#competences {
-            margin: 7rem auto 10% auto!important;
+            margin: 4rem auto 8% auto!important;
         }
     
         &#realisation-details {
-            margin: 7rem auto 10% auto!important;
+            margin: 4rem auto 8% auto!important;
         }
     
         &#error {
-            margin: 7rem auto 10% auto!important;
-            padding: 0 2rem;
+            margin: 4rem auto 8% auto!important;
+            padding: 0 1.25rem;
         }
     }
 }

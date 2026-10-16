@@ -5,31 +5,29 @@ function Hero() {
     <section id="hero">
       <div className="gradient">
         <div className="content">
-          <p className="job-title">Développeur web - Freelance</p>
+          <p className="job-title">Développeur web freelance</p>
 
-          <h2>Créer des expériences uniques par le code</h2>
+          <h2>Des sites pensés pour vous ressembler — et vous faire avancer.</h2>
 
           <p className="description">
-            Hello, moi c'est Mathias ! Passionné par le code et le design, je
-            transforme des idées en solutions élégantes, <br />
-            en combinant une approche technique réfléchie à un design intuitif.
-            Mon objectif : créer des expériences web et <br />
-            mobiles qui allient esthétisme et performance, tout en mettant
-            l'utilisateur au cœur de la démarche.
+            Moi, c&apos;est Mathias. J&apos;aime transformer une idée, une activité ou une
+            histoire en une expérience web claire et agréable. Je crée des sites
+            vitrines sur mesure pour les entreprises qui veulent mieux présenter
+            leur savoir-faire, inspirer confiance et attirer de nouveaux clients.
           </p>
 
           <LogoSocials />
 
           <div className="btn-hero">
+            <Link to="/services" className="bouton">
+              Services
+            </Link>
             <a href="#realisations" className="bouton">
               {" "}
               Voir mes projets
             </a>
             <Link to="/cv" className="bouton secondary">
               Mon CV
-            </Link>
-            <Link to="/services" className="bouton secondary">
-              Services
             </Link>
             <Link to="/autres-sites" className="bouton secondary">
               Autres sites

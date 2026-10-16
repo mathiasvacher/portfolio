@@ -1,0 +1,55 @@
+@use '../variables' as *;
+
+#services-home {
+    width: min(1100px, 90%);
+
+    .services-home__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+        padding: 2rem 2.25rem;
+        border: 1px solid rgb(var(--accent-rgb) / .45);
+        border-radius: 16px;
+        background: linear-gradient(120deg, rgb(var(--accent-rgb) / .16), rgb(255 255 255 / .03));
+    }
+
+    .services-home__eyebrow {
+        margin-bottom: .5rem;
+        color: $accent-color;
+        font-size: .75rem;
+        font-weight: 600;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        font-size: clamp(1.4rem, 2.2vw, 1.9rem);
+    }
+
+    p:not(.services-home__eyebrow) {
+        max-width: 700px;
+        margin-top: .65rem;
+        color: $white-text-para;
+        line-height: 1.55;
+    }
+
+    .bouton {
+        flex: 0 0 auto;
+        white-space: nowrap;
+    }
+
+    @media (max-width: 650px) {
+        .services-home__content {
+            align-items: flex-start;
+            padding: 1.5rem;
+            flex-direction: column;
+            gap: 1.25rem;
+        }
+
+        .bouton {
+            width: 100%;
+            text-align: center;
+        }
+    }
+}

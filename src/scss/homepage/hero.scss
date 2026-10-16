@@ -15,8 +15,10 @@
 
         .content {
             min-height: 80vh;
-            padding: 10%;
-            gap: 20px;
+            width: min(900px, 90%);
+            margin: auto;
+            padding: 7% 0;
+            gap: 14px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -24,7 +26,7 @@
             text-align: center;
 
             @media (max-width: 750px) {
-                padding: 7rem 5% 10% 5%;
+                padding: 6rem 5% 7% 5%;
             }
     
             .job-title {
@@ -39,16 +41,16 @@
             }
     
             h2 {
-                font-size: calc($title-size + 0.5rem);
+                font-size: calc($title-size + 0.35rem);
                 color: $white;
 
                 @media (max-width: 700px) {
-                    font-size: calc($title-size + 0.2rem);
+                    font-size: $title-size;
                 }
             }
     
             .description {
-                font-size: calc($paragraph-size + 2px);
+                font-size: $paragraph-size;
 
                 @media (max-width: 700px) {
                     font-size: calc($paragraph-size);
@@ -62,7 +64,7 @@
             .btn-hero {
                 display: flex;
                 flex-direction: row;
-                gap: 2rem;
+                gap: 1rem;
 
                 @media (max-width: 650px) {
                     display: grid;

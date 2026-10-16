@@ -21,7 +21,7 @@ export const competences = [
     },
     {
         nom: 'Git',
-        couleur: '#FFF', // Rouge Git
+        couleur: '#F05032', // Orange Git
     },
     {
         nom: 'PHP',

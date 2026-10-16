@@ -3,8 +3,8 @@
 
 .timeline {
     position: relative;
-    padding-left: 30px;
-    margin-left: 30px;
+    padding-left: 20px;
+    margin-left: 20px;
 
     &:before { 
         position: absolute;
@@ -20,7 +20,7 @@
   
   .timeline-item {
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     padding-left: 3%;
 
 
@@ -55,10 +55,10 @@
   
   .timeline-point {
     position: absolute;
-    left: -36px;
+    left: -26px;
     top: 50%;
-    width: 15px;
-    height: 15px;
+    width: 12px;
+    height: 12px;
     background-color: $accent-color;
     border-radius: 50%;
     transform: translateY(50%);
@@ -90,9 +90,9 @@
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.04) 5%, $background-color, rgba(255, 255, 255, 0.04));
     border: solid 1px rgb(39,39,42);
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 1.25rem;
     
-    margin-left: 30px;
+    margin-left: 20px;
     cursor: pointer;  
     transition: all 0.3s ease-in-out;
 
@@ -105,19 +105,21 @@
     }
 
     @media (max-width: 700px) {
-      padding: 1.5rem;
+      padding: 1.1rem;
     }
 
     h4 {
       font-weight: 400;
-      font-size: 1.2rem;
+      font-size: .9rem;
 
       @media (max-width: 550px) {
-        font-size: calc($title-size - 30%) !important;
+        font-size: calc($paragraph-size - 2px) !important;
       }
     }
 
     .diplome {
+      font-size: 1.05rem;
+
       span {
         color: $accent-color;
       }
@@ -129,7 +131,7 @@
 
     .date {
       color: $accent-color;
-      font-size: 1rem;
+      font-size: .9rem;
       font-weight: 400;
 
       @media (max-width: 550px) {
@@ -140,7 +142,7 @@
   
   
   .timeline-details {
-    margin-top: 15px;
+    margin-top: 10px;
     max-height: 0; // Initialement, l'élément est caché
     overflow: hidden;
     opacity: 0;
@@ -157,7 +159,7 @@
     }
 
     .titre-liste {
-      margin-top: 1rem;
+      margin-top: .75rem;
       font-weight: 500;
 
       @media (max-width: 550px) {
@@ -166,7 +168,7 @@
     }
 
     ul {
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;

@@ -29,7 +29,7 @@
         width: min(900px, 90%);
         min-height: 80vh;
         margin: auto;
-        padding: 6rem 0;
+        padding: 8rem 0;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -72,7 +72,7 @@
 .services-benefits,
 .services-cta {
     width: min(1100px, 90%);
-    margin: 4.5rem auto;
+    margin: 3.5rem auto;
 }
 
 .services-intro {
@@ -230,7 +230,7 @@
     }
 
     h3 {
-        margin-top: 3.5rem;
+        margin-top: 2rem;
         font-size: 1.25rem;
     }
 
@@ -241,8 +241,41 @@
     }
 }
 
+.services-projects {
+    display: flex;
+    width: min(1100px, 90%);
+    margin: 3.5rem auto;
+    padding: 2.25rem;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    border: 1px solid rgb(var(--accent-rgb) / .35);
+    border-radius: 18px;
+    background: linear-gradient(120deg, rgb(var(--accent-rgb) / .1), rgba(255, 255, 255, .03));
+
+    > div {
+        max-width: 720px;
+    }
+
+    h2 {
+        font-size: clamp(1.55rem, 2.2vw, 2rem);
+        line-height: 1.15;
+    }
+
+    > div > p:last-child {
+        margin-top: .85rem;
+        color: $white-text-para;
+        line-height: 1.55;
+    }
+
+    .bouton {
+        flex: 0 0 auto;
+        white-space: nowrap;
+    }
+}
+
 .services-cta {
-    padding: 5rem min(8vw, 6rem);
+    padding: 3.5rem min(7vw, 4.5rem);
     border-radius: 22px;
     background:
         radial-gradient(circle at 15% 20%, rgba(255, 255, 255, .24), transparent 34%),
@@ -292,6 +325,11 @@
         grid-template-columns: 1fr;
     }
 
+    .services-projects {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
     .services-benefit {
         min-height: auto;
 
@@ -304,7 +342,7 @@
 @media (max-width: 550px) {
     .services-hero__content {
         min-height: 80vh;
-        padding: 6rem 0;
+        padding: 8rem 0;
     }
 
     .services-hero__actions {
@@ -315,12 +353,19 @@
     .services-intro,
     .services-offer,
     .services-benefits,
+    .services-projects,
     .services-cta {
-        margin: 3.5rem auto;
+        margin: 2.75rem auto;
     }
 
     .services-price-card,
+    .services-projects,
     .services-cta {
         padding: 1.5rem;
+    }
+
+    .services-projects .bouton {
+        width: 100%;
+        text-align: center;
     }
 }
