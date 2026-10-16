@@ -22,13 +22,13 @@ function Hero() {
             <Link to="/services" className="bouton">
               Services
             </Link>
-            <Link to="/showcase-clients" className="bouton secondary bouton-showcases">
-              Voir les démos
-            </Link>
             <a href="#realisations" className="bouton">
               {" "}
               Voir mes projets
             </a>
+            <Link to="/showcase-clients" className="bouton secondary bouton-showcases">
+              Showcase client
+            </Link>
             <Link to="/cv" className="bouton secondary">
               Mon CV
             </Link>
