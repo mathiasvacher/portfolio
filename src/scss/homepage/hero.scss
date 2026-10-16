@@ -75,6 +75,10 @@
                     .bouton {
                         text-align: center;
                     }
+
+                    .bouton-showcases {
+                        grid-column: 1 / -1;
+                    }
                 }
 
                 @media (max-width: 400px) {
