@@ -16,6 +16,8 @@ import AutresSites from "./pages/autres-sites.tsx";
 import PromotionBanner from "./components/promotion-banner.tsx";
 import Services from "./pages/services.tsx";
 import ThemeToggle from "./components/theme-toggle.tsx";
+import GnomeEtRhoneShowcase from "./components/showcase-clients/gnome-et-rhone.tsx";
+import ShowcaseClients from "./pages/showcase-clients.tsx";
 
 const pageVariants = {
   initial: { opacity: 0 },
@@ -80,6 +82,14 @@ function AnimatedRoutes() {
           }
         />
         <Route
+          path="/showcase-clients"
+          element={
+            <PageWrapper>
+              <ShowcaseClients />
+            </PageWrapper>
+          }
+        />
+        <Route
           path="/realisations/:projetId"
           element={
             <PageWrapper>
@@ -101,6 +111,13 @@ function AnimatedRoutes() {
 }
 
 function App() {
+  const location = useLocation();
+
+  // Les sites clients sont affichés sans l'interface du portfolio pour conserver leur identité propre.
+  if (location.pathname === "/showcase-clients/gnome-et-rhone") {
+    return <GnomeEtRhoneShowcase />;
+  }
+
   return (
     <>
       <main>

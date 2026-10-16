@@ -1,0 +1,88 @@
+@use '../variables' as *;
+
+.showcase-clients-hero {
+    min-height: 62vh;
+    margin: 0 !important;
+    background-image: radial-gradient(circle, rgb(var(--accent-rgb) / .75) 0%, transparent 8%);
+    background-position: center;
+    background-size: 26px 26px;
+
+    &__content {
+        display: flex;
+        width: min(820px, 90%);
+        min-height: 62vh;
+        margin: auto;
+        padding: 9rem 0 6rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background: radial-gradient(ellipse, rgba(10, 10, 10, .12), $background-color 72%);
+    }
+
+    h1 {
+        max-width: 700px;
+        color: $white-text;
+        font-size: clamp(2rem, 3.8vw, 3rem);
+        line-height: 1.12;
+    }
+
+    &__lead {
+        max-width: 680px;
+        margin: 1.5rem 0 2rem;
+        color: $white-text-para;
+        font-size: clamp(.98rem, 1.5vw, 1.1rem);
+        line-height: 1.6;
+    }
+}
+
+.showcase-clients-eyebrow {
+    margin-bottom: 1rem;
+    color: $accent-color !important;
+    font-size: .78rem;
+    font-weight: 600 !important;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+}
+
+// Cette page réutilise la structure des cartes de la section Réalisations.
+#showcase-clients {
+    .client-site-visual {
+        position: relative;
+        overflow: hidden;
+        background: var(--client-dark);
+
+        .visual-label { position: absolute; z-index: 2; top: 16px; left: 16px; color: #d1d2c8; font-family: $font-clash; font-size: .67rem; letter-spacing: .1em; text-transform: uppercase; }
+        .visual-sun { position: absolute; top: 20%; left: 35%; width: 135px; aspect-ratio: 1; border-radius: 50%; background: var(--client-accent); }
+        .visual-wheel { position: absolute; z-index: 1; bottom: 13%; width: 100px; aspect-ratio: 1; border: 6px solid #161b18; border-radius: 50%; box-shadow: inset 0 0 0 3px #718072; }
+        .visual-wheel-left { left: 17%; }
+        .visual-wheel-right { right: 14%; }
+        .visual-wordmark { position: absolute; z-index: 2; bottom: 16%; left: 10%; display: flex; flex-direction: column; color: var(--client-light); font-family: Georgia, serif; font-size: clamp(1.6rem, 3vw, 2.3rem); font-weight: 700; letter-spacing: -.08em; line-height: .72; }
+        .visual-wordmark i { height: 13px; padding-left: 13px; color: var(--client-accent); font-family: Georgia, serif; font-size: 1.75rem; font-weight: 400; }
+    }
+}
+
+html[data-theme='light'] {
+    #showcase-clients {
+        .realisation-single,
+        .realisation-img,
+        .realisation-text {
+            border-color: rgba(40, 29, 13, .18);
+        }
+
+        .realisation-text {
+            background: linear-gradient(135deg, rgba(255, 255, 255, .94), rgba(255, 253, 248, .72));
+        }
+
+        .realisation-outils span {
+            color: $white-text-para;
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .showcase-clients-hero__content {
+        min-height: 58vh;
+        padding: 8rem 0 5rem;
+    }
+}
