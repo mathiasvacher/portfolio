@@ -28,6 +28,9 @@ function Hero() {
             <Link to="/cv" className="bouton secondary">
               Mon CV
             </Link>
+            <Link to="/services" className="bouton secondary">
+              Services
+            </Link>
             <Link to="/autres-sites" className="bouton secondary">
               Autres sites
             </Link>

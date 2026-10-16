@@ -51,9 +51,9 @@ function HeaderNav({ type = "desktop", className = "" }) {
 
   return (
     <nav className={`header-nav ${type} ${className}`}>
+      <button onClick={() => navigate("/services")}>Services</button>
       <button onClick={() => handleNavigation("realisations")}>Réalisations</button>
       <button onClick={() => handleNavigation("experiences")}>Expériences</button>
-      <button onClick={() => handleNavigation("formations")}>Formations</button>
       <a href="#contact"className="contact-btn bouton">
         Contact
       </a>
