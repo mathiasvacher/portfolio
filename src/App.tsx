@@ -13,6 +13,8 @@ import Homepage from "./pages/homepage.tsx";
 import RealisationsDetails from "./pages/realisation-details.tsx";
 import CV from "./pages/cv.tsx";
 import AutresSites from "./pages/autres-sites.tsx";
+import PromotionBanner from "./components/promotion-banner.tsx";
+import Services from "./pages/services.tsx";
 
 const pageVariants = {
   initial: { opacity: 0 },
@@ -69,6 +71,14 @@ function AnimatedRoutes() {
           }
         />
         <Route
+          path="/services"
+          element={
+            <PageWrapper>
+              <Services />
+            </PageWrapper>
+          }
+        />
+        <Route
           path="/realisations/:projetId"
           element={
             <PageWrapper>
@@ -99,6 +109,12 @@ function App() {
         <Header />
         <AnimatedRoutes />
         <Footer />
+        <PromotionBanner
+          storageKey="portfolio-services-banner-dismissed"
+          message="Faites décoller votre présence en ligne avec un site sur mesure, pensé pour transformer vos visiteurs en clients."
+          actionLabel="Découvrir les formules"
+          actionTo="/services"
+        />
       </main>
     </>
   );

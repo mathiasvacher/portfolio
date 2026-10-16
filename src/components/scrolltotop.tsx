@@ -5,11 +5,13 @@ const ScrollToTop = () => {
   const { pathname, hash } = useLocation();
 
   useEffect(() => {
-    // Si l'URL ne contient pas de hash, on scroll en haut
-    if (!hash) {
-      window.scrollTo(0, 0);
+    if (hash) {
+      const target = document.getElementById(hash.slice(1));
+      target?.scrollIntoView({ behavior: "smooth" });
+      return;
     }
-    // Sinon, laisser le navigateur gérer l'ancre
+
+    window.scrollTo(0, 0);
   }, [pathname, hash]);
 
   return null;
