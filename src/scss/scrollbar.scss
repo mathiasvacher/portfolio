@@ -16,7 +16,7 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: darken($accent-color, 10%);
+  background: color-mix(in srgb, $accent-color 85%, black);
 }
 
 /* Firefox */

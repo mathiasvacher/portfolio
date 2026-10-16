@@ -20,7 +20,7 @@
 .services-hero {
     min-height: 80vh;
     margin: 0 !important;
-    background-image: radial-gradient(circle, rgba($accent-color, .75) 0%, transparent 8%);
+    background-image: radial-gradient(circle, rgb(var(--accent-rgb) / .75) 0%, transparent 8%);
     background-position: center;
     background-size: 26px 26px;
 
@@ -128,8 +128,8 @@
     background: rgba(255, 255, 255, .04);
 
     &--primary {
-        border-color: rgba($accent-color, .6);
-        background: linear-gradient(145deg, rgba($accent-color, .24), rgba(255, 255, 255, .05));
+        border-color: rgb(var(--accent-rgb) / .6);
+        background: linear-gradient(145deg, rgb(var(--accent-rgb) / .24), rgba(255, 255, 255, .05));
     }
 
     &__label {
@@ -246,7 +246,7 @@
     border-radius: 22px;
     background:
         radial-gradient(circle at 15% 20%, rgba(255, 255, 255, .24), transparent 34%),
-        linear-gradient(125deg, #007d78 0%, $accent-color 48%, #00a59a 100%);
+        linear-gradient(125deg, var(--accent-dark) 0%, $accent-color 48%, var(--accent-light) 100%);
     text-align: center;
 
     .services-eyebrow {

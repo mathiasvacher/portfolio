@@ -1,0 +1,36 @@
+@use 'variables' as *;
+
+.theme-toggle {
+    position: fixed;
+    z-index: 1100;
+    bottom: 1.5rem;
+    left: 1.5rem;
+    display: grid;
+    width: 46px;
+    height: 46px;
+    padding: 0;
+    border: 1px solid rgb(255 255 255 / .2);
+    border-radius: 50%;
+    place-items: center;
+    background: $accent-color;
+    box-shadow: 0 10px 25px rgb(0 0 0 / .2);
+    color: var(--on-accent);
+    font-size: 1.35rem;
+
+    &:hover {
+        background: color-mix(in srgb, $accent-color 88%, black);
+        transform: translateY(-2px);
+    }
+
+    &:focus-visible {
+        outline: 2px solid var(--on-accent);
+        outline-offset: 3px;
+    }
+
+    @media (max-width: 650px) {
+        bottom: 1rem;
+        left: 1rem;
+        width: 42px;
+        height: 42px;
+    }
+}

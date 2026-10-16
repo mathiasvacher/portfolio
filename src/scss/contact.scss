@@ -75,7 +75,7 @@
                     }
 
                     &::placeholder {
-                        color: darken($white-text, 30%);
+                        color: color-mix(in srgb, $white-text 70%, $background-color);
                         font-weight: 200;
                     }
                 }
@@ -109,7 +109,7 @@
         cursor: pointer;
     
         &:hover {
-            background-color: darken($accent-color, 10%);
+            background-color: color-mix(in srgb, $accent-color 85%, black);
             transform: translateY(-2px);
         }
     

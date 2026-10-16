@@ -1,17 +1,16 @@
 // Couleurs :
-$background-color: rgba(10, 10, 10, 1);
-// $background-color: rgba(240, 240, 240, 1);
+$background-color: var(--background-color);
 
-$main-color:#000;
-$accent-color: rgb(0, 148, 141);
-$accent-fade: #fff;
+$main-color: var(--main-color);
+$accent-color: var(--accent-color);
+$accent-fade: var(--accent-fade);
 
 $black: #000;
 $white: #fff;
 
-$white-text-para: rgb(235, 235, 235);
-$white-text: rgb(255, 255, 255);
-$black-text: rgb(10, 10, 10);
+$white-text-para: var(--text-secondary);
+$white-text: var(--text-primary);
+$black-text: var(--text-dark);
 
 // Fonts :
 $font-outfit: "Outfit", serif;

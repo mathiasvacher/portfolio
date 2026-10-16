@@ -15,6 +15,7 @@ import CV from "./pages/cv.tsx";
 import AutresSites from "./pages/autres-sites.tsx";
 import PromotionBanner from "./components/promotion-banner.tsx";
 import Services from "./pages/services.tsx";
+import ThemeToggle from "./components/theme-toggle.tsx";
 
 const pageVariants = {
   initial: { opacity: 0 },
@@ -109,6 +110,7 @@ function App() {
         <Header />
         <AnimatedRoutes />
         <Footer />
+        <ThemeToggle />
         <PromotionBanner
           storageKey="portfolio-services-banner-dismissed"
           message="Faites décoller votre présence en ligne avec un site sur mesure, pensé pour transformer vos visiteurs en clients."

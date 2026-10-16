@@ -19,7 +19,7 @@
         padding: 0;
 
         &:hover {
-            color: lighten($white-text, 20%);
+            color: color-mix(in srgb, $white-text 85%, white);
         }
 
         &.contact-btn {
@@ -28,7 +28,7 @@
 
 
             &:hover {
-                background-color: darken($accent-color, 10%);
+                background-color: color-mix(in srgb, $accent-color 85%, black);
                 transform: translateY(-2px);
                 box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
             }

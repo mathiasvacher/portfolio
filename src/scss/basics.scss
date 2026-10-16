@@ -4,14 +4,14 @@
     padding: 8px 15px;
     border-radius: 8px;
     background: $accent-color;
-    color: $white;
+    color: var(--on-accent);
     border: none;
     transition: all 0.3s ease-in-out;
     font-weight: 400;
     cursor: pointer;
 
     &:hover {
-        background-color: darken($accent-color, 10%);
+        background-color: color-mix(in srgb, $accent-color 85%, black);
         transform: translateY(-2px);
     }
 

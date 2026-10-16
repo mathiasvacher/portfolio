@@ -1,0 +1,87 @@
+:root {
+    --background-color: #0a0a0a;
+    --main-color: #000;
+    --accent-color: rgb(0, 148, 141);
+    --accent-rgb: 0 148 141;
+    --accent-dark: #007d78;
+    --accent-light: #00a59a;
+    --accent-fade: #fff;
+    --on-accent: #fff;
+    --text-primary: #fff;
+    --text-secondary: #ebebeb;
+    --text-dark: #0a0a0a;
+    color-scheme: dark;
+}
+
+html[data-theme='light'] {
+    --background-color: #fffdf8;
+    --main-color: #fffdf8;
+    --accent-color: #ffa500;
+    --accent-rgb: 255 165 0;
+    --accent-dark: #df8600;
+    --accent-light: #ffbd38;
+    --accent-fade: #261a05;
+    --on-accent: #281d0d;
+    --text-primary: #281d0d;
+    --text-secondary: #675a47;
+    --text-dark: #281d0d;
+    color-scheme: light;
+
+    header .header-container,
+    .header-nav.mobile,
+    #contact form {
+        background: rgba(255, 255, 255, .78) !important;
+        border: 1px solid rgba(40, 29, 13, .08);
+    }
+
+    #contact .input-box .field {
+        background: rgba(255, 255, 255, .9);
+        border-color: rgba(40, 29, 13, .18);
+        color: var(--text-primary);
+    }
+
+    .services-page h1,
+    .services-page h2,
+    .services-page h3,
+    .services-price,
+    .services-monthly strong,
+    footer .footer-container h1,
+    #hero .gradient .content h2 {
+        color: var(--text-primary) !important;
+    }
+
+    .services-benefit {
+        border: 1px solid rgba(40, 29, 13, .1);
+        background: rgba(255, 255, 255, .72);
+    }
+
+    .services-price-card {
+        border-color: rgba(40, 29, 13, .12);
+        background: rgba(255, 255, 255, .72);
+    }
+
+    .services-price-card--primary {
+        border-color: rgb(var(--accent-rgb) / .55);
+        background: linear-gradient(145deg, rgb(var(--accent-rgb) / .18), rgba(255, 255, 255, .82));
+    }
+
+    .services-cta {
+        color: #281d0d;
+    }
+
+    .services-cta h2,
+    .services-cta > p:not(.services-eyebrow) {
+        color: #281d0d !important;
+    }
+
+    .promotion-banner__action,
+    .services-cta .bouton {
+        color: #281d0d !important;
+    }
+
+    .promotion-banner p,
+    .promotion-banner__close,
+    .theme-toggle {
+        color: var(--on-accent);
+    }
+}
