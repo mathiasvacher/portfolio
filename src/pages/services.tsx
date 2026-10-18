@@ -24,6 +24,39 @@ const benefits = [
   },
 ];
 
+const subscriptionItems = [
+  "Hébergement, certificat SSL et surveillance du site",
+  "Nom de domaine inclus, dans la limite d’un domaine standard",
+  "Sauvegardes régulières et maintenance technique",
+  "Suivi de l’indexation et des performances via Google Search Console",
+  "Optimisations SEO local de maintenance : titres, descriptions et informations clés",
+  "Jusqu’à 30 minutes de petites modifications de contenu par mois, non cumulables",
+  "Assistance par e-mail",
+];
+
+const frequentlyAskedQuestions = [
+  {
+    question: "Combien de temps faut-il pour créer mon site ?",
+    answer: "En général, comptez 2 à 4 semaines après réception de vos textes, photos et informations pratiques. Le délai exact est confirmé ensemble avant le démarrage.",
+  },
+  {
+    question: "Que comprend le site à 789 € ?",
+    answer: "Une vitrine sur mesure pensée pour présenter votre établissement : accueil, carte ou prestations, horaires, coordonnées et accès. Le périmètre exact, notamment le nombre de pages, est défini avant la création.",
+  },
+  {
+    question: "De quoi avez-vous besoin de ma part ?",
+    answer: "De votre logo si vous en avez un, vos photos, votre carte ou vos prestations, vos horaires, vos coordonnées et les informations que vous souhaitez mettre en avant. Je vous guide pour rassembler le nécessaire.",
+  },
+  {
+    question: "Le nom de domaine m’appartient-il ?",
+    answer: "Oui. Le nom de domaine est enregistré à votre nom et vous reste associé. L’abonnement couvre sa gestion courante dans la limite d’un domaine standard.",
+  },
+  {
+    question: "Puis-je arrêter le suivi mensuel ?",
+    answer: "Oui, selon les conditions définies dans le devis. Avant toute mise en ligne, les modalités de paiement, de suivi et de résiliation sont écrites clairement.",
+  },
+];
+
 function Services() {
   return (
     <div className="services-page">
@@ -59,8 +92,19 @@ function Services() {
             </ul>
           </div>
           <p className="services-monthly">
-            <strong>Suivi du site : 59 € / mois</strong> — pour l’hébergement, la maintenance et les évolutions de contenu.
+            <strong>Suivi du site : 59 € / mois</strong> — hébergement, maintenance et visibilité locale.
           </p>
+          <details className="services-subscription">
+            <summary>Ce que comprend l’abonnement de 59 € / mois <span aria-hidden="true">+</span></summary>
+            <div className="services-subscription__content">
+              <ul>
+                {subscriptionItems.map((item) => <li key={item}>{item}</li>)}
+              </ul>
+              <p>
+                Les nouvelles pages, les évolutions de design, les nouvelles fonctionnalités, la rédaction de contenus et les campagnes publicitaires font l’objet d’un devis. Le suivi SEO améliore les fondations et la visibilité locale; il ne garantit pas une position sur Google.
+              </p>
+            </div>
+          </details>
         </div>
       </section>
 
@@ -76,6 +120,22 @@ function Services() {
               <h3>{benefit.title}</h3>
               <p>{benefit.text}</p>
             </article>
+          ))}
+        </div>
+      </section>
+
+      <section className="services-faq" aria-labelledby="services-faq-title">
+        <div className="services-faq__heading">
+          <p className="services-eyebrow">Les réponses utiles</p>
+          <h2 id="services-faq-title">Tout est clair avant de démarrer.</h2>
+          <p>Le devis précise toujours le périmètre, les délais et les conditions de l’accompagnement.</p>
+        </div>
+        <div className="services-faq__list">
+          {frequentlyAskedQuestions.map((item) => (
+            <details key={item.question}>
+              <summary>{item.question}<span aria-hidden="true">+</span></summary>
+              <p>{item.answer}</p>
+            </details>
           ))}
         </div>
       </section>

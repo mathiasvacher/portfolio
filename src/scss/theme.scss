@@ -63,6 +63,20 @@ html[data-theme='light'] {
         background: linear-gradient(145deg, rgb(var(--accent-rgb) / .18), rgba(255, 255, 255, .82));
     }
 
+    .services-subscription {
+        border-color: rgba(40, 29, 13, .14);
+        background: rgba(255, 255, 255, .7);
+
+        &__content { border-color: rgba(40, 29, 13, .1); }
+    }
+
+    .services-faq__list details {
+        border-color: rgba(40, 29, 13, .14);
+        background: rgba(255, 255, 255, .7);
+    }
+
+    .services-faq__list p { border-color: rgba(40, 29, 13, .1); }
+
     .services-cta {
         color: #281d0d;
     }
