@@ -4,15 +4,19 @@ const includedItems = [
   "Un design sur mesure qui reflète votre établissement",
   "Une présentation claire de votre carte, de vos horaires et de votre univers",
   "Un site rapide, sécurisé et simple à parcourir",
-  "Une base SEO locale pour être trouvé sur Google",
+  "Une base SEO locale pour être trouvé sur Google, les moteurs d’IA et ChatGPT",
   "Une aide pour relier votre site à votre fiche Google",
   "Une mise en ligne prête à accueillir vos futurs clients",
 ];
 
 const benefits = [
   {
-    title: "Visible sur Google",
-    text: "Le SEO local donne à votre établissement plus de chances d’apparaître lorsque des clients recherchent un restaurant, un bar ou un commerce comme le vôtre près de chez eux.",
+    title: "Visible sur Google et les IA",
+    text: "Le SEO local et des contenus bien structurés aident votre établissement à être compris par Google et les moteurs de recherche IA, lorsque des clients recherchent un restaurant, un bar ou un commerce comme le vôtre près de chez eux.",
+  },
+  {
+    title: "Prêt pour ChatGPT",
+    text: "Informations pratiques, prestations, spécialités et zone de chalandise : le site est organisé pour que ChatGPT puisse plus facilement identifier et restituer des informations claires sur votre établissement, sans promesse de recommandation ou de positionnement.",
   },
   {
     title: "Parfait sur mobile",
@@ -29,7 +33,7 @@ const subscriptionItems = [
   "Nom de domaine inclus, dans la limite d’un domaine standard",
   "Sauvegardes régulières et maintenance technique",
   "Suivi de l’indexation et des performances via Google Search Console",
-  "Optimisations SEO local de maintenance : titres, descriptions et informations clés",
+  "Optimisations SEO local et IA de maintenance : titres, descriptions et informations clés",
   "Jusqu’à 30 minutes de petites modifications de contenu par mois, non cumulables",
   "Assistance par e-mail",
 ];
@@ -78,7 +82,7 @@ function Services() {
           <p className="services-eyebrow">Une formule simple et transparente</p>
           <h2>Une formule complète, sans mauvaise surprise.</h2>
           <p>
-            Une offre pensée pour inspirer confiance, mettre votre savoir-faire en valeur et améliorer votre visibilité sur Google. Le but : attirer davantage de clients qualifiés et leur donner envie de passer votre porte.
+            Une offre pensée pour inspirer confiance, mettre votre savoir-faire en valeur et améliorer votre visibilité sur Google, les moteurs de recherche IA et ChatGPT. Le but : attirer davantage de clients qualifiés et leur donner envie de passer votre porte.
           </p>
         </div>
 
@@ -101,7 +105,7 @@ function Services() {
                 {subscriptionItems.map((item) => <li key={item}>{item}</li>)}
               </ul>
               <p>
-                Les nouvelles pages, les évolutions de design, les nouvelles fonctionnalités, la rédaction de contenus et les campagnes publicitaires font l’objet d’un devis. Le suivi SEO améliore les fondations et la visibilité locale; il ne garantit pas une position sur Google.
+                Les nouvelles pages, les évolutions de design, les nouvelles fonctionnalités, la rédaction de contenus et les campagnes publicitaires font l’objet d’un devis. Le suivi SEO et IA améliore les fondations, la visibilité locale et la lisibilité des informations pour les assistants comme ChatGPT ; il ne garantit ni une position sur Google ni une recommandation par une IA.
               </p>
             </div>
           </details>
@@ -113,7 +117,7 @@ function Services() {
           <p className="services-eyebrow">Conçu pour convaincre</p>
           <h2>Chaque détail travaille pour votre établissement.</h2>
         </div>
-        <div className="services-benefits__grid">
+        <div className="services-benefits__grid services-benefits__grid--four">
           {benefits.map((benefit, index) => (
             <article className="services-benefit" key={benefit.title}>
               <span className="services-benefit__number">0{index + 1}</span>
